@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package provenance;
+
+option go_package = "github.com/accretional/proto-telephony/pb";
+
+message Target {
+  string uri = 1;
+}
+
+message Recording {
+  string uri = 1;
+}
+
+message CallRequest {
+  repeated Target sources = 1;
+  Recording welcome = 2;
+}
+
+service Caller {
+  rpc Open(CallRequest) returns (Recording);
+}
