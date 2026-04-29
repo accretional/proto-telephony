@@ -14,9 +14,10 @@ message Recording {
 
 message CallRequest {
   repeated Target sources = 1;
-  Recording welcome = 2;
-}
+  Recording content = 2;
+} 
 
 service Caller {
-  rpc Open(CallRequest) returns (Recording);
+  rpc Tell(CallRequest) returns (stream Target);
+  rpc Ask(CallRequest) returns (stream Recording);
 }
