@@ -81,7 +81,7 @@ func (r *Registry) Apply(c Change) Applied {
 	switch c.Action {
 	case ActionAdd:
 		n := &Network{MCC: c.MCC, MNC: c.MNC, Country: country, Operator: c.Operator,
-			Kind: kindFor(c.MCC), SourceOB: c.OB, AddedAmendment: c.Amendment}
+			Kind: kindFor(c.MCC), SourceOB: c.OB, AddedAmendment: c.Amendment, AddedOBDate: c.OBDate}
 		if ok {
 			a.Before = r.byCode[plmn][i].Operator
 			r.byCode[plmn][i] = n

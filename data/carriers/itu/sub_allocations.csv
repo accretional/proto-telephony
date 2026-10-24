@@ -1,0 +1,21 @@
+source,plmn,kind,block,holder,status,country,as_of
+itu,20801,msin_range,0000000000-0099999999; 0200000000-9999999999,Orange,assigned,FR,2026-10-15
+itu,20801,msin_range,0100000000-0199999999,Orange/Monaco Télécom,assigned,MC,2026-10-15
+itu,20810,msin_range,0000000000 - 2654099999; 2654200000 - 2654299999; 2654400000 - 2754099999; 2754200000 - 2754299999; 2754400000 - 9999999999,Société Française du Radiotéléphone,assigned,FR,2026-10-15
+itu,20810,msin_range,2654100000 - 2654199999; 2654300000 - 2654399999; 2754100000 - 2754199999; 2754300000 - 2754399999,Société Française du Radiotéléphone,assigned,MC,2026-10-15
+itu,20820,msin_range,0000000000 - 0055499999; 0055600000 - 2007199999; 2007300000 - 9999999999,Bouygues Telecom,assigned,FR,2026-10-15
+itu,20820,msin_range,0055500000 - 0055599999; 2007200000 - 2007299999,Bouygues Telecom,assigned,MC,2026-10-15
+itu,22801,msin_range,"20-35, 38, 40-44, 47, 52, 59, 60-62, 72, 77, 80",Swisscom Schweiz AG,assigned,CH,2026-10-15
+itu,22801,msin_range,37XXXXXXXX,Swisscom Schweiz AG,assigned,LI,2026-10-15
+itu,27077,msin_range,000 x xxx xxx,Proximus Luxembourg S.A.,assigned,LU,2026-10-15
+itu,27077,msin_range,800 x xxx xxx; 801 x xxx xxx,Proximus Luxembourg S.A.,assigned,BE,2026-10-15
+itu,27099,msin_range,270 99 000 x xxx xxx,Orange Communications Luxembourg S.A.,assigned,LU,2026-10-15
+itu,27099,msin_range,270 99 860 x xxx xxx,Orange Communications Luxembourg S.A.,assigned,BE,2026-10-15
+itu,27402,msin_range,0-8,Og fjarskipti hf (Vodafone Iceland),assigned,IS,2026-10-15
+itu,27402,msin_range,9,"P/F Kall, reg. No 2868 (Vodafone FO)",assigned,FO,2026-10-15
+itu,54202,msin_range,00xxxxxxxx,Digicel (Fiji) Ltd,assigned,FJ,2026-10-15
+itu,54202,msin_range,0840xxxxxx,Digicel (Fiji) Ltd,assigned,NR,2026-10-15
+itu,27007,msin_range,270 07 00 0X XX XX XX,Bouygues Telecom S.A.,assigned,LU,2026-10-15
+itu,27007,msin_range,270 07 60 XX XX XX XX,Bouygues Telecom S.A.,assigned,FR,2026-10-15
+itu,26274,msin_range,0000099000 - 0000099099,Ericsson GmbH,assigned,DE,2026-10-15
+itu,26274,msin_range,0000099100 - 0000099199,Ericsson GmbH,assigned,SE,2026-10-15

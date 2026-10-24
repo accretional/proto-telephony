@@ -1,9 +1,11 @@
 package itu
 
 import (
+	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 var (
@@ -177,4 +179,41 @@ func etCountry(s string) string {
 		return normSpace(m[1]) + " - " + m[2]
 	}
 	return normSpace(s)
+}
+
+var (
+	romanDateRE = regexp.MustCompile(`^(\d{1,2})\.([IVX]+)\.(\d{4})$`)
+	longDateRE  = regexp.MustCompile(`Operational Bulletin\s*No\.\s*\d+\s*\((\d{1,2}\s+[A-Za-z]+\s+\d{4})\)`)
+	romanMonths = map[string]int{"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
+)
+
+// RomanDate parses ITU's "15.XI.2023" dates to YYYY-MM-DD ("" if not one).
+func RomanDate(s string) string {
+	m := romanDateRE.FindStringSubmatch(strings.TrimSpace(s))
+	if m == nil || romanMonths[m[2]] == 0 {
+		return ""
+	}
+	d, _ := strconv.Atoi(m[1])
+	return fmt.Sprintf("%s-%02d-%02d", m[3], romanMonths[m[2]], d)
+}
+
+// BulletinDate finds an Operational Bulletin's publication date on its
+// cover: a "1.X.2026" cell next to "No. 1349", or "No. 1350 (15 October
+// 2026)". "" if neither is found.
+func BulletinDate(doc *Doc) string {
+	toks := doc.Tokens
+	if len(toks) > 60 {
+		toks = toks[:60]
+	}
+	for _, t := range toks {
+		if d := RomanDate(t.Text); d != "" {
+			return d
+		}
+		if m := longDateRE.FindStringSubmatch(normSpace(t.Text)); m != nil {
+			if tm, err := time.Parse("2 January 2006", m[1]); err == nil {
+				return tm.Format("2006-01-02")
+			}
+		}
+	}
+	return ""
 }

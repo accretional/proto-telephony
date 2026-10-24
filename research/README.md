@@ -103,11 +103,13 @@ repo [README](../README.md).
 
 1. ~~Add downloaders for Canada, Mexico and Japan.~~ Done: `cmd/national-mnc`.
    Each also writes the shared `assignments` table.
-2. Emit `assignments` from `itu` and `us` too.
-3. Build the **merged dataset** from [`schema.md`](schema.md): the `assignments`
-   view across ITU plus national sources, with conflicts listed.
-4. Survey more countries the same way, starting with large markets and
+2. ~~Emit `assignments` from `itu` and `us` too.~~ Done.
+3. ~~Build the merged dataset.~~ Done: `cmd/carriers-merge` → `data/carriers/merged/`.
+   73 conflicts on 2026-10-24.
+4. Next: an `attributes` export, and an entity table grouping holders
+   across countries (for example, all AT&T codes).
+5. Survey more countries the same way, starting with large markets and
    regulators known to publish machine-readable data. Ofcom (UK) and ARCEP
    (France) are likely candidates, though not yet verified.
-5. Run `LET_IT_RIP.sh` on a schedule, e.g. weekly. Commit only when the data
+6. Run `LET_IT_RIP.sh` on a schedule, e.g. weekly. Commit only when the data
    tables change, not when only `meta.csv` or `sources.csv` does.

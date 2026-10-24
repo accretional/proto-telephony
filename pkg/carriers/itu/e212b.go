@@ -10,6 +10,7 @@ import (
 // BaseList is the parsed E.212B annex.
 type BaseList struct {
 	OB               int    // Operational Bulletin it is annexed to, e.g. 1280
+	Date             string // that bulletin's date, YYYY-MM-DD
 	Position         string // "15 NOVEMBER 2023"
 	Networks         []Network
 	ExtraTerritorial []ExtraTerritorial
@@ -19,6 +20,7 @@ type BaseList struct {
 var (
 	annexOBRE  = regexp.MustCompile(`Annex to ITU Operational Bulletin\s*No\.\s*(\d+)`)
 	positionRE = regexp.MustCompile(`(?i)\(POSITION ON ([^)]+)\)`)
+	baseDateRE = regexp.MustCompile(`^Annex to ITU Operational Bulletin\s*No\.\s*\d+\s*[–-]\s*(\d{1,2}\.[IVX]+\.\d{4})`)
 )
 
 // SharedGroup is the Country value given to MCC 901 rows, matching how the
@@ -31,6 +33,9 @@ func ParseBaseList(doc *Doc) (*BaseList, error) {
 	text := doc.Text()
 	if m := annexOBRE.FindStringSubmatch(text); m != nil {
 		bl.OB, _ = strconv.Atoi(m[1])
+		if d := baseDateRE.FindStringSubmatch(text[strings.Index(text, m[0]):]); d != nil {
+			bl.Date = RomanDate(d[1])
+		}
 	} else {
 		return nil, fmt.Errorf("base list: no 'Annex to ITU Operational Bulletin No.' header")
 	}

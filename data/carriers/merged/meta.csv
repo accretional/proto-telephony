@@ -1,0 +1,9 @@
+key,value
+inputs,"ca/assignments.csv,itu/assignments.csv,itu/sub_allocations.csv,jp/assignments.csv,mx/assignments.csv,us/assignments.csv,us/sub_allocations.csv"
+rows_ca,85
+rows_itu,2515
+rows_jp,1000
+rows_mx,26
+rows_us,557
+tool,carriers-merge
+written_at,2026-10-24T14:38:50Z

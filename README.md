@@ -39,7 +39,11 @@ Raw files: `https://raw.githubusercontent.com/accretional/proto-telephony/main/d
 | Canada mnc (status, date assigned, remarks) | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/ca/mnc.csv |
 | Mexico mnc / assignment_letters (oficios + dates) | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/mx/mnc.csv, https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/mx/assignment_letters.csv |
 | Japan imsi (whole 440/441 code space, in use / unused) | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/jp/imsi.csv |
-| Shared core format, per country (`research/schema.md`) | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/ca/assignments.csv, https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/mx/assignments.csv, https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/jp/assignments.csv |
+| Shared core format, per source (`research/schema.md`) | `https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/<source>/assignments.csv` for `itu`, `us`, `ca`, `mx`, `jp` |
+| **Merged: best-known row per code, all sources** | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/merged/current.csv |
+| **Merged: ITU vs national conflicts** | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/merged/conflicts.csv |
+| Merged: MCC → country and authoritative source | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/merged/mccs.csv |
+| Merged: blocks below an MNC (US CBRS IBNs, extraterritorial ranges) | https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/merged/sub_allocations.csv |
 
 Each source also has `meta.csv` (run info) and `sources.csv` (every
 document used, with sha256).
@@ -50,11 +54,14 @@ curl -sL https://raw.githubusercontent.com/accretional/proto-telephony/main/data
 curl -sL https://raw.githubusercontent.com/accretional/proto-telephony/main/data/carriers/us/hni.csv | grep '^310-170,'
 ```
 
-For US codes, prefer `us/`. Countries assign their own MNCs and don't
-always tell ITU. Compared with IMSI Admin, ITU's list is missing 25 of the
-439 assigned US HNIs and still lists 35 codes the US registry shows as
-returned, reclaimed, or not assigned. For example, `311-910` was returned on
-2020-01-22.
+For US codes, prefer `us/`. Better still, use `merged/`, which picks the
+authoritative national registry per MCC automatically. Countries assign
+their own MNCs and don't always tell ITU. Compared with IMSI Admin, ITU's
+list is missing 25 assigned US HNIs and still lists 16 codes the US has
+taken back. For example, ITU lists `310-790` as PinPoint Communications,
+but it was reclaimed on 2025-12-15. Some codes, like `311-910`, appear in
+neither list as assigned: the US registry shows it returned on 2020-01-22,
+and ITU doesn't list it at all.
 
 ### Scripts
 
@@ -63,9 +70,9 @@ Each script calls the previous one, and every step is idempotent:
 | Script | Does |
 |---|---|
 | `setup.sh` | Checks for Go (>= 1.21) and downloads and verifies the modules. No cgo is needed, because SQLite is the pure-Go `modernc.org/sqlite`. |
-| `build.sh` | Runs `setup.sh`, then builds `bin/itu-e212`, `bin/us-hni` and `bin/national-mnc`. |
+| `build.sh` | Runs `setup.sh`, then builds `bin/itu-e212`, `bin/us-hni`, `bin/national-mnc` and `bin/carriers-merge`. |
 | `test.sh` | Runs `build.sh`, then gofmt, `go vet` and `go test`. The tests are hermetic: synthetic documents served by fake sites. For each source with a cache in `data/cache/<source>`, it also rebuilds both formats offline and verifies them. |
-| `LET_IT_RIP.sh` | Runs `test.sh`, then each downloader with `-format csv` against its live source, then `-verify`. Extra args go to `itu-e212` and `us-hni`; `national-mnc` gets `-format`/`-offline`. |
+| `LET_IT_RIP.sh` | Runs `test.sh`, then each downloader with `-format csv` against its live source, then `-verify`, then `carriers-merge`. Extra args go to `itu-e212` and `us-hni`; `national-mnc` gets `-format`/`-offline`. |
 
 ### Shared flags
 
@@ -165,6 +172,27 @@ country: the first step toward one merged dataset. Germany (a PDF, identical
 to ITU) and India (per-allocation letters) aren't included; see
 [`research/`](research/README.md).
 
+## carriers-merge: one dataset
+
+Every source writes the same core table, `assignments`: MCC, MNC, ISO
+country, holder (normalized and raw), a status from a shared vocabulary
+(`assigned`, `reserved`, `returned`, `reclaimed`, `withdrawn`, `available`,
+`test`), dates, a document reference and an as-of date. ITU and the US also
+write `sub_allocations`. `bin/carriers-merge` reads every
+`data/carriers/<source>/` and writes `data/carriers/merged/`. It reads local
+CSVs only, so run the downloaders first:
+
+| Table | Contents |
+|---|---|
+| `assignments`, `sub_allocations` | Every source's rows, combined |
+| `mccs` | MCC → primary ISO country (`ZZ` = international 901/902/991), every country under it, the **authoritative source** (`us` for 310–316, `ca` 302, `mx` 334, `jp` 440/441, else `itu`), and the sources present |
+| `current` | The best-known row per code: the authoritative national registry's (codes it marks free are left out), plus ITU rows it doesn't mention (`flag = itu_only`); ITU everywhere else. ITU's holder and status sit alongside for comparison. |
+| `conflicts` | Where ITU and a national registry disagree: `not_in_itu` (assigned nationally, missing from ITU), `itu_stale` (ITU lists as assigned, the national registry has taken it back or marks it free), `itu_only` (ITU lists, the national registry doesn't know it; flagged when its MNC length doesn't match the national convention, like Japan's stale `441 00`), and `holder_differs` (Latin-script names sharing no significant word, after folding accents and allowing spelling variants) |
+
+As of 2026-10-24 there are 73 conflicts: 42 `not_in_itu`, 18 `itu_stale`,
+9 `holder_differs` (e.g. 302-370 is Fido nationally but still "Microcell"
+in ITU) and 4 `itu_only`.
+
 ## Layout
 
 - `pkg/carriers`: shared HTTP client (retries, metrics, cache) and console progress
@@ -174,5 +202,6 @@ to ITU) and India (per-allocation letters) aren't included; see
   - `imsiadmin`: IMSI Admin — directory and detail parsers, identifier and protocol extraction
   - `cnac`, `ift`, `mic`: Canada, Mexico, Japan
   - `xlsx`: a stdlib-only `.xlsx` reader (drops furigana `<rPh>`), with `xlsxtest` to build fixtures
-- `cmd/itu-e212`, `cmd/us-hni`, `cmd/national-mnc`: the CLIs
+  - `merge`: the merged dataset (authority, current view, conflicts)
+- `cmd/itu-e212`, `cmd/us-hni`, `cmd/national-mnc`, `cmd/carriers-merge`: the CLIs
 - `data/carriers/<source>/`: CSV output (committed). `data/carriers/*.sqlite` and `data/cache/` are gitignored.

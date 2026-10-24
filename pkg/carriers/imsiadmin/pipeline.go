@@ -233,6 +233,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 
 	res.Records = recs
 	res.Meta["source"] = BaseURL
+	res.Meta["fetched_at"] = time.Now().UTC().Format("2006-01-02")
 	res.Meta["hni_codes"] = fmt.Sprint(res.Kinds[KindHNI])
 	res.Meta["cbrs_codes"] = fmt.Sprint(res.Kinds[KindCBRS])
 	return res, nil

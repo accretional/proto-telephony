@@ -57,3 +57,36 @@ var AssignmentChecks = []CheckSpec{
 	{Name: "codes are digits", Query: `SELECT count(*) FROM assignments WHERE mcc GLOB '*[^0-9]*' OR mnc GLOB '*[^0-9]*' OR length(mcc)<>3 OR length(mnc) NOT IN (2,3)`,
 		OK: func(s string) bool { return s == "0" }},
 }
+
+// SubAllocationsDDL is the shared table of blocks below an MNC: US CBRS
+// IBNs, extraterritorial MSIN ranges, campus-network blocks.
+const SubAllocationsDDL = `
+CREATE TABLE sub_allocations (
+  source   TEXT NOT NULL,
+  plmn     TEXT NOT NULL,       -- the parent MCC+MNC
+  kind     TEXT NOT NULL,       -- ibn | msin_range | campus_block
+  block    TEXT NOT NULL,
+  holder   TEXT,
+  status   TEXT NOT NULL,       -- same vocabulary as assignments
+  country  TEXT,               -- where the block is used, if not the parent's country
+  as_of    TEXT NOT NULL,
+  PRIMARY KEY (source, plmn, kind, block, country)
+);
+`
+
+// SubAllocation is one row of the shared sub-allocation table.
+type SubAllocation struct {
+	Source, PLMN, Kind, Block string
+	Holder, Status, Country   string
+	AsOf                      string
+}
+
+// SubAllocationsTable lays out the sub-allocation rows.
+func SubAllocationsTable(rows []SubAllocation) Table {
+	t := Table{Name: "sub_allocations", Cols: []string{"source", "plmn", "kind", "block", "holder", "status", "country", "as_of"},
+		Nullable: Nullables("holder", "country")}
+	for _, r := range rows {
+		t.Add(r.Source, r.PLMN, r.Kind, r.Block, Null(r.Holder), r.Status, Null(r.Country), r.AsOf)
+	}
+	return t
+}

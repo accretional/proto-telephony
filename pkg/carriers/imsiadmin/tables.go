@@ -9,7 +9,7 @@ import (
 )
 
 // Schema is the IMSI Admin output's DDL.
-const Schema = store.MetaDDL + store.SourcesDDL + `
+const Schema = store.MetaDDL + store.SourcesDDL + store.AssignmentsDDL + store.SubAllocationsDDL + `
 -- US HNI (MCC+MNC) assignments: the directory row, its parsed status, and
 -- the detail page's fields (dates as YYYY-MM-DD; raw text in details).
 CREATE TABLE hni (
@@ -185,7 +185,9 @@ func Tables(ds *Dataset) []store.Table {
 			protocols.Add(string(r.Kind), r.Code(), p)
 		}
 	}
-	return []store.Table{store.MetaTable(ds.Meta), store.SourcesTable(srcs), hni, cbrs, details, idents, protocols}
+	return []store.Table{store.MetaTable(ds.Meta), store.SourcesTable(srcs),
+		store.AssignmentsTable(Assignments(recs, asOf(ds))), store.SubAllocationsTable(SubAllocations(recs, asOf(ds))),
+		hni, cbrs, details, idents, protocols}
 }
 
 // Specs are the output tables' shapes (no rows), for reading CSV back.
@@ -204,3 +206,73 @@ var Checks = []store.CheckSpec{
 	{Name: "call signs", Query: `SELECT count(*) FROM identifiers WHERE type='call_sign'`, OK: func(s string) bool { return store.Atoi(s) > 100 }},
 	{Name: "protocols", Query: `SELECT count(*) FROM protocols`, OK: func(s string) bool { return store.Atoi(s) > 500 }},
 }
+
+// asOf is the run's date: IMSI Admin's pages are live, with no "position
+// on" date of their own.
+func asOf(ds *Dataset) string {
+	if w := ds.Meta["written_at"]; len(w) >= 10 {
+		return w[:10]
+	}
+	return ds.Meta["fetched_at"]
+}
+
+// coreStatus maps a directory status onto the shared vocabulary.
+func coreStatus(state string) string {
+	switch state {
+	case "unavailable": // "Not available for assignment" (310-000)
+		return "reserved"
+	case "":
+		return "assigned"
+	}
+	return state
+}
+
+func coreHolder(r *Record) string {
+	switch r.Status.State {
+	case "returned", "reclaimed", "available", "unavailable":
+		return ""
+	}
+	if r.Detail != nil {
+		if n := r.Detail.Get("Entity Name"); n != "" && ParseStatus(n).State == "assigned" {
+			return n
+		}
+	}
+	return r.Status.Name
+}
+
+// Assignments maps the HNIs onto the shared core table: holder is the
+// entity (NULL once returned/reclaimed), assigned_date the effective date,
+// status_date the return/reclaim date.
+func Assignments(recs []*Record, asOf string) []store.Assignment {
+	var out []store.Assignment
+	for _, r := range recs {
+		if r.Kind != KindHNI {
+			continue
+		}
+		mcc, mnc, _ := strings.Cut(r.HNI, "-")
+		a := store.Assignment{Source: "us", MCC: mcc, MNC: mnc, Country: "US", Holder: coreHolder(r), HolderRaw: r.Entity,
+			Status: coreStatus(r.Status.State), StatusRaw: r.Entity, StatusDate: r.Status.Date, AsOf: asOf, URL: r.URL}
+		if r.Detail != nil {
+			a.AssignedDate = NormDate(r.Detail.Get("Effective Date"))
+		}
+		out = append(out, a)
+	}
+	return out
+}
+
+// SubAllocations maps the CBRS IBNs onto the shared sub-allocation table,
+// under their parent HNI 315-010.
+func SubAllocations(recs []*Record, asOf string) []store.SubAllocation {
+	var out []store.SubAllocation
+	for _, r := range recs {
+		if r.Kind != KindCBRS {
+			continue
+		}
+		mcc, mnc, _ := strings.Cut(r.HNI, "-")
+		out = append(out, store.SubAllocation{Source: "us", PLMN: mcc + mnc, Kind: "ibn", Block: r.IBN,
+			Holder: coreHolder(r), Status: coreStatus(r.Status.State), AsOf: asOf})
+	}
+	return out
+}
+
+func init() { Checks = append(Checks, store.AssignmentChecks...) }

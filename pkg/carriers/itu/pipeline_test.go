@@ -30,9 +30,11 @@ func newFakeITU(t *testing.T) *fakeITU {
 	f := &fakeITU{t: t, requests: map[string]int{}, files: map[string][]byte{}}
 	f.files["/dms_pub/itu-t/opb/sp/T-SP-E.212B-2023-MSW-E.docx"] = docxBytes(t, baseListBlocks()...)
 	// OB 1281: no MNC amendment.
-	f.files["/dms_pub/itu-t/opb/sp/T-SP-OB.1281-2023-OAS-MSW-E.docx"] = docxBytes(t, otherLists()...)
+	f.files["/dms_pub/itu-t/opb/sp/T-SP-OB.1281-2023-OAS-MSW-E.docx"] = docxBytes(t,
+		append([]block{tbl(row("ITU Operational Bulletin"), row("No. 1281", "1.XII.2023"))}, otherLists()...)...)
 	// OB 1282: amendment 1.
 	f.files["/dms_pub/itu-t/opb/sp/T-SP-OB.1282-2023-OAS-MSW-E.docx"] = docxBytes(t,
+		tbl(row("ITU Operational Bulletin"), row("No. 1282", "15.XII.2023", "(Information received by 1 December 2023)")),
 		p("Mobile Network Codes (MNC) for the international identification plan"),
 		p("(Annex to ITU Operational Bulletin No. 1280 - 15.XI.2023)(Amendment No. 1)"),
 		tbl(
@@ -46,6 +48,7 @@ func newFakeITU(t *testing.T) *fakeITU {
 	f.files["/dms_pub/itu-t/opb/sp/T-SP-OB.1283-2024-OAS-ZIP-E.zip"] = zipFiles(t, map[string][]byte{
 		"Annex-E_OB1283.docx": docxBytes(t, p("STATUS OF RADIOCOMMUNICATIONS BETWEEN AMATEUR STATIONS")),
 		"1283E.docx": docxBytes(t,
+			p("ITU Operational Bulletin No. 1283 (1 January 2024)"),
 			p("Network Codes (MNC) for the international identification plan"),
 			p("(Annex to ITU Operational Bulletin No. 1280 – 15.XI.2023)\n(Amendment No. 2)"),
 			tbl(row("Country/Geographical area", "MCC+MNC", "Operator/Network"),
@@ -187,20 +190,26 @@ func TestBuildEndToEnd(t *testing.T) {
 	defer cdb.Close()
 	for name, db := range map[string]*sql.DB{"sqlite": sdb, "csv": cdb} {
 		for query, want := range map[string]string{
-			`SELECT operator FROM networks WHERE plmn='310170'`:                                   "AT&T Mobility",
-			`SELECT operator FROM networks WHERE plmn='24833'`:                                    "J-Mobile OÜ",
-			`SELECT added_amendment || '/' || changed_amendment FROM networks WHERE plmn='24833'`: "1/2",
-			`SELECT count(*) FROM networks WHERE added_amendment IS NULL`:                         "10",
-			`SELECT count(*) FROM networks WHERE plmn='24829'`:                                    "0",
-			`SELECT operator || '/' || source_ob FROM networks WHERE plmn='311910'`:               "Google LLC/1283",
-			`SELECT count(*) FROM networks`:                                                       "12",
-			`SELECT count(*) FROM extraterritorial`:                                               "3",
-			`SELECT msin_range FROM extraterritorial WHERE amendment=2`:                           "0-1",
-			`SELECT count(*) FROM amendments WHERE outcome='applied'`:                             "5",
-			`SELECT group_concat(status) FROM (SELECT status FROM shared_codes ORDER BY mnc)`:     "ASSIGNED,ASSIGNED,RECLAIMED",
-			`SELECT count(*) FROM sources`:                                                        "5",
-			`SELECT value FROM meta WHERE key='last_amendment'`:                                   "2",
-			`SELECT country FROM mcc WHERE mcc='901'`:                                             SharedGroup,
+			`SELECT operator FROM networks WHERE plmn='310170'`:                                                            "AT&T Mobility",
+			`SELECT operator FROM networks WHERE plmn='24833'`:                                                             "J-Mobile OÜ",
+			`SELECT added_amendment || '/' || changed_amendment FROM networks WHERE plmn='24833'`:                          "1/2",
+			`SELECT count(*) FROM networks WHERE added_amendment IS NULL`:                                                  "10",
+			`SELECT count(*) FROM networks WHERE plmn='24829'`:                                                             "0",
+			`SELECT operator || '/' || source_ob FROM networks WHERE plmn='311910'`:                                        "Google LLC/1283",
+			`SELECT count(*) FROM networks`:                                                                                "12",
+			`SELECT count(*) FROM extraterritorial`:                                                                        "3",
+			`SELECT msin_range FROM extraterritorial WHERE amendment=2`:                                                    "0-1",
+			`SELECT count(*) FROM amendments WHERE outcome='applied'`:                                                      "5",
+			`SELECT group_concat(status) FROM (SELECT status FROM shared_codes ORDER BY mnc)`:                              "ASSIGNED,ASSIGNED,RECLAIMED",
+			`SELECT count(*) FROM sources`:                                                                                 "5",
+			`SELECT value FROM meta WHERE key='last_amendment'`:                                                            "2",
+			`SELECT country FROM mcc WHERE mcc='901'`:                                                                      SharedGroup,
+			`SELECT group_concat(DISTINCT ob_date) FROM amendments`:                                                        "2023-12-15,2024-01-01",
+			`SELECT count(*) FROM assignments`:                                                                             "13",
+			`SELECT assigned_date || '|' || country || '|' || as_of FROM assignments WHERE plmn='311910'`:                  "2024-01-01|US|2024-01-01",
+			`SELECT country || '|' || coalesce(assigned_date,'NULL') FROM assignments WHERE plmn='20801' AND country='MC'`: "MC|NULL",
+			`SELECT status || '|' || country FROM assignments WHERE plmn='90142'`:                                          "assigned|ZZ",
+			`SELECT count(*) FROM sub_allocations WHERE kind='msin_range'`:                                                 "3",
 		} {
 			var got sql.NullString
 			if err := db.QueryRow(query).Scan(&got); err != nil {

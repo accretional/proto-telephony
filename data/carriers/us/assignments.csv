@@ -1,0 +1,558 @@
+source,mcc,mnc,plmn,country,holder,holder_raw,status,status_raw,assigned_date,status_date,reference,as_of,url
+us,310,000,310000,US,,Not available for assignment,reserved,Not available for assignment,2001-01-01,,,2026-10-24,https://imsiadmin.com/hni-codes/not-available-for-assignment-310-000/
+us,310,010,310010,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2001-01-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-010/
+us,310,012,310012,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2002-11-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-012/
+us,310,013,310013,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,1997-08-29,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-013/
+us,310,014,310014,US,TEST IMSI-HNI,TEST IMSI-HNI,test,TEST IMSI-HNI,2001-01-01,,,2026-10-24,https://imsiadmin.com/hni-codes/test-imsi-hni-310-014/
+us,310,016,310016,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2001-10-25,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-016/
+us,310,020,310020,US,Union Telephone Company,Union Telephone Company,assigned,Union Telephone Company,2003-01-09,,,2026-10-24,https://imsiadmin.com/hni-codes/union-telephone-company-310-020/
+us,310,030,310030,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2003-06-18,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-030/
+us,310,035,310035,US,,RETURNED 9/16/2024 (310-035),returned,RETURNED 9/16/2024 (310-035),2008-12-01,2024-09-16,,2026-10-24,https://imsiadmin.com/hni-codes/etex-communications-lp-d-b-a-etex-wireless-310-035/
+us,310,040,310040,US,Minute Wireless LLC,Minute Wireless LLC,assigned,Minute Wireless LLC,2022-12-15,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-6-20-2017-310-040/
+us,310,050,310050,US,Alaska Wireless Networks,Alaska Wireless Networks,assigned,Alaska Wireless Networks,2005-07-13,,,2026-10-24,https://imsiadmin.com/hni-codes/alaska-wireless-networks-310-050/
+us,310,060,310060,US,Karrier One,Karrier One,assigned,Karrier One,2023-11-16,,,2026-10-24,https://imsiadmin.com/hni-codes/karrier-one-310-060/
+us,310,070,310070,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2011-10-21,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-070/
+us,310,080,310080,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2002-09-24,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-080/
+us,310,090,310090,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2011-03-09,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-090/
+us,310,100,310100,US,New Mexico RSA 4 East Limited Partnership,New Mexico RSA 4 East Limited Partnership,assigned,New Mexico RSA 4 East Limited Partnership,2003-06-03,,,2026-10-24,https://imsiadmin.com/hni-codes/new-mexico-rsa-4-east-limited-partnership-310-100/
+us,310,110,310110,US,"PTI Pacifica, Inc","PTI Pacifica, Inc",assigned,"PTI Pacifica, Inc",2007-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/pacific-telecom-inc-310-110/
+us,310,120,310120,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2011-01-25,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-120/
+us,310,130,310130,US,"Carolina West Wireless, Inc","Carolina West Wireless, Inc",assigned,"Carolina West Wireless, Inc",2005-07-22,,,2026-10-24,https://imsiadmin.com/hni-codes/carolina-west-wireless-310-130/
+us,310,140,310140,US,"GTA Wireless, LLC","GTA Wireless, LLC",assigned,"GTA Wireless, LLC",2005-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/gta-wireless-llc-310-140/
+us,310,150,310150,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,1995-05-23,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-150/
+us,310,160,310160,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2000-10-31,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-160/
+us,310,170,310170,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,1995-06-07,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-170/
+us,310,180,310180,US,West Central Wireless,West Central Wireless,assigned,West Central Wireless,2003-07-02,,,2026-10-24,https://imsiadmin.com/hni-codes/west-central-wireless-310-180/
+us,310,190,310190,US,Alaska Wireless Networks,Alaska Wireless Networks,assigned,Alaska Wireless Networks,2002-11-14,,,2026-10-24,https://imsiadmin.com/hni-codes/alaska-wireless-networks-310-190/
+us,310,200,310200,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1995-09-15,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-200/
+us,310,210,310210,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1997-01-01,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-210/
+us,310,220,310220,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1997-01-01,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-220/
+us,310,230,310230,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1995-09-15,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-230/
+us,310,240,310240,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1995-09-15,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-240/
+us,310,250,310250,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1995-09-15,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-250/
+us,310,260,310260,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1996-04-24,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-260/
+us,310,270,310270,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1996-05-01,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-270/
+us,310,280,310280,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2006-03-29,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-280/
+us,310,290,310290,US,Minute Wireless LLC,Minute Wireless LLC,assigned,Minute Wireless LLC,2026-03-13,,,2026-10-24,https://imsiadmin.com/hni-codes/mobi-acquisition-llc-310-290/
+us,310,300,310300,US,,RETURNED - 12/19/2017,returned,RETURNED - 12/19/2017,,2017-12-19,,2026-10-24,https://imsiadmin.com/hni-codes/returned-12-19-2017-310-300/
+us,310,310,310310,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2000-10-31,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-310/
+us,310,320,310320,US,"Smith Bagley, Inc. dba CellularOne","Smith Bagley, Inc. dba CellularOne",assigned,"Smith Bagley, Inc. dba CellularOne",2006-12-11,,,2026-10-24,https://imsiadmin.com/hni-codes/smith-bagley-inc-dba-cellularone-310-320/
+us,310,330,310330,US,"Wireless Partners, LLC","Wireless Partners, LLC",assigned,"Wireless Partners, LLC",2017-05-17,,,2026-10-24,https://imsiadmin.com/hni-codes/wireless-partners-llc-310-330/
+us,310,340,310340,US,"Limitless Mobile, LLC","Limitless Mobile, LLC",assigned,"Limitless Mobile, LLC",2017-07-27,,,2026-10-24,https://imsiadmin.com/hni-codes/limitless-mobile-llc-310-340/
+us,310,350,310350,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2005-09-12,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-350/
+us,310,360,310360,US,,RETURNED 2/21/2024,returned,RETURNED 2/21/2024,2005-09-14,2024-02-21,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-network-partnership-dba-pioneer-cellular-310-360/
+us,310,370,310370,US,Docomo Pacific,Docomo Pacific,assigned,Docomo Pacific,,,,2026-10-24,https://imsiadmin.com/hni-codes/docomo-pacific-inc-310-370/
+us,310,380,310380,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2000-11-09,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-380/
+us,310,390,310390,US,"TX-11 Acquisition, LLC","TX-11 Acquisition, LLC",assigned,"TX-11 Acquisition, LLC",2005-05-27,,,2026-10-24,https://imsiadmin.com/hni-codes/tx-11-acquisition-llc-310-390/
+us,310,400,310400,US,,RETURNED 10/23/2021,returned,RETURNED 10/23/2021,2004-07-26,2021-10-23,,2026-10-24,https://imsiadmin.com/hni-codes/wave-runner-llc-310-400/
+us,310,410,310410,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2000-11-01,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-410/
+us,310,420,310420,US,"World Mobile Networks, LLC","World Mobile Networks, LLC",assigned,"World Mobile Networks, LLC",2023-07-03,,,2026-10-24,https://imsiadmin.com/hni-codes/world-mobile-networks-inc-310-420/
+us,310,430,310430,US,"GCI Communication, Corp","GCI Communication, Corp",assigned,"GCI Communication, Corp",2003-01-30,,,2026-10-24,https://imsiadmin.com/hni-codes/gci-communications-corp-310-430/
+us,310,440,310440,US,Numerex Corp,Numerex Corp,assigned,Numerex Corp,2008-10-29,,,2026-10-24,https://imsiadmin.com/hni-codes/numerex-corp-310-440/
+us,310,450,310450,US,"North East Cellular, Inc","North East Cellular, Inc",assigned,"North East Cellular, Inc",2003-02-25,,,2026-10-24,https://imsiadmin.com/hni-codes/north-east-cellular-inc-310-450/
+us,310,460,310460,US,"Eseye, LLC","Eseye, LLC",assigned,"Eseye, LLC",2001-03-30,,,2026-10-24,https://imsiadmin.com/hni-codes/newcore-wireless-llc-310-460/
+us,310,470,310470,US,Docomo Pacific,Docomo Pacific,assigned,Docomo Pacific,,,,2026-10-24,https://imsiadmin.com/hni-codes/docomo-pacific-310-470/
+us,310,480,310480,US,"PTI Pacifica, Inc","PTI Pacifica, Inc",assigned,"PTI Pacifica, Inc",2001-05-07,,,2026-10-24,https://imsiadmin.com/hni-codes/wave-runner-llc-310-480/
+us,310,490,310490,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2001-08-24,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-490/
+us,310,500,310500,US,"Public Service Cellular, Inc","Public Service Cellular, Inc",assigned,"Public Service Cellular, Inc",2003-06-27,,,2026-10-24,https://imsiadmin.com/hni-codes/public-service-cellular-inc-310-500/
+us,310,510,310510,US,Nsight,Nsight,assigned,Nsight,2011-03-09,,,2026-10-24,https://imsiadmin.com/hni-codes/nsight-310-510/
+us,310,520,310520,US,Transactions Network Services,Transactions Network Services,assigned,Transactions Network Services,2001-10-02,,,2026-10-24,https://imsiadmin.com/hni-codes/transactions-network-services-tns-310-520/
+us,310,530,310530,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2008-06-03,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-310-530/
+us,310,540,310540,US,,RETURNED 7/7/2021,returned,RETURNED 7/7/2021,2002-01-03,2021-07-07,,2026-10-24,https://imsiadmin.com/hni-codes/oklahoma-western-telephone-company-310-540/
+us,310,550,310550,US,Syniverse Technologies,Syniverse Technologies,assigned,Syniverse Technologies,2006-10-11,,,2026-10-24,https://imsiadmin.com/hni-codes/syniverse-technologies-310-550/
+us,310,560,310560,US,,RETURNED 4/26/2016,returned,RETURNED 4/26/2016,,2016-04-26,,2026-10-24,https://imsiadmin.com/hni-codes/returned-4-26-2016-310-560/
+us,310,570,310570,US,"Broadpoint, LLC (former PetroCom, LLC) c/o MTPCS, LLC dba CellularOne","Broadpoint, LLC (former PetroCom, LLC) c/o MTPCS, LLC dba CellularOne",assigned,"Broadpoint, LLC (former PetroCom, LLC) c/o MTPCS, LLC dba CellularOne",2005-09-21,,,2026-10-24,https://imsiadmin.com/hni-codes/broadpoint-llc-former-petrocom-llc-c-o-mtpcs-llc-dba-cellularone-310-570/
+us,310,580,310580,US,Inland Cellular Telephone Company,Inland Cellular Telephone Company,assigned,Inland Cellular Telephone Company,2007-10-22,,,2026-10-24,https://imsiadmin.com/hni-codes/inland-cellular-telephone-company-310-580/
+us,310,590,310590,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-590/
+us,310,591,310591,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-591/
+us,310,592,310592,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-592/
+us,310,593,310593,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-593/
+us,310,594,310594,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-594/
+us,310,595,310595,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-595/
+us,310,596,310596,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-596/
+us,310,597,310597,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-597/
+us,310,598,310598,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-598/
+us,310,599,310599,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-05-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-599/
+us,310,600,310600,US,NewCell dba Cellcom,NewCell dba Cellcom,assigned,NewCell dba Cellcom,2005-09-27,,,2026-10-24,https://imsiadmin.com/hni-codes/newcell-dba-cellcom-310-600/
+us,310,610,310610,US,,RETURNED 01/09/2018,returned,RETURNED 01/09/2018,,2018-01-09,,2026-10-24,https://imsiadmin.com/hni-codes/returned-01-09-2018-310-610/
+us,310,620,310620,US,"Nsighttel Wireless, LLC","Nsighttel Wireless, LLC",assigned,"Nsighttel Wireless, LLC",2011-03-09,,,2026-10-24,https://imsiadmin.com/hni-codes/nsighttel-wireless-llc-310-620/
+us,310,630,310630,US,Choice Wireless,Choice Wireless,assigned,Choice Wireless,2010-11-01,,,2026-10-24,https://imsiadmin.com/hni-codes/choice-wireless-310-630/
+us,310,640,310640,US,Numerex Corp,Numerex Corp,assigned,Numerex Corp,1996-10-23,,,2026-10-24,https://imsiadmin.com/hni-codes/numerex-corp-310-640/
+us,310,650,310650,US,"JASPER TECHNOLOGIES, Inc","JASPER TECHNOLOGIES, Inc",assigned,"JASPER TECHNOLOGIES, Inc",2005-09-29,,,2026-10-24,https://imsiadmin.com/hni-codes/jasper-technologies-inc-310-650/
+us,310,660,310660,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1997-05-22,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-660/
+us,310,670,310670,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2008-01-07,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-670/
+us,310,680,310680,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2011-10-21,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-680/
+us,310,690,310690,US,"Limitless Mobile, LLC","Limitless Mobile, LLC",assigned,"Limitless Mobile, LLC",1997-08-12,,,2026-10-24,https://imsiadmin.com/hni-codes/limitless-mobile-llc-310-690/
+us,310,700,310700,US,Cross Valiant Cellular Partnership,Cross Valiant Cellular Partnership,assigned,Cross Valiant Cellular Partnership,2005-10-03,,,2026-10-24,https://imsiadmin.com/hni-codes/cross-valiant-cellular-partnership-310-700/
+us,310,710,310710,US,Arctic Slope Telephone Association Cooperative,Arctic Slope Telephone Association Cooperative,assigned,Arctic Slope Telephone Association Cooperative,2005-10-06,,,2026-10-24,https://imsiadmin.com/hni-codes/arctic-slope-telephone-association-cooperative-310-710/
+us,310,720,310720,US,Syniverse Technologies,Syniverse Technologies,assigned,Syniverse Technologies,2005-11-22,,,2026-10-24,https://imsiadmin.com/hni-codes/syniverse-technologies-310-720/
+us,310,730,310730,US,,RETURNED 3/23/2023,returned,RETURNED 3/23/2023,2010-04-05,2023-03-23,,2026-10-24,https://imsiadmin.com/hni-codes/u-s-cellular-310-730/
+us,310,740,310740,US,Viaero Wireless,Viaero Wireless,assigned,Viaero Wireless,2009-02-12,,,2026-10-24,https://imsiadmin.com/hni-codes/viaero-wireless-310-740/
+us,310,750,310750,US,"East Kentucky Network, LLC dba Appalachian Wireless","East Kentucky Network, LLC dba Appalachian Wireless",assigned,"East Kentucky Network, LLC dba Appalachian Wireless",2005-12-08,,,2026-10-24,https://imsiadmin.com/hni-codes/east-kentucky-network-llc-dba-appalachian-wireless-310-750/
+us,310,760,310760,US,Lynch 3G Communications Corporation,Lynch 3G Communications Corporation,assigned,Lynch 3G Communications Corporation,2010-05-07,,,2026-10-24,https://imsiadmin.com/hni-codes/lynch-3g-communications-corporation-310-760/
+us,310,770,310770,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1998-08-10,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-310-770/
+us,310,780,310780,US,,RETURNED 7/16/16,returned,RETURNED 7/16/16,,2016-07-16,,2026-10-24,https://imsiadmin.com/hni-codes/returned-7-16-16-310-780/
+us,310,790,310790,US,,RECLAIMED 12/15/25 (310-790),reclaimed,RECLAIMED 12/15/25 (310-790),1998-12-03,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/pinpoint-communications-inc-310-790/
+us,310,800,310800,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,1999-02-02,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-800/
+us,310,810,310810,US,"Pacific Lightwave, Inc","Pacific Lightwave, Inc",assigned,"Pacific Lightwave, Inc",2018-05-11,,,2026-10-24,https://imsiadmin.com/hni-codes/pacific-lightwave-inc-310-810/
+us,310,820,310820,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-05-07,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-820/
+us,310,830,310830,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2012-04-10,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-310-830/
+us,310,840,310840,US,"Telecom North America Mobile, Inc","Telecom North America Mobile, Inc",assigned,"Telecom North America Mobile, Inc",2010-02-15,,,2026-10-24,https://imsiadmin.com/hni-codes/telecom-north-america-mobile-inc-310-840/
+us,310,850,310850,US,"Aeris Communications, Inc","Aeris Communications, Inc",assigned,"Aeris Communications, Inc",2003-08-06,,,2026-10-24,https://imsiadmin.com/hni-codes/aeris-communications-inc-310-850/
+us,310,860,310860,US,,RETURNED 9/13/23,returned,RETURNED 9/13/23,2006-10-20,2023-09-13,,2026-10-24,https://imsiadmin.com/hni-codes/west-central-wireless-310-860/
+us,310,870,310870,US,,RETURNED 3/16/16,returned,RETURNED 3/16/16,,2016-03-16,,2026-10-24,https://imsiadmin.com/hni-codes/returned-3-16-16-310-870/
+us,310,880,310880,US,"Advantage Cellular Systems, Inc","Advantage Cellular Systems, Inc",assigned,"Advantage Cellular Systems, Inc",2003-09-03,,,2026-10-24,https://imsiadmin.com/hni-codes/advantage-cellular-systems-inc-310-880/
+us,310,890,310890,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-890/
+us,310,891,310891,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-891/
+us,310,892,310892,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-892/
+us,310,893,310893,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-893/
+us,310,894,310894,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-894/
+us,310,895,310895,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-895/
+us,310,896,310896,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-896/
+us,310,897,310897,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-897/
+us,310,898,310898,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-898/
+us,310,899,310899,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-899/
+us,310,900,310900,US,,RETURNED 4/20/2022,returned,RETURNED 4/20/2022,2010-03-01,2022-04-20,,2026-10-24,https://imsiadmin.com/hni-codes/mid-rivers-telephone-cooperative-310-900/
+us,310,910,310910,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-310-910/
+us,310,920,310920,US,"James Valley Wireless, LLC","James Valley Wireless, LLC",assigned,"James Valley Wireless, LLC",2010-10-06,,,2026-10-24,https://imsiadmin.com/hni-codes/james-valley-wireless-llc-310-920/
+us,310,930,310930,US,Copper Valley Wireless,Copper Valley Wireless,assigned,Copper Valley Wireless,2006-11-16,,,2026-10-24,https://imsiadmin.com/hni-codes/copper-valley-wireless-310-930/
+us,310,940,310940,US,Tyntec Limited,Tyntec Limited,assigned,Tyntec Limited,2008-10-28,,,2026-10-24,https://imsiadmin.com/hni-codes/tyntec-inc-310-940/
+us,310,950,310950,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2003-09-24,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-310-950/
+us,310,960,310960,US,UBET Wireless,UBET Wireless,assigned,UBET Wireless,2007-05-07,,,2026-10-24,https://imsiadmin.com/hni-codes/ubet-wireless-310-960/
+us,310,970,310970,US,Globalstar USA,Globalstar USA,assigned,Globalstar USA,2002-06-25,,,2026-10-24,https://imsiadmin.com/hni-codes/globalstar-usa-310-970/
+us,310,980,310980,US,,RETURNED 9/29/2016,returned,RETURNED 9/29/2016,,2016-09-29,,2026-10-24,https://imsiadmin.com/hni-codes/returned-9-29-2016-310-980/
+us,310,990,310990,US,"Evolve Cellular, Inc","Evolve Cellular, Inc",assigned,"Evolve Cellular, Inc",2008-10-06,,,2026-10-24,https://imsiadmin.com/hni-codes/evolve-cellular-inc-310-990/
+us,311,000,311000,US,,RETURNED 9/13/23,returned,RETURNED 9/13/23,2003-10-22,2023-09-13,,2026-10-24,https://imsiadmin.com/hni-codes/west-central-wireless-311-000/
+us,311,010,311010,US,,RETURNED 3/6/2023 (311-010),returned,RETURNED 3/6/2023 (311-010),2003-10-23,2023-03-06,,2026-10-24,https://imsiadmin.com/hni-codes/chariton-valley-communications-corporation-311-010/
+us,311,020,311020,US,,RETURNED 4/17/2023 (311-020),returned,RETURNED 4/17/2023 (311-020),2003-10-23,2023-04-17,,2026-10-24,https://imsiadmin.com/hni-codes/missouri-rsa-no-5-partnership-311-020/
+us,311,030,311030,US,"Indigo Wireless, Inc","Indigo Wireless, Inc",assigned,"Indigo Wireless, Inc",2003-11-12,,,2026-10-24,https://imsiadmin.com/hni-codes/indigo-wireless-inc-311-030/
+us,311,040,311040,US,"Commnet Wireless, LLC","Commnet Wireless, LLC",assigned,"Commnet Wireless, LLC",2003-12-02,,,2026-10-24,https://imsiadmin.com/hni-codes/commnet-wireless-llc-311-040/
+us,311,050,311050,US,"Thumb Cellular, LLC","Thumb Cellular, LLC",assigned,"Thumb Cellular, LLC",2006-11-28,,,2026-10-24,https://imsiadmin.com/hni-codes/thumb-cellular-limited-partnership-311-050/
+us,311,060,311060,US,Space Data Corporation,Space Data Corporation,assigned,Space Data Corporation,2006-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/space-data-corporation-311-060/
+us,311,070,311070,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2010-06-10,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-311-070/
+us,311,080,311080,US,Pine Telephone Company dba Pine Cellular,Pine Telephone Company dba Pine Cellular,assigned,Pine Telephone Company dba Pine Cellular,2003-12-19,,,2026-10-24,https://imsiadmin.com/hni-codes/pine-telephone-company-dba-pine-cellular-311-080/
+us,311,090,311090,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2004-01-12,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-311-090/
+us,311,100,311100,US,"Nex-Tech Wireless, LLC","Nex-Tech Wireless, LLC",assigned,"Nex-Tech Wireless, LLC",2008-10-28,,,2026-10-24,https://imsiadmin.com/hni-codes/nex-tech-wireless-llc-311-100/
+us,311,110,311110,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2003-11-14,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-110/
+us,311,120,311120,US,"PTI Pacifica, Inc","PTI Pacifica, Inc",assigned,"PTI Pacifica, Inc",2000-08-03,,,2026-10-24,https://imsiadmin.com/hni-codes/wave-runner-llc-311-120/
+us,311,130,311130,US,,RETURNED 3/16/16,returned,RETURNED 3/16/16,,2016-03-16,,2026-10-24,https://imsiadmin.com/hni-codes/returned-3-16-16-311-130/
+us,311,140,311140,US,Cross Telephone Company,Cross Telephone Company,assigned,Cross Telephone Company,2000-10-31,,,2026-10-24,https://imsiadmin.com/hni-codes/cross-telephone-company-311-140/
+us,311,150,311150,US,,RETURNED 3/9/2023 (311-150),returned,RETURNED 3/9/2023 (311-150),2004-01-20,2023-03-09,,2026-10-24,https://imsiadmin.com/hni-codes/wilkes-cellular-inc-311-150/
+us,311,160,311160,US,,RETURNED 3/16/16,returned,RETURNED 3/16/16,,2016-03-16,,2026-10-24,https://imsiadmin.com/hni-codes/returned-3-16-16-311-160/
+us,311,170,311170,US,"Tampnet (formerly Broadpoint, LLC (former PetroCom, LLC)) c/o MTPCS, LLC","Tampnet (formerly Broadpoint, LLC (former PetroCom, LLC)) c/o MTPCS, LLC",assigned,"Tampnet (formerly Broadpoint, LLC (former PetroCom, LLC)) c/o MTPCS, LLC",2007-08-23,,,2026-10-24,https://imsiadmin.com/hni-codes/tampnet-formerly-broadpoint-llc-former-petrocom-llc-c-o-mtpcs-ll-311-170/
+us,311,180,311180,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2003-10-03,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-311-180/
+us,311,190,311190,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2004-04-26,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-311-190/
+us,311,200,311200,US,Dish Wireless,Dish Wireless,assigned,Dish Wireless,2021-08-09,,,2026-10-24,https://imsiadmin.com/hni-codes/dish-wireless-311-200/
+us,311,210,311210,US,"Telnyx, LLC","Telnyx, LLC",assigned,"Telnyx, LLC",2017-01-04,,,2026-10-24,https://imsiadmin.com/hni-codes/telnyx-llc-311-210/
+us,311,220,311220,US,,RETURNED 3/23/2023,returned,RETURNED 3/23/2023,2009-03-06,2023-03-23,,2026-10-24,https://imsiadmin.com/hni-codes/u-s-cellular-311-220/
+us,311,225,311225,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-225/
+us,311,228,311228,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-228/
+us,311,229,311229,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-229/
+us,311,230,311230,US,"Cellular South, Inc. dba C Spire","Cellular South, Inc. dba C Spire",assigned,"Cellular South, Inc. dba C Spire",2010-11-17,,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-south-inc-311-230/
+us,311,240,311240,US,"Cordova Wireless Communications, Inc","Cordova Wireless Communications, Inc",assigned,"Cordova Wireless Communications, Inc",2007-01-09,,,2026-10-24,https://imsiadmin.com/hni-codes/cordova-wireless-communications-inc-311-240/
+us,311,250,311250,US,,RETURNED 10/23/2021,returned,RETURNED 10/23/2021,2004-08-20,2021-10-23,,2026-10-24,https://imsiadmin.com/hni-codes/wave-runner-llc-311-250/
+us,311,260,311260,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2012-04-10,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-311-260/
+us,311,270,311270,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-270/
+us,311,271,311271,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-271/
+us,311,272,311272,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-272/
+us,311,273,311273,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-273/
+us,311,274,311274,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-274/
+us,311,275,311275,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-275/
+us,311,276,311276,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-276/
+us,311,277,311277,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-277/
+us,311,278,311278,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-278/
+us,311,279,311279,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-279/
+us,311,280,311280,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-280/
+us,311,281,311281,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-281/
+us,311,282,311282,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-282/
+us,311,283,311283,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-283/
+us,311,284,311284,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-284/
+us,311,285,311285,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-285/
+us,311,286,311286,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-286/
+us,311,287,311287,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-287/
+us,311,288,311288,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-288/
+us,311,289,311289,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2004-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-289/
+us,311,290,311290,US,,RETURNED 1/29/2020,returned,RETURNED 1/29/2020,2004-12-29,2020-01-29,,2026-10-24,https://imsiadmin.com/hni-codes/pinpoint-wireless-inc-311-290/
+us,311,300,311300,US,,RETURNED 11/09/2017,returned,RETURNED 11/09/2017,,2017-11-09,,2026-10-24,https://imsiadmin.com/hni-codes/returned-11-09-2017-311-300/
+us,311,310,311310,US,,RETURNED 2/23/2021,returned,RETURNED 2/23/2021,2007-04-02,2021-02-23,,2026-10-24,https://imsiadmin.com/hni-codes/leaco-rural-telephone-company-inc-311-310/
+us,311,320,311320,US,"Commnet Wireless, LLC","Commnet Wireless, LLC",assigned,"Commnet Wireless, LLC",2005-03-15,,,2026-10-24,https://imsiadmin.com/hni-codes/commnet-wireless-llc-311-320/
+us,311,330,311330,US,"Bug Tussel Wireless, LLC","Bug Tussel Wireless, LLC",assigned,"Bug Tussel Wireless, LLC",2006-12-07,,,2026-10-24,https://imsiadmin.com/hni-codes/bug-tussel-wireless-llc-311-330/
+us,311,340,311340,US,Illinois Valley Cellular,Illinois Valley Cellular,assigned,Illinois Valley Cellular,2005-03-15,,,2026-10-24,https://imsiadmin.com/hni-codes/illinois-valley-cellular-311-340/
+us,311,350,311350,US,"Sagebrush Cellular, Inc","Sagebrush Cellular, Inc",assigned,"Sagebrush Cellular, Inc",2009-01-31,,,2026-10-24,https://imsiadmin.com/hni-codes/sagebrush-cellular-inc-dba-nemont-311-350/
+us,311,360,311360,US,,RECLAIMED 12/15/25 (311-360),reclaimed,RECLAIMED 12/15/25 (311-360),2007-06-12,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/stelera-wireless-l-l-c-311-360/
+us,311,370,311370,US,"GCI Communication, Corp","GCI Communication, Corp",assigned,"GCI Communication, Corp",2007-06-14,,,2026-10-24,https://imsiadmin.com/hni-codes/gci-communication-corp-311-370/
+us,311,380,311380,US,"New Dimension Wireless, Ltd","New Dimension Wireless, Ltd",assigned,"New Dimension Wireless, Ltd",2009-09-15,,,2026-10-24,https://imsiadmin.com/hni-codes/new-dimension-wireless-ltd-311-380/
+us,311,390,311390,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2005-04-04,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-390/
+us,311,400,311400,US,TEST IMSI HNI,TEST IMSI HNI,test,TEST IMSI HNI,,,,2026-10-24,https://imsiadmin.com/hni-codes/test-imsi-hni-311-400/
+us,311,410,311410,US,,RETURNED 8/1/2021,returned,RETURNED 8/1/2021,2005-05-24,2021-08-01,,2026-10-24,https://imsiadmin.com/hni-codes/iowa-rsa-no-2-limited-partnership-311-410/
+us,311,420,311420,US,Northwest Cell,Northwest Cell,assigned,Northwest Cell,2005-05-24,,,2026-10-24,https://imsiadmin.com/hni-codes/northwest-cell-311-420/
+us,311,430,311430,US,RSA 1 Limited Partnership dba Cellular 29 Plus,RSA 1 Limited Partnership dba Cellular 29 Plus,assigned,RSA 1 Limited Partnership dba Cellular 29 Plus,2005-05-24,,,2026-10-24,https://imsiadmin.com/hni-codes/rsa-1-limited-partnership-dba-cellular-29-plus-311-430/
+us,311,440,311440,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2005-05-27,,,2026-10-24,https://imsiadmin.com/hni-codes/bluegrass-cellular-llc-311-440/
+us,311,450,311450,US,"Panhandle Telecommunication Systems, Inc","Panhandle Telecommunication Systems, Inc",assigned,"Panhandle Telecommunication Systems, Inc",2006-05-12,,,2026-10-24,https://imsiadmin.com/hni-codes/panhandle-telecommunication-systems-inc-311-450/
+us,311,460,311460,US,,Returned 07/01/20,returned,Returned 07/01/20,2017-02-02,2020-07-01,,2026-10-24,https://imsiadmin.com/hni-codes/returned-07-01-20-311-460/
+us,311,470,311470,US,Vitelcom Cellular D/B/A Innovative Wireless,Vitelcom Cellular D/B/A Innovative Wireless,assigned,Vitelcom Cellular D/B/A Innovative Wireless,2009-10-28,,,2026-10-24,https://imsiadmin.com/hni-codes/vitelcom-cellular-d-b-a-innovative-wireless-311-470/
+us,311,480,311480,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-480/
+us,311,481,311481,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-481/
+us,311,482,311482,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-482/
+us,311,483,311483,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-483/
+us,311,484,311484,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-484/
+us,311,485,311485,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-485/
+us,311,486,311486,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-486/
+us,311,487,311487,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-487/
+us,311,488,311488,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-488/
+us,311,489,311489,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-489/
+us,311,490,311490,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2007-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-490/
+us,311,500,311500,US,Minute Wireless LLC,Minute Wireless LLC,assigned,Minute Wireless LLC,2022-12-15,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-11-22-16-311-500/
+us,311,510,311510,US,Ligado Networks,Ligado Networks,assigned,Ligado Networks,2011-03-22,,,2026-10-24,https://imsiadmin.com/hni-codes/ligado-networks-311-510/
+us,311,520,311520,US,,RETURNED 03/16/16,returned,RETURNED 03/16/16,,2016-03-16,,2026-10-24,https://imsiadmin.com/hni-codes/returned-03-16-16-311-520/
+us,311,530,311530,US,"WorldCell Solutions, LLC","WorldCell Solutions, LLC",assigned,"WorldCell Solutions, LLC",2007-12-03,,,2026-10-24,https://imsiadmin.com/hni-codes/worldcell-solutions-llc-311-530/
+us,311,540,311540,US,"Coeur Rochester, Inc","Coeur Rochester, Inc",assigned,"Coeur Rochester, Inc",2021-05-10,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-3-16-16-311-540/
+us,311,550,311550,US,"Commnet Wireless, LLC","Commnet Wireless, LLC",assigned,"Commnet Wireless, LLC",2007-12-20,,,2026-10-24,https://imsiadmin.com/hni-codes/commnet-wireless-llc-311-550/
+us,311,560,311560,US,"OTZ Telecommunications, LLC","OTZ Telecommunications, LLC",assigned,"OTZ Telecommunications, LLC",2009-02-12,,,2026-10-24,https://imsiadmin.com/hni-codes/otz-communications-inc-311-560/
+us,311,570,311570,US,Mediacom,Mediacom,assigned,Mediacom,2021-04-28,,,2026-10-24,https://imsiadmin.com/hni-codes/mediacom-311-570/
+us,311,580,311580,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2009-03-06,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-580/
+us,311,588,311588,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-588/
+us,311,589,311589,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-589/
+us,311,590,311590,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2009-04-01,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-590/
+us,311,600,311600,US,"Limitless Mobile, LLC","Limitless Mobile, LLC",assigned,"Limitless Mobile, LLC",2017-02-16,,,2026-10-24,https://imsiadmin.com/hni-codes/limitless-mobile-llc-311-600/
+us,311,610,311610,US,,RETURNED 2/28/2018,returned,RETURNED 2/28/2018,2009-04-15,2018-02-28,,2026-10-24,https://imsiadmin.com/hni-codes/north-dakota-network-co-311-610/
+us,311,620,311620,US,"Terrestar Networks, Inc","Terrestar Networks, Inc",assigned,"Terrestar Networks, Inc",2009-05-20,,,2026-10-24,https://imsiadmin.com/hni-codes/terrestar-networks-inc-311-620/
+us,311,630,311630,US,"Cellular South, Inc. dba C Spire","Cellular South, Inc. dba C Spire",assigned,"Cellular South, Inc. dba C Spire",2009-06-05,,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-south-inc-311-630/
+us,311,640,311640,US,Standing Rock Telecommunications,Standing Rock Telecommunications,assigned,Standing Rock Telecommunications,2009-06-10,,,2026-10-24,https://imsiadmin.com/hni-codes/standing-rock-telecommunications-311-640/
+us,311,650,311650,US,"United Wireless, Inc","United Wireless, Inc",assigned,"United Wireless, Inc",2009-07-07,,,2026-10-24,https://imsiadmin.com/hni-codes/united-wireless-inc-311-650/
+us,311,660,311660,US,"MetroPCS Wireless, Inc","MetroPCS Wireless, Inc",assigned,"MetroPCS Wireless, Inc",2009-07-10,,,2026-10-24,https://imsiadmin.com/hni-codes/metropcs-wireless-inc-311-660/
+us,311,670,311670,US,"Pine Belt Cellular, Inc. d/b/a Pine Belt Wireless","Pine Belt Cellular, Inc. d/b/a Pine Belt Wireless",assigned,"Pine Belt Cellular, Inc. d/b/a Pine Belt Wireless",2009-08-07,,,2026-10-24,https://imsiadmin.com/hni-codes/pine-belt-cellular-inc-d-b-a-pine-belt-wireless-311-670/
+us,311,680,311680,US,"GreenFly, LLC","GreenFly, LLC",assigned,"GreenFly, LLC",2009-09-11,,,2026-10-24,https://imsiadmin.com/hni-codes/greenfly-llc-311-680/
+us,311,690,311690,US,,RECLAIMED 12/15/25 (311-690),reclaimed,RECLAIMED 12/15/25 (311-690),2009-09-15,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/telebeeper-of-new-mexico-inc-311-690/
+us,311,700,311700,US,,Returned 11/20/2020,returned,Returned 11/20/2020,2009-11-04,2020-11-20,,2026-10-24,https://imsiadmin.com/hni-codes/returned-11-20-2020-311-700/
+us,311,710,311710,US,,Returned 10/05/20,returned,Returned 10/05/20,2009-12-24,2020-10-05,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-05-20-311-710/
+us,311,720,311720,US,,RECLAIMED 12/15/25 (311-720),reclaimed,RECLAIMED 12/15/25 (311-720),2010-01-22,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/mainepcs-llc-311-720/
+us,311,730,311730,US,,Returned 10/11/2018,returned,Returned 10/11/2018,2010-11-19,2018-10-11,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-11-2018-311-730/
+us,311,740,311740,US,Telalaska Cellular,Telalaska Cellular,assigned,Telalaska Cellular,2010-12-01,,,2026-10-24,https://imsiadmin.com/hni-codes/telalaska-cellular-311-740/
+us,311,750,311750,US,,Returned 07/29/19,returned,Returned 07/29/19,2022-07-29,2019-07-29,,2026-10-24,https://imsiadmin.com/hni-codes/returned-07-29-19-311-750/
+us,311,760,311760,US,,RECLAIMED 06/21/2016,reclaimed,RECLAIMED 06/21/2016,,2016-06-21,,2026-10-24,https://imsiadmin.com/hni-codes/reclaimed-06-21-2016-311-760/
+us,311,770,311770,US,"Altiostar Networks, Inc","Altiostar Networks, Inc",assigned,"Altiostar Networks, Inc",2012-10-09,,,2026-10-24,https://imsiadmin.com/hni-codes/altiostar-networks-inc-311-770/
+us,311,780,311780,US,The American Samoa Telecommunications Authority,The American Samoa Telecommunications Authority,assigned,The American Samoa Telecommunications Authority,2018-05-21,,,2026-10-24,https://imsiadmin.com/hni-codes/the-american-samoa-telecommunications-authority-311-780/
+us,311,790,311790,US,"Coleman County Telephone Cooperative, Inc","Coleman County Telephone Cooperative, Inc",assigned,"Coleman County Telephone Cooperative, Inc",2013-03-26,,,2026-10-24,https://imsiadmin.com/hni-codes/coleman-county-telephone-cooperative-inc-311-790/
+us,311,800,311800,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2011-05-22,,,2026-10-24,https://imsiadmin.com/hni-codes/bluegrass-cellular-llc-311-800/
+us,311,810,311810,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2011-05-22,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-311-810/
+us,311,820,311820,US,Ribbon Communications,Ribbon Communications,assigned,Ribbon Communications,2011-05-25,,,2026-10-24,https://imsiadmin.com/hni-codes/sonus-networks-311-820/
+us,311,830,311830,US,"Thumb Cellular, LLC","Thumb Cellular, LLC",assigned,"Thumb Cellular, LLC",2011-05-26,,,2026-10-24,https://imsiadmin.com/hni-codes/thumb-cellular-llc-311-830/
+us,311,840,311840,US,Nsight,Nsight,assigned,Nsight,2011-06-08,,,2026-10-24,https://imsiadmin.com/hni-codes/nsight-311-840/
+us,311,850,311850,US,Nsight,Nsight,assigned,Nsight,2011-06-08,,,2026-10-24,https://imsiadmin.com/hni-codes/nsight-311-850/
+us,311,860,311860,US,Uintah Basin Electronic Telecommunications,Uintah Basin Electronic Telecommunications,assigned,Uintah Basin Electronic Telecommunications,2011-06-08,,,2026-10-24,https://imsiadmin.com/hni-codes/uintah-basin-electronic-telecommunications-311-860/
+us,311,870,311870,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2011-06-09,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-870/
+us,311,880,311880,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2011-06-09,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-880/
+us,311,882,311882,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2017-09-07,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-311-882/
+us,311,890,311890,US,Globecomm Network Services Corporation,Globecomm Network Services Corporation,assigned,Globecomm Network Services Corporation,2011-06-27,,,2026-10-24,https://imsiadmin.com/hni-codes/globecomm-network-services-corporation-311-890/
+us,311,900,311900,US,"Gigsky, Inc","Gigsky, Inc",assigned,"Gigsky, Inc",2011-07-11,,,2026-10-24,https://imsiadmin.com/hni-codes/gigsky-inc-311-900/
+us,311,910,311910,US,,Returned 01/22/20,returned,Returned 01/22/20,2020-01-20,2020-01-22,,2026-10-24,https://imsiadmin.com/hni-codes/returned-01-22-20-311-910/
+us,311,920,311920,US,,RETURNED 4/17/2023 (311-920),returned,RETURNED 4/17/2023 (311-920),2011-08-09,2023-04-17,,2026-10-24,https://imsiadmin.com/hni-codes/missouri-rsa-no-5-partnership-311-920/
+us,311,930,311930,US,,RETURNED 9/9/24 (311-930),returned,RETURNED 9/9/24 (311-930),2019-07-19,2024-09-09,,2026-10-24,https://imsiadmin.com/hni-codes/cox-communications-311-930/
+us,311,940,311940,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2011-09-19,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-311-940/
+us,311,950,311950,US,,RETURNED 5/22/24,returned,RETURNED 5/22/24,2011-10-11,2024-05-22,,2026-10-24,https://imsiadmin.com/hni-codes/sunman-telecommunications-corp-311-950/
+us,311,960,311960,US,,RECLAIMED 11/09/2017,reclaimed,RECLAIMED 11/09/2017,,2017-11-09,,2026-10-24,https://imsiadmin.com/hni-codes/reclaimed-11-09-2017-311-960/
+us,311,970,311970,US,"Big River Broadband, LLC","Big River Broadband, LLC",assigned,"Big River Broadband, LLC",2011-11-03,,,2026-10-24,https://imsiadmin.com/hni-codes/big-river-broadband-llc-311-970/
+us,311,980,311980,US,,RETURNED 9/19/23,returned,RETURNED 9/19/23,2011-11-17,2023-09-19,,2026-10-24,https://imsiadmin.com/hni-codes/ligtel-communications-311-980/
+us,311,990,311990,US,VTel Wireless,VTel Wireless,assigned,VTel Wireless,2011-12-27,,,2026-10-24,https://imsiadmin.com/hni-codes/vtel-wireless-311-990/
+us,312,010,312010,US,,RETURNED 3/6/2023 (312-010),returned,RETURNED 3/6/2023 (312-010),2012-01-09,2023-03-06,,2026-10-24,https://imsiadmin.com/hni-codes/chariton-valley-communications-corporation-312-010/
+us,312,020,312020,US,"Infrastructure Networks, LLC","Infrastructure Networks, LLC",assigned,"Infrastructure Networks, LLC",2012-01-26,,,2026-10-24,https://imsiadmin.com/hni-codes/infrastructure-networks-llc-312-020/
+us,312,030,312030,US,Cross Wireless,Cross Wireless,assigned,Cross Wireless,2012-01-26,,,2026-10-24,https://imsiadmin.com/hni-codes/cross-wireless-312-030/
+us,312,040,312040,US,"Custer Telephone Cooperative, Inc","Custer Telephone Cooperative, Inc",assigned,"Custer Telephone Cooperative, Inc",2012-02-15,,,2026-10-24,https://imsiadmin.com/hni-codes/custer-telephone-cooperative-inc-312-040/
+us,312,050,312050,US,,RETURNED 12/19/2017,returned,RETURNED 12/19/2017,,2017-12-19,,2026-10-24,https://imsiadmin.com/hni-codes/returned-12-19-2017-312-050/
+us,312,060,312060,US,,Returned 04/30/19,returned,Returned 04/30/19,2011-11-04,2019-04-30,,2026-10-24,https://imsiadmin.com/hni-codes/returned-04-30-19-312-060/
+us,312,070,312070,US,,RETURNED 12/01/2017,returned,RETURNED 12/01/2017,,2017-12-01,,2026-10-24,https://imsiadmin.com/hni-codes/returned-12-01-2017-312-070/
+us,312,080,312080,US,South Georgia Regional Information Technology Authority,South Georgia Regional Information Technology Authority,assigned,South Georgia Regional Information Technology Authority,2012-05-21,,,2026-10-24,https://imsiadmin.com/hni-codes/south-georgia-regional-information-technology-authority-312-080/
+us,312,090,312090,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2012-05-29,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-312-090/
+us,312,100,312100,US,"ClearSky Technologies, Inc","ClearSky Technologies, Inc",assigned,"ClearSky Technologies, Inc",2012-06-24,,,2026-10-24,https://imsiadmin.com/hni-codes/clearsky-technologies-inc-312-100/
+us,312,110,312110,US,,RETURNED 09/29/2016,returned,RETURNED 09/29/2016,,2016-09-29,,2026-10-24,https://imsiadmin.com/hni-codes/returned-09-29-2016-312-110/
+us,312,120,312120,US,"East Kentucky Network, LLC dba Appalachian Wireless","East Kentucky Network, LLC dba Appalachian Wireless",assigned,"East Kentucky Network, LLC dba Appalachian Wireless",2012-06-24,,,2026-10-24,https://imsiadmin.com/hni-codes/east-kentucky-network-llc-dba-appalachian-wireless-312-120/
+us,312,130,312130,US,"East Kentucky Network, LLC dba Appalachian Wireless","East Kentucky Network, LLC dba Appalachian Wireless",assigned,"East Kentucky Network, LLC dba Appalachian Wireless",2012-06-28,,,2026-10-24,https://imsiadmin.com/hni-codes/east-kentucky-network-llc-dba-appalachian-wireless-312-130/
+us,312,140,312140,US,,RETURNED 11/09/17,returned,RETURNED 11/09/17,,2017-11-09,,2026-10-24,https://imsiadmin.com/hni-codes/returned-11-09-17-312-140/
+us,312,150,312150,US,Northwest Cell,Northwest Cell,assigned,Northwest Cell,2012-08-20,,,2026-10-24,https://imsiadmin.com/hni-codes/northwest-cell-312-150/
+us,312,160,312160,US,RSA1 Limited Partnership DBA Chat Mobility,RSA1 Limited Partnership DBA Chat Mobility,assigned,RSA1 Limited Partnership DBA Chat Mobility,2012-08-20,,,2026-10-24,https://imsiadmin.com/hni-codes/rsa1-limited-partnership-dba-chat-mobility-312-160/
+us,312,170,312170,US,,RETURNED 8/1/2021,returned,RETURNED 8/1/2021,2012-08-20,2021-08-01,,2026-10-24,https://imsiadmin.com/hni-codes/iowa-rsa-no-2-limited-partnership-312-170/
+us,312,180,312180,US,"Limitless Mobile, LLC","Limitless Mobile, LLC",assigned,"Limitless Mobile, LLC",2012-08-29,,,2026-10-24,https://imsiadmin.com/hni-codes/limitless-mobile-llc-312-180/
+us,312,190,312190,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2012-09-20,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-312-190/
+us,312,200,312200,US,,RECLAIMED 06/21/2016,reclaimed,RECLAIMED 06/21/2016,,2016-06-21,,2026-10-24,https://imsiadmin.com/hni-codes/reclaimed-06-21-2016-312-200/
+us,312,210,312210,US,"ASPENTA, LLC","ASPENTA, LLC",assigned,"ASPENTA, LLC",2012-12-04,,,2026-10-24,https://imsiadmin.com/hni-codes/aspenta-llc-312-210/
+us,312,220,312220,US,,RETURNED 3/6/2023 (312-220),returned,RETURNED 3/6/2023 (312-220),2012-12-17,2023-03-06,,2026-10-24,https://imsiadmin.com/hni-codes/chariton-valley-communications-corporation-312-220/
+us,312,230,312230,US,,RETURNED 2/28/2018,returned,RETURNED 2/28/2018,2012-12-19,2018-02-28,,2026-10-24,https://imsiadmin.com/hni-codes/srt-communications-inc-312-230/
+us,312,240,312240,US,,Returned,returned,Returned,,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-312-240/
+us,312,250,312250,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2012-12-28,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-312-250/
+us,312,260,312260,US,"WorldCell Solutions, LLC","WorldCell Solutions, LLC",assigned,"WorldCell Solutions, LLC",2013-01-25,,,2026-10-24,https://imsiadmin.com/hni-codes/worldcell-solutions-llc-312-260/
+us,312,270,312270,US,,RETURNED 2/21/2024,returned,RETURNED 2/21/2024,2013-01-25,2024-02-21,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-network-partnership-dba-pioneer-cellular-312-270/
+us,312,280,312280,US,Cellular Network Partnership dba Pioneer Cellular,Cellular Network Partnership dba Pioneer Cellular,assigned,Cellular Network Partnership dba Pioneer Cellular,2013-01-25,,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-network-partnership-dba-pioneer-cellular-312-280/
+us,312,290,312290,US,Uintah Basin Electronic Telecommunications,Uintah Basin Electronic Telecommunications,assigned,Uintah Basin Electronic Telecommunications,2013-01-25,,,2026-10-24,https://imsiadmin.com/hni-codes/uintah-basin-electronic-telecommunications-312-290/
+us,312,300,312300,US,"Telecom North America Mobile, Inc","Telecom North America Mobile, Inc",assigned,"Telecom North America Mobile, Inc",2013-01-25,,,2026-10-24,https://imsiadmin.com/hni-codes/telecom-north-america-mobile-inc-312-300/
+us,312,310,312310,US,"Clear Stream Communications, LLC","Clear Stream Communications, LLC",assigned,"Clear Stream Communications, LLC",2013-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/clear-stream-communications-llc-312-310/
+us,312,320,312320,US,"S and R Communications, LLC","S and R Communications, LLC",assigned,"S and R Communications, LLC",2013-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/s-and-r-communications-llc-312-320/
+us,312,330,312330,US,"Nemont Communications, Inc","Nemont Communications, Inc",assigned,"Nemont Communications, Inc",2013-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/nemont-communications-inc-312-330/
+us,312,340,312340,US,,Returned on 10/2/18,returned,Returned on 10/2/18,,2018-10-02,,2026-10-24,https://imsiadmin.com/hni-codes/returned-on-10-2-18-312-340/
+us,312,350,312350,US,"Triangle Communication System, Inc","Triangle Communication System, Inc",assigned,"Triangle Communication System, Inc",2013-03-06,,,2026-10-24,https://imsiadmin.com/hni-codes/triangle-communication-sytem-inc-312-350/
+us,312,360,312360,US,"Wes-Tex Telecommunications, Ltd","Wes-Tex Telecommunications, Ltd",assigned,"Wes-Tex Telecommunications, Ltd",2013-03-06,,,2026-10-24,https://imsiadmin.com/hni-codes/wes-tex-telecommunications-ltd-312-360/
+us,312,370,312370,US,"Commnet Wireless, LLC","Commnet Wireless, LLC",assigned,"Commnet Wireless, LLC",2013-03-14,,,2026-10-24,https://imsiadmin.com/hni-codes/commnet-wireless-312-370/
+us,312,380,312380,US,Copper Valley Wireless,Copper Valley Wireless,assigned,Copper Valley Wireless,2013-03-14,,,2026-10-24,https://imsiadmin.com/hni-codes/copper-valley-wireless-312-380/
+us,312,390,312390,US,"FTC Communications, LLC","FTC Communications, LLC",assigned,"FTC Communications, LLC",2013-03-14,,,2026-10-24,https://imsiadmin.com/hni-codes/ftc-communications-llc-312-390/
+us,312,400,312400,US,,RETURNED 4/20/2022,returned,RETURNED 4/20/2022,2013-03-26,2022-04-20,,2026-10-24,https://imsiadmin.com/hni-codes/mid-rivers-telephone-cooperative-312-400/
+us,312,410,312410,US,"Eltopia Communications, LLC","Eltopia Communications, LLC",assigned,"Eltopia Communications, LLC",2013-04-16,,,2026-10-24,https://imsiadmin.com/hni-codes/eltopia-communications-llc-312-410/
+us,312,420,312420,US,"Nex-Tech Wireless, LLC","Nex-Tech Wireless, LLC",assigned,"Nex-Tech Wireless, LLC",2013-05-06,,,2026-10-24,https://imsiadmin.com/hni-codes/nex-tech-wireless-llc-312-420/
+us,312,430,312430,US,Silver Star Communications,Silver Star Communications,assigned,Silver Star Communications,2013-05-06,,,2026-10-24,https://imsiadmin.com/hni-codes/silver-star-communications-312-430/
+us,312,440,312440,US,,Returned on 10/2/18,returned,Returned on 10/2/18,,2018-10-02,,2026-10-24,https://imsiadmin.com/hni-codes/returned-on-10-2-18-312-440/
+us,312,450,312450,US,Cable & Communications Corporation,Cable & Communications Corporation,assigned,Cable & Communications Corporation,2013-05-15,,,2026-10-24,https://imsiadmin.com/hni-codes/cable-communications-corporation-312-450/
+us,312,460,312460,US,KPU Telecommunications Division,KPU Telecommunications Division,assigned,KPU Telecommunications Division,2013-06-04,,,2026-10-24,https://imsiadmin.com/hni-codes/kpu-telecommunications-division-312-460/
+us,312,470,312470,US,"Carolina West Wireless, Inc","Carolina West Wireless, Inc",assigned,"Carolina West Wireless, Inc",2013-06-14,,,2026-10-24,https://imsiadmin.com/hni-codes/carolina-west-wireless-inc-312-470/
+us,312,480,312480,US,"Sagebrush Cellular, Inc","Sagebrush Cellular, Inc",assigned,"Sagebrush Cellular, Inc",2013-07-29,,,2026-10-24,https://imsiadmin.com/hni-codes/sagebrush-cellular-inc-312-480/
+us,312,490,312490,US,,RETURNED 7/9/2020,returned,RETURNED 7/9/2020,2013-07-29,2020-07-09,,2026-10-24,https://imsiadmin.com/hni-codes/trustcomm-inc-312-490/
+us,312,500,312500,US,,RETURNED - 10/26/2016,returned,RETURNED - 10/26/2016,,2016-10-26,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-26-2016-312-500/
+us,312,510,312510,US,Wue,Wue,assigned,Wue,2013-09-12,,,2026-10-24,https://imsiadmin.com/hni-codes/wue-312-510/
+us,312,520,312520,US,,RETURNED - 10/20/2015,returned,RETURNED - 10/20/2015,,2015-10-20,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-20-2015-312-520/
+us,312,530,312530,US,T-Mobile USA,T-Mobile USA,assigned,T-Mobile USA,2013-10-07,,,2026-10-24,https://imsiadmin.com/hni-codes/t-mobile-usa-312-530/
+us,312,540,312540,US,,RETURNED - 04/26/2016,returned,RETURNED - 04/26/2016,,2016-04-26,,2026-10-24,https://imsiadmin.com/hni-codes/returned-04-26-2016-312-540/
+us,312,550,312550,US,,RETURNED 9/28/23,returned,RETURNED 9/28/23,2013-10-17,2023-09-28,,2026-10-24,https://imsiadmin.com/hni-codes/great-plains-communications-inc-312-550/
+us,312,560,312560,US,,RECLAIMED 06/21/2016,reclaimed,RECLAIMED 06/21/2016,,2016-06-21,,2026-10-24,https://imsiadmin.com/hni-codes/reclaimed-06-21-2016-312-560/
+us,312,570,312570,US,"MHG Telco, LLC","MHG Telco, LLC",assigned,"MHG Telco, LLC",2013-12-02,,,2026-10-24,https://imsiadmin.com/hni-codes/buffalo-lake-erie-wireless-systems-co-llc-312-570/
+us,312,580,312580,US,"Google, LLC","Google, LLC",assigned,"Google, LLC",2013-12-16,,,2026-10-24,https://imsiadmin.com/hni-codes/google-llc-312-580/
+us,312,590,312590,US,Northern Michigan University,Northern Michigan University,assigned,Northern Michigan University,2014-01-20,,,2026-10-24,https://imsiadmin.com/hni-codes/northern-michigan-university-312-590/
+us,312,600,312600,US,"Sagebrush Cellular, Inc","Sagebrush Cellular, Inc",assigned,"Sagebrush Cellular, Inc",2014-02-11,,,2026-10-24,https://imsiadmin.com/hni-codes/sagebrush-cellular-inc-312-600/
+us,312,610,312610,US,,RETURNED 10/08/25 (312-610),returned,RETURNED 10/08/25 (312-610),,2025-10-08,,2026-10-24,https://imsiadmin.com/hni-codes/shawntech-communications-312-610/
+us,312,620,312620,US,"Airlinq, Inc","Airlinq, Inc",assigned,"Airlinq, Inc",2014-02-20,,,2026-10-24,https://imsiadmin.com/hni-codes/globetouch-inc-312-620/
+us,312,630,312630,US,"NetGenuity, Inc","NetGenuity, Inc",assigned,"NetGenuity, Inc",2014-03-26,,,2026-10-24,https://imsiadmin.com/hni-codes/netgenuity-inc-312-630/
+us,312,640,312640,US,,RETURNED 04/26/2016,returned,RETURNED 04/26/2016,,2016-04-26,,2026-10-24,https://imsiadmin.com/hni-codes/returned-04-26-2016-312-640/
+us,312,650,312650,US,Brightlink,Brightlink,assigned,Brightlink,2014-06-25,,,2026-10-24,https://imsiadmin.com/hni-codes/brightlink-312-650/
+us,312,660,312660,US,,RETURNED 09/15/2016,returned,RETURNED 09/15/2016,,2016-09-15,,2026-10-24,https://imsiadmin.com/hni-codes/returned-09-15-2016-312-660/
+us,312,670,312670,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2014-06-25,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-312-670/
+us,312,680,312680,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2014-06-25,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-312-680/
+us,312,690,312690,US,"Tecore Global Services, LLC","Tecore Global Services, LLC",assigned,"Tecore Global Services, LLC",2014-07-03,,,2026-10-24,https://imsiadmin.com/hni-codes/tgs-llc-312-690/
+us,312,700,312700,US,"Wireless Partners, LLC","Wireless Partners, LLC",assigned,"Wireless Partners, LLC",2014-07-30,,,2026-10-24,https://imsiadmin.com/hni-codes/wireless-partnersllc-312-700/
+us,312,710,312710,US,"Great North Woods Wireless, LLC","Great North Woods Wireless, LLC",assigned,"Great North Woods Wireless, LLC",2014-09-02,,,2026-10-24,https://imsiadmin.com/hni-codes/great-north-woods-wireless-llc-312-710/
+us,312,720,312720,US,"Southern Communications Services, Inc. D/B/A Southern L, Inc","Southern Communications Services, Inc. D/B/A Southern L, Inc",assigned,"Southern Communications Services, Inc. D/B/A Southern L, Inc",2014-09-04,,,2026-10-24,https://imsiadmin.com/hni-codes/southern-communications-services-inc-d-b-a-southernlinc-wireless-312-720/
+us,312,730,312730,US,"Triangle Communication System, Inc","Triangle Communication System, Inc",assigned,"Triangle Communication System, Inc",2014-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/triangle-communication-system-inc-312-730/
+us,312,740,312740,US,,RETURNED 11/19/2018,returned,RETURNED 11/19/2018,,2018-11-19,,2026-10-24,https://imsiadmin.com/hni-codes/kddi-america-inc-dba-locus-telecommunications-312-740/
+us,312,750,312750,US,Artemis,Artemis,assigned,Artemis,2014-11-25,,,2026-10-24,https://imsiadmin.com/hni-codes/artemis-312-750/
+us,312,760,312760,US,,RETURNED 1/12/2024,returned,RETURNED 1/12/2024,2014-12-09,2024-01-12,,2026-10-24,https://imsiadmin.com/hni-codes/arctic-slope-telephone-association-cooperative-312-760/
+us,312,770,312770,US,Verizon Wireless,Verizon Wireless,assigned,Verizon Wireless,2014-12-10,,,2026-10-24,https://imsiadmin.com/hni-codes/verizon-wireless-312-770/
+us,312,780,312780,US,"RedZone Wireless, LLC","RedZone Wireless, LLC",assigned,"RedZone Wireless, LLC",2014-12-23,,,2026-10-24,https://imsiadmin.com/hni-codes/redzone-wireless-llc-312-780/
+us,312,790,312790,US,Gila Electronics,Gila Electronics,assigned,Gila Electronics,2015-02-10,,,2026-10-24,https://imsiadmin.com/hni-codes/gila-electronics-312-790/
+us,312,800,312800,US,Cirrus Core Networks,Cirrus Core Networks,assigned,Cirrus Core Networks,2015-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/cirrus-core-networks-312-800/
+us,312,810,312810,US,,RETURNED 12/19/2024 (312-810),returned,RETURNED 12/19/2024 (312-810),2015-03-02,2024-12-19,,2026-10-24,https://imsiadmin.com/hni-codes/bristol-bay-telephone-cooperative-312-810/
+us,312,820,312820,US,,RETURNED 2/22/2022,returned,RETURNED 2/22/2022,2015-03-02,2022-02-22,,2026-10-24,https://imsiadmin.com/hni-codes/santel-communications-cooperative-inc-312-820/
+us,312,830,312830,US,Kings County Office of Education,Kings County Office of Education,assigned,Kings County Office of Education,2015-03-18,,,2026-10-24,https://imsiadmin.com/hni-codes/kings-county-office-of-education-312-830/
+us,312,840,312840,US,South Georgia Regional Information Technology Authority,South Georgia Regional Information Technology Authority,assigned,South Georgia Regional Information Technology Authority,2015-04-09,,,2026-10-24,https://imsiadmin.com/hni-codes/south-georgia-regional-information-technology-312-840/
+us,312,850,312850,US,"Onvoy Spectrum, LLC","Onvoy Spectrum, LLC",assigned,"Onvoy Spectrum, LLC",2015-04-27,,,2026-10-24,https://imsiadmin.com/hni-codes/onvoy-spectrum-llc-312-850/
+us,312,860,312860,US,,Returned 07/29/19,returned,Returned 07/29/19,2019-07-19,2019-07-29,,2026-10-24,https://imsiadmin.com/hni-codes/returned-07-29-19-312-860/
+us,312,870,312870,US,"Gigsky, Inc","Gigsky, Inc",assigned,"Gigsky, Inc",2015-06-04,,,2026-10-24,https://imsiadmin.com/hni-codes/gigsky-mobile-llc-312-870/
+us,312,880,312880,US,Albemarle County Public Schools,Albemarle County Public Schools,assigned,Albemarle County Public Schools,2015-06-23,,,2026-10-24,https://imsiadmin.com/hni-codes/albemarle-county-public-schools-312-880/
+us,312,890,312890,US,Circle Gx,Circle Gx,assigned,Circle Gx,2015-07-09,,,2026-10-24,https://imsiadmin.com/hni-codes/circle-gx-312-890/
+us,312,900,312900,US,"Flat West Wireless, LLC","Flat West Wireless, LLC",assigned,"Flat West Wireless, LLC",2015-07-09,,,2026-10-24,https://imsiadmin.com/hni-codes/flat-west-wireless-llc-312-900/
+us,312,910,312910,US,"East Kentucky Network, LLC dba Appalachian Wireless","East Kentucky Network, LLC dba Appalachian Wireless",assigned,"East Kentucky Network, LLC dba Appalachian Wireless",2015-08-11,,,2026-10-24,https://imsiadmin.com/hni-codes/east-kentucky-network-llc-dba-appalachian-wireless-312-910/
+us,312,920,312920,US,,Returned 10/05/20,returned,Returned 10/05/20,2015-09-02,2020-10-05,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-05-20-312-920/
+us,312,930,312930,US,Hewlett Packard Enterprise (HNI),Hewlett Packard Enterprise (HNI),assigned,Hewlett Packard Enterprise (HNI),2015-10-07,,,2026-10-24,https://imsiadmin.com/hni-codes/hewlett-packard-enterprise-312-930/
+us,312,940,312940,US,,Returned 10/06/20,returned,Returned 10/06/20,2020-10-06,2020-10-06,,2026-10-24,https://imsiadmin.com/hni-codes/returned-10-06-20-312-940/
+us,312,950,312950,US,"Custer Telephone Cooperative, Inc","Custer Telephone Cooperative, Inc",assigned,"Custer Telephone Cooperative, Inc",2015-11-05,,,2026-10-24,https://imsiadmin.com/hni-codes/custer-telephone-cooperative-inc-312-950/
+us,312,960,312960,US,,RETURNED 2/25/2022 (312-960),returned,RETURNED 2/25/2022 (312-960),2015-11-05,2022-02-25,,2026-10-24,https://imsiadmin.com/hni-codes/ma-technology-inc-312-960/
+us,312,970,312970,US,"IOSAZ Intellectual Property, LLC","IOSAZ Intellectual Property, LLC",assigned,"IOSAZ Intellectual Property, LLC",2015-12-17,,,2026-10-24,https://imsiadmin.com/hni-codes/iosaz-intellectual-property-llc-312-970/
+us,312,980,312980,US,Mark Twain Communications Company,Mark Twain Communications Company,assigned,Mark Twain Communications Company,2016-02-12,,,2026-10-24,https://imsiadmin.com/hni-codes/mark-twain-communications-company-312-980/
+us,312,990,312990,US,,RETURNED 9/22/23,returned,RETURNED 9/22/23,2016-02-15,2023-09-22,,2026-10-24,https://imsiadmin.com/hni-codes/premier-holdings-llc-312-990/
+us,313,000,313000,US,,RETURNED 4/27/2022,returned,RETURNED 4/27/2022,2016-02-25,2022-04-27,,2026-10-24,https://imsiadmin.com/hni-codes/tennessee-wireless-313-000/
+us,313,010,313010,US,"Cross Wireless, LLC dba Bravado Wireless","Cross Wireless, LLC dba Bravado Wireless",assigned,"Cross Wireless, LLC dba Bravado Wireless",2016-04-07,,,2026-10-24,https://imsiadmin.com/hni-codes/cross-wireless-llc-dba-sprocket-wireless-313-010/
+us,313,020,313020,US,"CTC Telecom, INC. dba CTC Wireless","CTC Telecom, INC. dba CTC Wireless",assigned,"CTC Telecom, INC. dba CTC Wireless",2016-05-04,,,2026-10-24,https://imsiadmin.com/hni-codes/ctc-telecom-inc-dba-ctc-wireless-313-020/
+us,313,030,313030,US,,RETURNED 11/6/19 (313-030),returned,RETURNED 11/6/19 (313-030),,2019-11-06,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-313-030/
+us,313,040,313040,US,Nucla-Naturita Telephone Company,Nucla-Naturita Telephone Company,assigned,Nucla-Naturita Telephone Company,2016-05-11,,,2026-10-24,https://imsiadmin.com/hni-codes/nucla-naturita-telephone-company-313-040/
+us,313,050,313050,US,,Returned 08/08/19,returned,Returned 08/08/19,2019-08-08,2019-08-08,,2026-10-24,https://imsiadmin.com/hni-codes/returned-08-08-19-313-050/
+us,313,060,313060,US,Country Wireless,Country Wireless,assigned,Country Wireless,2016-07-07,,,2026-10-24,https://imsiadmin.com/hni-codes/country-wireless-313-060/
+us,313,061,313061,US,Country Wireless,Country Wireless,assigned,Country Wireless,2017-09-28,,,2026-10-24,https://imsiadmin.com/hni-codes/country-wireless-313-061/
+us,313,070,313070,US,"Midwest Network Solutions Hub, LLC","Midwest Network Solutions Hub, LLC",assigned,"Midwest Network Solutions Hub, LLC",2016-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/midwest-network-solutions-hub-llc-313-070/
+us,313,080,313080,US,,RETURNED 09/30/2022 (313-080),returned,RETURNED 09/30/2022 (313-080),2016-09-08,2022-09-30,,2026-10-24,https://imsiadmin.com/hni-codes/speedwavz-llp-313-080/
+us,313,090,313090,US,"Vivint Wireless, Inc","Vivint Wireless, Inc",assigned,"Vivint Wireless, Inc",2016-10-05,,,2026-10-24,https://imsiadmin.com/hni-codes/vivint-wireless-inc-313-090/
+us,313,100,313100,US,AT&T FirstNet,AT&T FirstNet,assigned,AT&T FirstNet,2012-03-31,,,2026-10-24,https://imsiadmin.com/hni-codes/att-firstnet-313-100/
+us,313,110,313110,US,AT&T FirstNet,AT&T FirstNet,assigned,AT&T FirstNet,2017-11-30,,,2026-10-24,https://imsiadmin.com/hni-codes/att-firstnet-313-110/
+us,313,120,313120,US,AT&T FirstNet,AT&T FirstNet,assigned,AT&T FirstNet,2017-11-30,,,2026-10-24,https://imsiadmin.com/hni-codes/att-firstnet-313-120/
+us,313,130,313130,US,AT&T FirstNet,AT&T FirstNet,assigned,AT&T FirstNet,2017-11-30,,,2026-10-24,https://imsiadmin.com/hni-codes/att-firstnet-313-130/
+us,313,140,313140,US,AT&T FirstNet,AT&T FirstNet,assigned,AT&T FirstNet,2017-11-30,,,2026-10-24,https://imsiadmin.com/hni-codes/att-firstnet-313-140/
+us,313,150,313150,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-313-150/
+us,313,160,313160,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-313-160/
+us,313,170,313170,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-313-170/
+us,313,180,313180,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-313-180/
+us,313,190,313190,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-313-190/
+us,313,200,313200,US,,RETURNED 4/3/2023,returned,RETURNED 4/3/2023,2016-10-12,2023-04-03,,2026-10-24,https://imsiadmin.com/hni-codes/mercury-network-corporation-313-200/
+us,313,210,313210,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2016-11-01,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-313-210/
+us,313,220,313220,US,"Custer Telephone Cooperative, Inc","Custer Telephone Cooperative, Inc",assigned,"Custer Telephone Cooperative, Inc",2017-03-29,,,2026-10-24,https://imsiadmin.com/hni-codes/custer-telephone-cooperativeinc-313-220/
+us,313,230,313230,US,"Velocity Communications, Inc","Velocity Communications, Inc",assigned,"Velocity Communications, Inc",2017-04-11,,,2026-10-24,https://imsiadmin.com/hni-codes/velocity-communications-inc-313-230/
+us,313,240,313240,US,,RETURNED 10/01/25 (313-240),returned,RETURNED 10/01/25 (313-240),2017-05-08,2025-10-01,,2026-10-24,https://imsiadmin.com/hni-codes/fundamental-holdings-corp-313-240/
+us,313,250,313250,US,Imperial County Office of Education,Imperial County Office of Education,assigned,Imperial County Office of Education,2017-06-08,,,2026-10-24,https://imsiadmin.com/hni-codes/imperial-county-office-of-education-313-250/
+us,313,260,313260,US,"Expeto Wireless, Inc","Expeto Wireless, Inc",assigned,"Expeto Wireless, Inc",2017-06-13,,,2026-10-24,https://imsiadmin.com/hni-codes/expeto-wireless-inc-313-260/
+us,313,270,313270,US,,RETURNED - 05/4/2018,returned,RETURNED - 05/4/2018,,2018-05-04,,2026-10-24,https://imsiadmin.com/hni-codes/returned-05-4-2018-313-270/
+us,313,280,313280,US,"King Street Wireless, LP","King Street Wireless, LP",assigned,"King Street Wireless, LP",2017-08-15,,,2026-10-24,https://imsiadmin.com/hni-codes/king-street-wireless-lp-313-280/
+us,313,290,313290,US,,RECLAIMED 12/15/25 (313-290),reclaimed,RECLAIMED 12/15/25 (313-290),2017-08-22,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/gulf-coast-broadband-llc-313-290/
+us,313,300,313300,US,Southern California Edison,Southern California Edison,assigned,Southern California Edison,2022-04-04,,,2026-10-24,https://imsiadmin.com/hni-codes/southern-california-edison-313-300/
+us,313,320,313320,US,Paladin Wireless,Paladin Wireless,assigned,Paladin Wireless,2017-10-10,,,2026-10-24,https://imsiadmin.com/hni-codes/paladin-wireless-313-320/
+us,313,330,313330,US,"CenturyTel Broadband Services, LLC","CenturyTel Broadband Services, LLC",assigned,"CenturyTel Broadband Services, LLC",2017-10-23,,,2026-10-24,https://imsiadmin.com/hni-codes/centurytel-broadband-services-llc-313-330/
+us,313,340,313340,US,Dish Network,Dish Network,assigned,Dish Network,2017-10-26,,,2026-10-24,https://imsiadmin.com/hni-codes/dish-network-313-340/
+us,313,350,313350,US,Dish Network,Dish Network,assigned,Dish Network,2017-10-26,,,2026-10-24,https://imsiadmin.com/hni-codes/dish-network-313-350/
+us,313,360,313360,US,Dish Network,Dish Network,assigned,Dish Network,2017-10-26,,,2026-10-24,https://imsiadmin.com/hni-codes/dish-network-313-360/
+us,313,370,313370,US,"Red Truck Wireless, LLC","Red Truck Wireless, LLC",assigned,"Red Truck Wireless, LLC",2017-10-31,,,2026-10-24,https://imsiadmin.com/hni-codes/red-truck-wireless-llc-313-370/
+us,313,380,313380,US,"OptimERA, Inc","OptimERA, Inc",assigned,"OptimERA, Inc",2018-01-09,,,2026-10-24,https://imsiadmin.com/hni-codes/optimera-inc-313-380/
+us,313,390,313390,US,"Altice USA Wireless, Inc","Altice USA Wireless, Inc",assigned,"Altice USA Wireless, Inc",2018-02-05,,,2026-10-24,https://imsiadmin.com/hni-codes/altice-usa-wireless-inc-313-390/
+us,313,400,313400,US,"Texoma Communications, LLC","Texoma Communications, LLC",assigned,"Texoma Communications, LLC",2018-02-05,,,2026-10-24,https://imsiadmin.com/hni-codes/texoma-communications-llc-313-400/
+us,313,410,313410,US,"Anterix, Inc","Anterix, Inc",assigned,"Anterix, Inc",2018-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/pdvwireless-313-410/
+us,313,420,313420,US,Hudson Valley Wireless,Hudson Valley Wireless,assigned,Hudson Valley Wireless,2018-08-27,,,2026-10-24,https://imsiadmin.com/hni-codes/hudson-valley-wireless-313-420/
+us,313,440,313440,US,,RETURNED 09/24/25 (313-440),returned,RETURNED 09/24/25 (313-440),2018-09-21,2025-09-24,,2026-10-24,https://imsiadmin.com/hni-codes/arvig-enterprises-inc-313-440/
+us,313,450,313450,US,"Spectrum Wireless Holdings, LLC","Spectrum Wireless Holdings, LLC",assigned,"Spectrum Wireless Holdings, LLC",2018-09-25,,,2026-10-24,https://imsiadmin.com/hni-codes/spectrum-wireless-holdings-llc-313-450/
+us,313,460,313460,US,Minute Wireless LLC,Minute Wireless LLC,assigned,Minute Wireless LLC,2018-09-25,,,2026-10-24,https://imsiadmin.com/hni-codes/mobi-inc-313-460/
+us,313,470,313470,US,San Diego Gas & Electric Company,San Diego Gas & Electric Company,assigned,San Diego Gas & Electric Company,2018-11-08,,,2026-10-24,https://imsiadmin.com/hni-codes/san-diego-gas-electric-company-313-470/
+us,313,480,313480,US,"Ready Wireless, LLC","Ready Wireless, LLC",assigned,"Ready Wireless, LLC",2018-11-12,,,2026-10-24,https://imsiadmin.com/hni-codes/ready-wireless-llc-313-480/
+us,313,490,313490,US,,RECLAIMED 12/15/25 (313-490),reclaimed,RECLAIMED 12/15/25 (313-490),2018-11-20,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/puloli-inc-313-490/
+us,313,500,313500,US,"Shelcomm, Inc","Shelcomm, Inc",assigned,"Shelcomm, Inc",2018-12-03,,,2026-10-24,https://imsiadmin.com/hni-codes/shelcomm-inc-313-500/
+us,313,510,313510,US,Puerto Rico Telephone Company,Puerto Rico Telephone Company,assigned,Puerto Rico Telephone Company,2019-01-09,,,2026-10-24,https://imsiadmin.com/hni-codes/puerto-rico-telephone-company-313-510/
+us,313,520,313520,US,,RECLAIMED 3/7/2023,reclaimed,RECLAIMED 3/7/2023,5054-02-12,2023-03-07,,2026-10-24,https://imsiadmin.com/hni-codes/florida-broadband-inc-313-520/
+us,313,530,313530,US,,Available for Assignment,available,Available for Assignment,,,,2026-10-24,https://imsiadmin.com/hni-codes/available-for-assignment-313-530/
+us,313,540,313540,US,"Nokia Innovations US, LLC","Nokia Innovations US, LLC",assigned,"Nokia Innovations US, LLC",2019-01-29,,,2026-10-24,https://imsiadmin.com/hni-codes/nokia-innovations-us-llc-313-540/
+us,313,550,313550,US,"Mile High Networks, LLC","Mile High Networks, LLC",assigned,"Mile High Networks, LLC",2019-03-12,,,2026-10-24,https://imsiadmin.com/hni-codes/mile-high-networks-llc-313-550/
+us,313,560,313560,US,"Boldyn Networks Transit US, LLC","Boldyn Networks Transit US, LLC",assigned,"Boldyn Networks Transit US, LLC",2019-03-18,,,2026-10-24,https://imsiadmin.com/hni-codes/transit-wireless-llc-313-560/
+us,313,570,313570,US,,RETURNED 2/21/2024,returned,RETURNED 2/21/2024,2019-03-28,2024-02-21,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-network-partnersjip-313-570/
+us,313,580,313580,US,"Telecall Telecommuncations, Corp","Telecall Telecommuncations, Corp",assigned,"Telecall Telecommuncations, Corp",2019-04-16,,,2026-10-24,https://imsiadmin.com/hni-codes/telecall-telecommuncations-corp-313-580/
+us,313,590,313590,US,"Southern Communications Services, Inc. D/B/A Southern L, Inc","Southern Communications Services, Inc. D/B/A Southern L, Inc",assigned,"Southern Communications Services, Inc. D/B/A Southern L, Inc",2019-04-22,,,2026-10-24,https://imsiadmin.com/hni-codes/southern-communications-services-inc-d-b-a-southern-linc-313-590/
+us,313,600,313600,US,,RETURNED 12/31/2023,returned,RETURNED 12/31/2023,2019-07-31,2023-12-31,,2026-10-24,https://imsiadmin.com/hni-codes/st-engineering-idirect-313-600/
+us,313,610,313610,US,"Point Broadband Fiber Holding, LLC","Point Broadband Fiber Holding, LLC",assigned,"Point Broadband Fiber Holding, LLC",2019-07-29,,,2026-10-24,https://imsiadmin.com/hni-codes/crystal-automation-systems-inc-313-610/
+us,313,620,313620,US,Omniprophis Corporation,Omniprophis Corporation,assigned,Omniprophis Corporation,2019-08-20,,,2026-10-24,https://imsiadmin.com/hni-codes/omniprophis-corporation-313-620/
+us,313,630,313630,US,LICT Corporation,LICT Corporation,assigned,LICT Corporation,2019-08-23,,,2026-10-24,https://imsiadmin.com/hni-codes/lict-corporation-313-630/
+us,313,640,313640,US,Geoverse,Geoverse,assigned,Geoverse,2019-08-30,,,2026-10-24,https://imsiadmin.com/hni-codes/geoverse-313-640/
+us,313,650,313650,US,"Chevron USA, Inc","Chevron USA, Inc",assigned,"Chevron USA, Inc",2019-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/chevron-usa-inc-313-650/
+us,313,660,313660,US,,RETURNED 12/2/25 (313-660),returned,RETURNED 12/2/25 (313-660),2019-09-23,2025-12-02,,2026-10-24,https://imsiadmin.com/hni-codes/hudson-valley-wireless-313-660/
+us,313,670,313670,US,,RETURNED 12/2/25 (313-670),returned,RETURNED 12/2/25 (313-670),2019-09-23,2025-12-02,,2026-10-24,https://imsiadmin.com/hni-codes/hudson-valley-wireless-313-670/
+us,313,680,313680,US,,RETURNED 12/2/25 (313-680),returned,RETURNED 12/2/25 (313-680),2019-09-23,2025-12-02,,2026-10-24,https://imsiadmin.com/hni-codes/hudson-valley-wireless-313-680/
+us,313,690,313690,US,,RETURNED 10/01/25 (313-690),returned,RETURNED 10/01/25 (313-690),2019-10-17,2025-10-01,,2026-10-24,https://imsiadmin.com/hni-codes/shenandoah-cable-television-llc-313-690/
+us,313,700,313700,US,Ameren Services Company,Ameren Services Company,assigned,Ameren Services Company,2019-10-15,,,2026-10-24,https://imsiadmin.com/hni-codes/ameren-services-company-313-700/
+us,313,710,313710,US,Extenet Systems,Extenet Systems,assigned,Extenet Systems,2019-10-31,,,2026-10-24,https://imsiadmin.com/hni-codes/extenet-systems-313-710/
+us,313,720,313720,US,"1st Point Communications, LLC","1st Point Communications, LLC",assigned,"1st Point Communications, LLC",2019-11-05,,,2026-10-24,https://imsiadmin.com/hni-codes/1st-point-communications-llc-313-720/
+us,313,730,313730,US,TruAccess Networks,TruAccess Networks,assigned,TruAccess Networks,2019-12-06,,,2026-10-24,https://imsiadmin.com/hni-codes/truaccess-networks-313-730/
+us,313,740,313740,US,RTO Wireless,RTO Wireless,assigned,RTO Wireless,2020-01-06,,,2026-10-24,https://imsiadmin.com/hni-codes/rto-wireless-313-740/
+us,313,750,313750,US,"CellTex Networks, LLC","CellTex Networks, LLC",assigned,"CellTex Networks, LLC",2020-01-14,,,2026-10-24,https://imsiadmin.com/hni-codes/celltex-networks-llc-313-750/
+us,313,760,313760,US,Hologram,Hologram,assigned,Hologram,2020-01-14,,,2026-10-24,https://imsiadmin.com/hni-codes/hologram-313-760/
+us,313,770,313770,US,Tango networks,Tango networks,assigned,Tango networks,2020-01-28,,,2026-10-24,https://imsiadmin.com/hni-codes/tango-networks-313-770/
+us,313,780,313780,US,"Windstream Services, LLC","Windstream Services, LLC",assigned,"Windstream Services, LLC",2020-02-17,,,2026-10-24,https://imsiadmin.com/hni-codes/windstream-services-llc-313-780/
+us,313,790,313790,US,"Liberty Cablevision of Puerto Rico, LLC","Liberty Cablevision of Puerto Rico, LLC",assigned,"Liberty Cablevision of Puerto Rico, LLC",2020-02-21,,,2026-10-24,https://imsiadmin.com/hni-codes/liberty-cablevision-of-puerto-rico-llc-313-790/
+us,313,800,313800,US,,RETURNED 3/22/2023,returned,RETURNED 3/22/2023,2020-03-02,2023-03-22,,2026-10-24,https://imsiadmin.com/hni-codes/future-wireless-technologies-of-nebraska-313-800/
+us,313,810,313810,US,W.A.T.C.H. TV Co. dba Watch Communications,W.A.T.C.H. TV Co. dba Watch Communications,assigned,W.A.T.C.H. TV Co. dba Watch Communications,2020-03-03,,,2026-10-24,https://imsiadmin.com/hni-codes/w-a-t-c-h-tv-co-dba-watch-communications-313-810/
+us,313,820,313820,US,Inland Cellular Telephone Company,Inland Cellular Telephone Company,assigned,Inland Cellular Telephone Company,2020-03-05,,,2026-10-24,https://imsiadmin.com/hni-codes/inland-cellular-telephone-company-313-820/
+us,313,830,313830,US,"360 Communications, Inc","360 Communications, Inc",assigned,"360 Communications, Inc",2020-04-14,,,2026-10-24,https://imsiadmin.com/hni-codes/360-communications-inc-313-830/
+us,313,840,313840,US,Celblox Acquisitions,Celblox Acquisitions,assigned,Celblox Acquisitions,2020-04-16,,,2026-10-24,https://imsiadmin.com/hni-codes/celblox-acquisitions-313-840/
+us,313,850,313850,US,"Softcom Internet Communications, Inc","Softcom Internet Communications, Inc",assigned,"Softcom Internet Communications, Inc",2020-05-04,,,2026-10-24,https://imsiadmin.com/hni-codes/softcom-internet-communications-inc-313-850/
+us,313,860,313860,US,"AMG Technology Investment Group, LLC dba Nextlink Internet","AMG Technology Investment Group, LLC dba Nextlink Internet",assigned,"AMG Technology Investment Group, LLC dba Nextlink Internet",2020-07-15,,,2026-10-24,https://imsiadmin.com/hni-codes/amg-technology-investment-group-dba-nextlink-internet-313-860/
+us,313,870,313870,US,,RECLAIMED 12/15/25 (313-870),reclaimed,RECLAIMED 12/15/25 (313-870),2020-07-31,2025-12-15,,2026-10-24,https://imsiadmin.com/hni-codes/elektrafi-llc-313-870/
+us,313,880,313880,US,"Shuttle Wireless Solutions, Inc","Shuttle Wireless Solutions, Inc",assigned,"Shuttle Wireless Solutions, Inc",2020-08-05,,,2026-10-24,https://imsiadmin.com/hni-codes/shuttle-wireless-solutions-inc-313-880/
+us,313,890,313890,US,Tulare County Office of Education,Tulare County Office of Education,assigned,Tulare County Office of Education,2020-08-13,,,2026-10-24,https://imsiadmin.com/hni-codes/tulare-county-office-of-education-313-890/
+us,313,900,313900,US,All Tribal Networks,All Tribal Networks,assigned,All Tribal Networks,2020-08-19,,,2026-10-24,https://imsiadmin.com/hni-codes/all-tribal-networks-313-900/
+us,313,910,313910,US,San Diego Gas & Electric Company,San Diego Gas & Electric Company,assigned,San Diego Gas & Electric Company,2020-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/san-diego-gas-and-electric-313-910/
+us,313,920,313920,US,"JCI US, Inc","JCI US, Inc",assigned,"JCI US, Inc",2020-11-18,,,2026-10-24,https://imsiadmin.com/hni-codes/jci-us-inc-313-920/
+us,313,930,313930,US,Standing Rock Telecommunications,Standing Rock Telecommunications,assigned,Standing Rock Telecommunications,2020-11-25,,,2026-10-24,https://imsiadmin.com/hni-codes/standing-rock-telecom-313-930/
+us,313,940,313940,US,"Motorola Solutions, Inc","Motorola Solutions, Inc",assigned,"Motorola Solutions, Inc",2020-12-04,,,2026-10-24,https://imsiadmin.com/hni-codes/motorola-solutions-inc-313-940/
+us,313,950,313950,US,Cheyenne and Arapaho Development Group,Cheyenne and Arapaho Development Group,assigned,Cheyenne and Arapaho Development Group,2020-12-04,,,2026-10-24,https://imsiadmin.com/hni-codes/cheyenne-and-arapaho-development-group-313-950/
+us,313,960,313960,US,"Townes 5G, LLC","Townes 5G, LLC",assigned,"Townes 5G, LLC",2020-12-17,,,2026-10-24,https://imsiadmin.com/hni-codes/townes-5g-llc-313-960/
+us,313,970,313970,US,Tychron Corporation,Tychron Corporation,assigned,Tychron Corporation,2020-12-23,,,2026-10-24,https://imsiadmin.com/hni-codes/tychron-corporation-313-970/
+us,313,990,313990,US,Ericsson US,Ericsson US,assigned,Ericsson US,2021-03-31,,,2026-10-24,https://imsiadmin.com/hni-codes/ericsson-us-313-990/
+us,314,010,314010,US,"Boingo Wireless, Inc","Boingo Wireless, Inc",assigned,"Boingo Wireless, Inc",2019-05-02,,,2026-10-24,https://imsiadmin.com/hni-codes/boingo-wireless-inc-314-010/
+us,314,020,314020,US,"Spectrum Wireless Holdings, LLC","Spectrum Wireless Holdings, LLC",assigned,"Spectrum Wireless Holdings, LLC",2019-05-15,,,2026-10-24,https://imsiadmin.com/hni-codes/spectrum-wireless-holdings-llc-314-020/
+us,314,030,314030,US,"Baicells Technologies North America, Inc","Baicells Technologies North America, Inc",assigned,"Baicells Technologies North America, Inc",2019-07-29,,,2026-10-24,https://imsiadmin.com/hni-codes/baicells-technologies-north-america-inc-314-030/
+us,314,060,314060,US,Texas A&M University System – RELLIS Campus,Texas A&M University System - RELLIS Campus,assigned,Texas A&M University System - RELLIS Campus,2021-05-21,,,2026-10-24,https://imsiadmin.com/hni-codes/texas-am-university-system-rellis-campus-314-060/
+us,314,070,314070,US,Texas A&M University System – RELLIS Campus,Texas A&M University System - RELLIS Campus,assigned,Texas A&M University System - RELLIS Campus,2021-05-25,,,2026-10-24,https://imsiadmin.com/hni-codes/texas-am-university-system-rellis-campus-314-070/
+us,314,080,314080,US,Texas A&M University System – RELLIS Campus,Texas A&M University System - RELLIS Campus,assigned,Texas A&M University System - RELLIS Campus,2021-05-21,,,2026-10-24,https://imsiadmin.com/hni-codes/texas-am-university-system-rellis-campus-314-080/
+us,314,090,314090,US,"Southern Communications Services, Inc. D/B/A Southern L, Inc","Southern Communications Services, Inc. D/B/A Southern L, Inc",assigned,"Southern Communications Services, Inc. D/B/A Southern L, Inc",2021-09-16,,,2026-10-24,https://imsiadmin.com/hni-codes/southern-communications-services-inc-d-b-a-southern-linc-314-090/
+us,314,100,314100,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-100/
+us,314,110,314110,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-110/
+us,314,120,314120,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-120/
+us,314,130,314130,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-130/
+us,314,140,314140,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-140/
+us,314,150,314150,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-150/
+us,314,160,314160,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-160/
+us,314,170,314170,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-170/
+us,314,180,314180,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-180/
+us,314,190,314190,US,RESERVED FOR PUBLIC SAFETY,RESERVED FOR PUBLIC SAFETY,reserved,RESERVED FOR PUBLIC SAFETY,,,,2026-10-24,https://imsiadmin.com/hni-codes/reserved-for-public-safety-314-190/
+us,314,200,314200,US,XF Wireless Investments (314-200),XF Wireless Investments (314-200),assigned,XF Wireless Investments (314-200),2021-10-08,,,2026-10-24,https://imsiadmin.com/hni-codes/xf-wireless-investments-314-200/
+us,314,210,314210,US,Telecom Resource Center,Telecom Resource Center,assigned,Telecom Resource Center,2021-10-08,,,2026-10-24,https://imsiadmin.com/hni-codes/telecom-resource-center-314-210/
+us,314,220,314220,US,Secrus Technologies,Secrus Technologies,assigned,Secrus Technologies,2021-10-08,,,2026-10-24,https://imsiadmin.com/hni-codes/secrus-technologies-314-220/
+us,314,230,314230,US,Trace-Tek,Trace-Tek,assigned,Trace-Tek,2021-12-13,,,2026-10-24,https://imsiadmin.com/hni-codes/trace-tek-314-230/
+us,314,240,314240,US,XF Wireless Investments (314-200),XF Wireless Investments (314-200),assigned,XF Wireless Investments (314-200),2022-02-11,,,2026-10-24,https://imsiadmin.com/hni-codes/xf-wireless-investments-314-240/
+us,314,260,314260,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2022-03-24,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-314-260/
+us,314,270,314270,US,AT&T Mobility,AT&T Mobility,assigned,AT&T Mobility,2022-03-24,,,2026-10-24,https://imsiadmin.com/hni-codes/att-mobility-314-270/
+us,314,280,314280,US,"Pollen Mobile, LLC","Pollen Mobile, LLC",assigned,"Pollen Mobile, LLC",2022-03-24,,,2026-10-24,https://imsiadmin.com/hni-codes/pollen-mobile-llc-314-280/
+us,314,290,314290,US,Wave,Wave,assigned,Wave,2022-03-31,,,2026-10-24,https://imsiadmin.com/hni-codes/wave-314-290/
+us,314,310,314310,US,"Terranet Communications, LLC","Terranet Communications, LLC",assigned,"Terranet Communications, LLC",2022-04-13,,,2026-10-24,https://imsiadmin.com/hni-codes/terranet-313-310/
+us,314,320,314320,US,"Agri-Valley Communications, Inc","Agri-Valley Communications, Inc",assigned,"Agri-Valley Communications, Inc",2022-05-17,,,2026-10-24,https://imsiadmin.com/hni-codes/agri-valley-communications-inc-314-320/
+us,314,330,314330,US,"Nova Labs, Inc","Nova Labs, Inc",assigned,"Nova Labs, Inc",2022-05-25,,,2026-10-24,https://imsiadmin.com/hni-codes/fredomfi-inc-314-330/
+us,314,340,314340,US,"E-MARCONI, LLC","E-MARCONI, LLC",assigned,"E-MARCONI, LLC",2022-07-22,,,2026-10-24,https://imsiadmin.com/hni-codes/e-marconi-llc-314-340/
+us,314,350,314350,US,Evergy,Evergy,assigned,Evergy,2022-08-18,,,2026-10-24,https://imsiadmin.com/hni-codes/evergy-314-350/
+us,314,360,314360,US,"Oceus Networks, LLC","Oceus Networks, LLC",assigned,"Oceus Networks, LLC",2022-09-02,,,2026-10-24,https://imsiadmin.com/hni-codes/oceus-networks-llc-314-360/
+us,314,370,314370,US,Texas A&M University – ITEC,Texas A&M University - ITEC,assigned,Texas A&M University - ITEC,2022-09-29,,,2026-10-24,https://imsiadmin.com/hni-codes/3199/
+us,314,380,314380,US,"Circle Computer Resources, Inc","Circle Computer Resources, Inc",assigned,"Circle Computer Resources, Inc",2022-12-16,,,2026-10-24,https://imsiadmin.com/hni-codes/circle-computer-resources-inc-314-380/
+us,314,390,314390,US,AT&T,AT&T,assigned,AT&T,2023-01-23,,,2026-10-24,https://imsiadmin.com/hni-codes/att-314-390/
+us,314,400,314400,US,"Cellular South, Inc. dba C Spire","Cellular South, Inc. dba C Spire",assigned,"Cellular South, Inc. dba C Spire",2023-01-23,,,2026-10-24,https://imsiadmin.com/hni-codes/cellular-south-inc-dba-c-spire-314-400/
+us,314,410,314410,US,"Peeringhub, Inc","Peeringhub, Inc",assigned,"Peeringhub, Inc",2023-02-16,,,2026-10-24,https://imsiadmin.com/hni-codes/peeringhub-inc-314-410/
+us,314,420,314420,US,"Cox Communications, Inc","Cox Communications, Inc",assigned,"Cox Communications, Inc",2023-03-31,,,2026-10-24,https://imsiadmin.com/hni-codes/cox-communications-inc-314-420/
+us,314,430,314430,US,"Highway9 Networks, Inc","Highway9 Networks, Inc",assigned,"Highway9 Networks, Inc",2023-04-10,,,2026-10-24,https://imsiadmin.com/hni-codes/highway9-networks-inc-314-430/
+us,314,440,314440,US,"Tecore Global Services, LLC","Tecore Global Services, LLC",assigned,"Tecore Global Services, LLC",2023-05-05,,,2026-10-24,https://imsiadmin.com/hni-codes/tecore-global-services-llc-314-440/
+us,314,450,314450,US,"NUWAVE Communications, Inc","NUWAVE Communications, Inc",assigned,"NUWAVE Communications, Inc",2023-06-22,,,2026-10-24,https://imsiadmin.com/hni-codes/nuwave-communications-inc-314-450/
+us,314,460,314460,US,Texas A&M University,Texas A&M University,assigned,Texas A&M University,2023-07-03,,,2026-10-24,https://imsiadmin.com/hni-codes/texas-am-university-314-460/
+us,314,470,314470,US,"Manhattan Telecommunications Corporation, LLC","Manhattan Telecommunications Corporation, LLC",assigned,"Manhattan Telecommunications Corporation, LLC",2023-07-12,,,2026-10-24,https://imsiadmin.com/hni-codes/manhattan-telecommunications-corporation-llc-314-470/
+us,314,480,314480,US,"Xcel Energy Services, Inc","Xcel Energy Services, Inc",assigned,"Xcel Energy Services, Inc",2023-07-28,,,2026-10-24,https://imsiadmin.com/hni-codes/xcel-energy-services-inc-314-480/
+us,314,490,314490,US,Utah Education and Telehealth Network,Utah Education and Telehealth Network,assigned,Utah Education and Telehealth Network,2023-08-04,,,2026-10-24,https://imsiadmin.com/hni-codes/utah-education-and-telehealth-network-uetn-314-490/
+us,314,500,314500,US,"Aetheros, Inc","Aetheros, Inc",assigned,"Aetheros, Inc",2023-09-05,,,2026-10-24,https://imsiadmin.com/hni-codes/aetheros-inc-314-500/
+us,314,510,314510,US,"SI Wireless, LLC","SI Wireless, LLC",assigned,"SI Wireless, LLC",2023-09-08,,,2026-10-24,https://imsiadmin.com/hni-codes/si-wireless-llc-314-510/
+us,314,520,314520,US,Oklahoma Gas & Electric Company,Oklahoma Gas & Electric Company,assigned,Oklahoma Gas & Electric Company,2023-09-26,,,2026-10-24,https://imsiadmin.com/hni-codes/oklahoma-gas-electric-company-oge-314-520/
+us,314,530,314530,US,Agile Networks,Agile Networks,assigned,Agile Networks,2023-10-26,,,2026-10-24,https://imsiadmin.com/hni-codes/agile-networks-314-530/
+us,314,540,314540,US,"RGTN USA, Inc","RGTN USA, Inc",assigned,"RGTN USA, Inc",2023-11-02,,,2026-10-24,https://imsiadmin.com/hni-codes/rgtn-usa-inc-314-540/
+us,314,550,314550,US,REALLY COMMUNICATIONS,REALLY COMMUNICATIONS,assigned,REALLY COMMUNICATIONS,2023-12-06,,,2026-10-24,https://imsiadmin.com/hni-codes/really-communications-314-550/
+us,314,560,314560,US,"Private Tech, Inc., dba Cape","Private Tech, Inc., dba Cape",assigned,"Private Tech, Inc., dba Cape",2024-01-17,,,2026-10-24,https://imsiadmin.com/hni-codes/private-tech-inc-dba-cape-314-560/
+us,314,570,314570,US,Newmont Corporation,Newmont Corporation,assigned,Newmont Corporation,2024-01-18,,,2026-10-24,https://imsiadmin.com/hni-codes/newmont-corporation-314-570/
+us,314,580,314580,US,Lower Colorado River Authority,Lower Colorado River Authority,assigned,Lower Colorado River Authority,2024-01-31,,,2026-10-24,https://imsiadmin.com/hni-codes/lower-colorado-river-authority-314-580/
+us,314,590,314590,US,"Lynk Global, Inc","Lynk Global, Inc",assigned,"Lynk Global, Inc",2024-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/lynk-global-inc-314-590/
+us,314,600,314600,US,"XNET, Inc","XNET, Inc",assigned,"XNET, Inc",2024-03-14,,,2026-10-24,https://imsiadmin.com/hni-codes/xnet-inc-314-600/
+us,314,610,314610,US,IMSI.AI,IMSI.AI,assigned,IMSI.AI,2024-04-19,,,2026-10-24,https://imsiadmin.com/hni-codes/imsi-ai-314-610/
+us,314,630,314630,US,"Private Tech, Inc., dba Cape","Private Tech, Inc., dba Cape",assigned,"Private Tech, Inc., dba Cape",2024-05-03,,,2026-10-24,https://imsiadmin.com/hni-codes/private-tech-inc-dba-cape-314-630/
+us,314,640,314640,US,"Private Tech, Inc., dba Cape","Private Tech, Inc., dba Cape",assigned,"Private Tech, Inc., dba Cape",2024-05-03,,,2026-10-24,https://imsiadmin.com/hni-codes/private-tech-inc-dba-cape-314-640/
+us,314,650,314650,US,"Private Tech, Inc., dba Cape","Private Tech, Inc., dba Cape",assigned,"Private Tech, Inc., dba Cape",2024-05-03,,,2026-10-24,https://imsiadmin.com/hni-codes/private-tech-inc-dba-cape-314-650/
+us,314,660,314660,US,"Private Tech, Inc., dba Cape","Private Tech, Inc., dba Cape",assigned,"Private Tech, Inc., dba Cape",2024-05-03,,,2026-10-24,https://imsiadmin.com/hni-codes/private-tech-inc-dba-cape-314-660/
+us,314,670,314670,US,"Wi-DAS, LLC","Wi-DAS, LLC",assigned,"Wi-DAS, LLC",2024-05-17,,,2026-10-24,https://imsiadmin.com/hni-codes/wi-das-llc-314-670/
+us,314,680,314680,US,"Comcast OTR1, LLC","Comcast OTR1, LLC",assigned,"Comcast OTR1, LLC",2024-05-22,,,2026-10-24,https://imsiadmin.com/hni-codes/comcast-otr1-llc-314-680/
+us,314,690,314690,US,"Agri-Valley Communications, Inc","Agri-Valley Communications, Inc",assigned,"Agri-Valley Communications, Inc",2024-06-05,,,2026-10-24,https://imsiadmin.com/hni-codes/agri-valley-communications-inc-314-690/
+us,314,700,314700,US,Tampa Electric Company,Tampa Electric Company,assigned,Tampa Electric Company,2024-06-05,,,2026-10-24,https://imsiadmin.com/hni-codes/tampa-electric-company-314-700/
+us,314,710,314710,US,"Tribal Ready, PBC","Tribal Ready, PBC",assigned,"Tribal Ready, PBC",2024-07-02,,,2026-10-24,https://imsiadmin.com/hni-codes/tribal-ready-pbc-314-710/
+us,314,720,314720,US,"OXIO, Inc","OXIO, Inc",assigned,"OXIO, Inc",2024-09-16,,,2026-10-24,https://imsiadmin.com/hni-codes/oxio-inc-314-720/
+us,314,730,314730,US,"TextNow, Inc","TextNow, Inc",assigned,"TextNow, Inc",2024-10-02,,,2026-10-24,https://imsiadmin.com/hni-codes/textnow-inc-314-730/
+us,314,740,314740,US,"Ringer Mobile, LLC","Ringer Mobile, LLC",assigned,"Ringer Mobile, LLC",2024-10-16,,,2026-10-24,https://imsiadmin.com/hni-codes/ringer-mobile-llc-314-740/
+us,314,750,314750,US,"SDF, Inc.","SDF, Inc.",assigned,"SDF, Inc.",2024-11-26,,,2026-10-24,https://imsiadmin.com/hni-codes/sdf-inc-314-750/
+us,314,760,314760,US,"Broadband Antenna Tracking Systems, Inc","Broadband Antenna Tracking Systems, Inc",assigned,"Broadband Antenna Tracking Systems, Inc",2024-12-19,,,2026-10-24,https://imsiadmin.com/hni-codes/broadband-antenna-tracking-systems-inc-dba-bats-wireless-314-760/
+us,314,770,314770,US,"Westbold, LLC","Westbold, LLC",assigned,"Westbold, LLC",2025-02-19,,,2026-10-24,https://imsiadmin.com/hni-codes/westbold-llc-314-770/
+us,314,780,314780,US,Saint Regis Mohawk Tribe,Saint Regis Mohawk Tribe,assigned,Saint Regis Mohawk Tribe,2025-02-24,,,2026-10-24,https://imsiadmin.com/hni-codes/saint-regis-mohawk-tribe-314-780/
+us,314,790,314790,US,"Neuner Mobile Technologies, LLC","Neuner Mobile Technologies, LLC",assigned,"Neuner Mobile Technologies, LLC",2025-03-07,,,2026-10-24,https://imsiadmin.com/hni-codes/neuner-mobile-technologies-llc-314-790/
+us,314,800,314800,US,Boost Network,Boost Network,assigned,Boost Network,2025-04-03,,,2026-10-24,https://imsiadmin.com/hni-codes/boost-network-314-800/
+us,314,810,314810,US,ORCID – The Open RAN Center for Integration and Deployment,ORCID - The Open RAN Center for Integration and Deployment,assigned,ORCID - The Open RAN Center for Integration and Deployment,2025-04-03,,,2026-10-24,https://imsiadmin.com/hni-codes/orcid-the-open-ran-center-for-integration-and-deployment-314-810/
+us,314,820,314820,US,"Sequoia Wireless, LLC","Sequoia Wireless, LLC",assigned,"Sequoia Wireless, LLC",2025-05-07,,,2026-10-24,https://imsiadmin.com/hni-codes/sequoia-wireless-llc-314-820/
+us,314,830,314830,US,,RETURNED 10/12/26,returned,RETURNED 10/12/26,2025-05-07,2026-10-12,,2026-10-24,https://imsiadmin.com/hni-codes/talkie-communications-314-830/
+us,314,840,314840,US,"Memphis Light, Gas, and Water","Memphis Light, Gas, and Water",assigned,"Memphis Light, Gas, and Water",2025-06-26,,,2026-10-24,https://imsiadmin.com/hni-codes/memphis-light-gas-and-water-314-840/
+us,314,850,314850,US,Space Exploration Technologies Corp.,Space Exploration Technologies Corp.,assigned,Space Exploration Technologies Corp.,2025-07-11,,,2026-10-24,https://imsiadmin.com/hni-codes/space-exploration-technologies-corp/
+us,314,860,314860,US,Exelon,Exelon,assigned,Exelon,2025-08-29,,,2026-10-24,https://imsiadmin.com/hni-codes/exelon-314-860/
+us,314,870,314870,US,Exelon,Exelon,assigned,Exelon,2025-08-29,,,2026-10-24,https://imsiadmin.com/hni-codes/exelon-314-870/
+us,314,880,314880,US,"Oncor License Holdings Company, LLC","Oncor License Holdings Company, LLC",assigned,"Oncor License Holdings Company, LLC",2025-09-09,,,2026-10-24,https://imsiadmin.com/hni-codes/oncor-license-holdings-company-llc-314-880/
+us,314,890,314890,US,Central Council of Tlingit and Haida Indian Tribes of Alaska,Central Council of Tlingit and Haida Indian Tribes of Alaska,assigned,Central Council of Tlingit and Haida Indian Tribes of Alaska,2025-09-23,,,2026-10-24,https://imsiadmin.com/hni-codes/central-council-of-tlingit-and-haida-indian-tribes-of-alaska-314-890/
+us,314,900,314900,US,Inland Cellular Telephone Company,Inland Cellular Telephone Company,assigned,Inland Cellular Telephone Company,2025-10-01,,,2026-10-24,https://imsiadmin.com/hni-codes/inland-cellular-telephone-company-314-900/
+us,314,910,314910,US,"Business Telecommunications Services, Inc","Business Telecommunications Services, Inc",assigned,"Business Telecommunications Services, Inc",2025-12-15,,,2026-10-24,https://imsiadmin.com/hni-codes/business-telecommunications-services-inc-314-910/
+us,314,920,314920,US,"Barr Tell USA, Inc.","Barr Tell USA, Inc.",assigned,"Barr Tell USA, Inc.",2026-01-07,,,2026-10-24,https://imsiadmin.com/hni-codes/barr-tell-usa-inc-314-920/
+us,314,930,314930,US,"Granite Telecommunications, LLC","Granite Telecommunications, LLC",assigned,"Granite Telecommunications, LLC",2026-01-12,,,2026-10-24,https://imsiadmin.com/hni-codes/granite-telecommunications-llc-314-930/
+us,314,940,314940,US,NxGenComm,NxGenComm,assigned,NxGenComm,2026-01-12,,,2026-10-24,https://imsiadmin.com/hni-codes/nxgencomm-314-940/
+us,314,950,314950,US,Snowcloud Services LLC.,Snowcloud Services LLC.,assigned,Snowcloud Services LLC.,2026-01-28,,,2026-10-24,https://imsiadmin.com/hni-codes/snowcloud-services-llc-314-950/
+us,314,960,314960,US,Utah DOT Traffic Operation,Utah DOT Traffic Operation,assigned,Utah DOT Traffic Operation,2026-02-13,,,2026-10-24,https://imsiadmin.com/hni-codes/utah-dot-traffic-operation-314-960/
+us,314,970,314970,US,"Popcorn Labs, Inc.","Popcorn Labs, Inc.",assigned,"Popcorn Labs, Inc.",2026-03-03,,,2026-10-24,https://imsiadmin.com/hni-codes/popcorn-labs-inc-314-970/
+us,314,980,314980,US,Buffalo Rock Communications,Buffalo Rock Communications,assigned,Buffalo Rock Communications,2026-03-03,,,2026-10-24,https://imsiadmin.com/hni-codes/buffalo-rock-communications-314-980/
+us,314,990,314990,US,Abc-Hosters LLC,Abc-Hosters LLC,assigned,Abc-Hosters LLC,2026-03-05,,,2026-10-24,https://imsiadmin.com/hni-codes/abc-hosters-llc-314-990/
+us,316,010,316010,US,,Returned,returned,Returned,,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-316-010/
+us,316,011,316011,US,,Returned,returned,Returned,2001-04-05,,,2026-10-24,https://imsiadmin.com/hni-codes/returned-316-011/
+us,316,020,316020,US,Heddian,Heddian,assigned,Heddian,2026-03-09,,,2026-10-24,https://imsiadmin.com/hni-codes/heddian-316-020/
+us,316,030,316030,US,x2n,x2n,assigned,x2n,2026-03-13,,,2026-10-24,https://imsiadmin.com/hni-codes/x2n-316-030/
+us,316,040,316040,US,PACIFIC GAS AND ELECTRIC COMPANY,PACIFIC GAS AND ELECTRIC COMPANY,assigned,PACIFIC GAS AND ELECTRIC COMPANY,2026-04-02,,,2026-10-24,https://imsiadmin.com/hni-codes/pacific-gas-and-electric-company-316-040/
+us,316,050,316050,US,"TriceTel,Inc.","TriceTel,Inc.",assigned,"TriceTel,Inc.",2026-05-11,,,2026-10-24,https://imsiadmin.com/hni-codes/tricetelinc-316-050/
+us,316,060,316060,US,"Popcorn Labs, Inc.","Popcorn Labs, Inc.",assigned,"Popcorn Labs, Inc.",2026-05-20,,,2026-10-24,https://imsiadmin.com/hni-codes/popcorn-labs-inc-316-060/
+us,316,070,316070,US,"AST & Science, LLC","AST & Science, LLC",assigned,"AST & Science, LLC",2026-07-22,,,2026-10-24,https://imsiadmin.com/hni-codes/ast-science-llc-316-070/
+us,316,080,316080,US,Talus Communications,Talus Communications,assigned,Talus Communications,2026-08-11,,,2026-10-24,https://imsiadmin.com/hni-codes/talus-communications-316-080/
+us,316,700,316700,US,,RETURNED 10/20/25 (316-700),returned,RETURNED 10/20/25 (316-700),1930-10-11,2025-10-20,,2026-10-24,https://imsiadmin.com/hni-codes/mile-high-networks-llc-316-700/

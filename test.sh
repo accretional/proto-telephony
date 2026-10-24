@@ -46,4 +46,10 @@ if ((${#national[@]})); then
   done
 fi
 
+# Merge the committed per-source CSVs (local only) and verify.
+if compgen -G "data/carriers/*/assignments.csv" >/dev/null; then
+  echo "==> merge data/carriers/*/assignments.csv"
+  ./bin/carriers-merge -format csv -csv-dir "$tmp/merged" | sed -n '/\[2\/3\]/,$p'
+fi
+
 echo "test: ok"

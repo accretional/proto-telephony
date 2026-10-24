@@ -5,6 +5,7 @@
 #   bin/itu-e212 -> data/carriers/itu/*.csv   (ITU-T E.212 MNC list)
 #   bin/us-hni   -> data/carriers/us/*.csv    (US HNIs from IMSI Admin)
 #   bin/national-mnc -> data/carriers/{ca,mx,jp}/*.csv (CNAC, IFT/CRT, MIC)
+#   bin/carriers-merge -> data/carriers/merged/*.csv (all sources combined)
 # Extra args go to itu-e212 and us-hni (-workers, -v, -format, -offline...);
 # national-mnc gets -format and -offline:
 #   ./LET_IT_RIP.sh -workers 8
@@ -35,6 +36,13 @@ done
 echo ""
 echo "==> national-mnc"
 ./bin/national-mnc "${national_args[@]}"
+
+# Merge every source's shared assignments table (reads the CSV outputs).
+if [[ " ${national_args[*]} " != *" -format sqlite "* ]]; then
+  echo ""
+  echo "==> carriers-merge"
+  ./bin/carriers-merge -format csv
+fi
 
 echo ""
 echo "LET_IT_RIP: done"

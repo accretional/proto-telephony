@@ -165,6 +165,35 @@ date, reference). It would be filled from ITU amendments, national status
 dates, and differences between refreshes. That's enough to answer "who held
 310-170 in 2019?" for the sources that record changes.
 
+## Implementation status (2026-10-24)
+
+Built:
+- Every downloader writes `assignments`: `itu`, `us`, `ca`, `mx`, `jp`.
+- `itu` and `us` also write `sub_allocations`: extraterritorial MSIN
+  ranges and CBRS IBNs.
+- `cmd/carriers-merge` (`pkg/carriers/merge`) writes `data/carriers/merged/`
+  with `assignments`, `sub_allocations`, `mccs`, `current` and `conflicts`,
+  as sketched above.
+
+Differences from the sketch:
+- **`mccs` is derived, not hand-maintained.** The country is the one with
+  the most codes under the MCC. Authority comes from a small map in code,
+  and applies only if that source was loaded.
+- **ITU's country names map to ISO codes** through a table
+  (`pkg/carriers/itu/iso.go`). Shared MCCs 901, 902 and 991 are `ZZ`.
+- **ITU's `assigned_date` is the publication date of the bulletin that
+  added the code.** It's NULL for the base list. `as_of` is the newest
+  bulletin's date.
+- **ITU status notes printed as operators become statuses.** "RESERVED FOR
+  PUBLIC SAFETY", "TEST IMSI HNI" and "Reclaimed 06/21/2016" map to
+  `reserved`, `test` and `reclaimed`.
+- **`holder_differs` is deliberately conservative.** It only compares
+  Latin-script names, folds accents, ignores legal suffixes and generic
+  words, and tolerates spelling variants (character-bigram similarity of at
+  least 0.6). All 9 flagged on 2026-10-24 are real holder changes.
+- **No `attributes` table yet.** Source-specific detail stays in each
+  source's own tables.
+
 ## How to build it
 
 1. **Keep the per-source downloaders as they are.** Each owns its parsing and

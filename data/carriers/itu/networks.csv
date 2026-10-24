@@ -2494,4 +2494,4 @@ mcc,mnc,plmn,country,operator,kind,source_ob,added_amendment,changed_amendment
 901,97,90197,"International Mobile, shared code",Satelio IoT Services S.L.,shared,1280,,
 901,98,90198,"International Mobile, shared code","Skylo Technologies, Inc.",shared,1280,,
 902,01,90201,"regional and other international organizations (ROIO)/standards development organization (SDO)-specified networks, shared code",MulteFire Alliance,roio,1280,,
-991,04,99104,"Trial of a proposed new international telecommunication service, shared code",E-Space Inc. (temporary assignment for trial until 17.X.2026),geographic,1327,21,44
+991,04,99104,"Trial of a proposed new international telecommunication service, shared code",E-Space Inc. (temporary assignment for trial until 17.X.2026),shared,1327,21,44

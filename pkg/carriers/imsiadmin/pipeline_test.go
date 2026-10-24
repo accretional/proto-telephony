@@ -154,7 +154,11 @@ func TestBuildEndToEnd(t *testing.T) {
 		`SELECT count(*) FROM details WHERE label='Fax'`:                                                                                               fmt.Sprint(n),
 		`SELECT date FROM details WHERE code='310-170' AND label='Effective Date'`:                                                                     "1995-06-07",
 		`SELECT group_concat(protocol) FROM (SELECT protocol FROM protocols WHERE code='310-170' ORDER BY protocol)`:                                   "5G,LTE/LTE Advanced",
-		`SELECT type || ':' || value FROM identifiers WHERE code='310-170'`:                                                                            "call_sign:KNKA382",
+		`SELECT count(*) FROM assignments`: fmt.Sprint(n),
+		`SELECT holder || '|' || status || '|' || assigned_date || '|' || country FROM assignments WHERE plmn='310170'`: "AT&T Mobility|assigned|1995-06-07|US",
+		`SELECT coalesce(holder,'NULL') || '|' || status || '|' || status_date FROM assignments WHERE plmn='311190'`:    "NULL|returned|2024-09-09",
+		`SELECT plmn || '|' || kind || '|' || block || '|' || holder FROM sub_allocations`:                              "315010|ibn|0152|WestNetworks",
+		`SELECT type || ':' || value FROM identifiers WHERE code='310-170'`:                                             "call_sign:KNKA382",
 	} {
 		var got sql.NullString
 		if err := db.QueryRow(query).Scan(&got); err != nil {

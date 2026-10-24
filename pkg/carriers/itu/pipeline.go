@@ -30,6 +30,7 @@ type Options struct {
 // Result is the built dataset plus run metrics.
 type Result struct {
 	Dataset
+	LastOBDate string // publication date of the newest bulletin scanned
 	Base       *BaseList
 	Edition    string
 	FirstOB    int
@@ -74,6 +75,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 		return nil, err
 	}
 	res.Base, res.Edition = base, edition
+	res.LastOBDate = base.Date
 	res.Sources = append(res.Sources, src)
 	countries := map[string]bool{}
 	for _, n := range base.Networks {
@@ -114,10 +116,11 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 	// 3. Fetch bulletins concurrently, parse each one's MNC amendment.
 	rep.Stage(3, stages, "fetch bulletins and parse MNC amendments")
 	type item struct {
-		ob  int
-		a   *Amendment
-		src carriers.Source
-		err error
+		date string
+		ob   int
+		a    *Amendment
+		src  carriers.Source
+		err  error
 	}
 	items := make([]item, n)
 	jobs := make(chan int)
@@ -139,6 +142,13 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 				it := item{ob: ob, src: src, err: err}
 				if err == nil {
 					it.a = ParseAmendment(doc, ob)
+					it.date = BulletinDate(doc)
+					if it.a != nil {
+						it.a.OBDate = it.date
+						for i := range it.a.Changes {
+							it.a.Changes[i].OBDate = it.date
+						}
+					}
 				}
 				items[i] = it
 				mu.Lock()
@@ -170,6 +180,11 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 		}
 		res.Bulletins++
 		res.Sources = append(res.Sources, it.src)
+		if it.date == "" {
+			rep.Warn("OB %d: no publication date found on its cover", it.ob)
+		} else if it.date > res.LastOBDate {
+			res.LastOBDate = it.date
+		}
 		if it.a == nil {
 			continue
 		}
@@ -259,6 +274,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 		res.Meta["last_amendment"] = strconv.Itoa(last)
 		res.Meta["last_amendment_ob"] = strconv.Itoa(amendments[len(amendments)-1].OB)
 	}
+	res.Meta["as_of"] = res.LastOBDate
 	return res, nil
 }
 

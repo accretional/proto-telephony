@@ -92,12 +92,24 @@ Risks:
 
 ## Compared with ITU
 
-On 2026-10-24, for MCC 310–316:
-- **25** assigned HNIs are missing from ITU's list;
-- **35** HNIs in ITU's list are returned, reclaimed or unassigned here.
+On 2026-10-24, for MCC 310–316, from `data/carriers/merged/conflicts.csv`:
+- **25** assigned HNIs are missing from ITU's list (`not_in_itu`).
+- **16** codes ITU still lists as assigned have been returned or reclaimed
+  here (`itu_stale`). For example, ITU lists 310-790 as PinPoint
+  Communications, but it was reclaimed on 2025-12-15.
+- **1** ITU code isn't in the US directory at all (`itu_only`): 314-620,
+  Memphis Light, Gas and Water.
+- **4** holders differ (`holder_differs`). For example, 310-040 is Minute
+  Wireless LLC here and "Mobi" in ITU.
 
-For example, 311-910 is listed by ITU, but IMSI Admin shows it returned on
-2020-01-22. Prefer this source for US codes.
+ITU also carries the 15 public-safety reservations and the 2 test codes.
+Both sources agree on those, so they aren't conflicts. (An earlier count of
+"35 ITU codes not assigned here" lumped them together with the 16 stale
+codes, 1 unknown and a code reclaimed on both sides.)
+
+Some codes are in neither list as assigned. 311-910, which Twilio Lookup
+showed for a Google Voice number, was returned on 2020-01-22 and isn't
+listed by ITU. Prefer this source for US codes.
 
 ## Notes for the shared schema
 

@@ -1,0 +1,172 @@
+source,plmn,kind,block,holder,status,country,as_of
+itu,20801,msin_range,0000000000-0099999999; 0200000000-9999999999,Orange,assigned,FR,2026-10-15
+itu,20801,msin_range,0100000000-0199999999,Orange/Monaco Télécom,assigned,MC,2026-10-15
+itu,20810,msin_range,0000000000 - 2654099999; 2654200000 - 2654299999; 2654400000 - 2754099999; 2754200000 - 2754299999; 2754400000 - 9999999999,Société Française du Radiotéléphone,assigned,FR,2026-10-15
+itu,20810,msin_range,2654100000 - 2654199999; 2654300000 - 2654399999; 2754100000 - 2754199999; 2754300000 - 2754399999,Société Française du Radiotéléphone,assigned,MC,2026-10-15
+itu,20820,msin_range,0000000000 - 0055499999; 0055600000 - 2007199999; 2007300000 - 9999999999,Bouygues Telecom,assigned,FR,2026-10-15
+itu,20820,msin_range,0055500000 - 0055599999; 2007200000 - 2007299999,Bouygues Telecom,assigned,MC,2026-10-15
+itu,22801,msin_range,"20-35, 38, 40-44, 47, 52, 59, 60-62, 72, 77, 80",Swisscom Schweiz AG,assigned,CH,2026-10-15
+itu,22801,msin_range,37XXXXXXXX,Swisscom Schweiz AG,assigned,LI,2026-10-15
+itu,27077,msin_range,000 x xxx xxx,Proximus Luxembourg S.A.,assigned,LU,2026-10-15
+itu,27077,msin_range,800 x xxx xxx; 801 x xxx xxx,Proximus Luxembourg S.A.,assigned,BE,2026-10-15
+itu,27099,msin_range,270 99 000 x xxx xxx,Orange Communications Luxembourg S.A.,assigned,LU,2026-10-15
+itu,27099,msin_range,270 99 860 x xxx xxx,Orange Communications Luxembourg S.A.,assigned,BE,2026-10-15
+itu,27402,msin_range,0-8,Og fjarskipti hf (Vodafone Iceland),assigned,IS,2026-10-15
+itu,27402,msin_range,9,"P/F Kall, reg. No 2868 (Vodafone FO)",assigned,FO,2026-10-15
+itu,54202,msin_range,00xxxxxxxx,Digicel (Fiji) Ltd,assigned,FJ,2026-10-15
+itu,54202,msin_range,0840xxxxxx,Digicel (Fiji) Ltd,assigned,NR,2026-10-15
+itu,27007,msin_range,270 07 00 0X XX XX XX,Bouygues Telecom S.A.,assigned,LU,2026-10-15
+itu,27007,msin_range,270 07 60 XX XX XX XX,Bouygues Telecom S.A.,assigned,FR,2026-10-15
+itu,26274,msin_range,0000099000 - 0000099099,Ericsson GmbH,assigned,DE,2026-10-15
+itu,26274,msin_range,0000099100 - 0000099199,Ericsson GmbH,assigned,SE,2026-10-15
+us,315010,ibn,0001,"ExteNet Systems, Inc",assigned,,2026-10-24
+us,315010,ibn,0002,"Motorola Solutions, Inc",assigned,,2026-10-24
+us,315010,ibn,0003,"Spectrum Wireless Holdings, LLC",assigned,,2026-10-24
+us,315010,ibn,0004,,returned,,2026-10-24
+us,315010,ibn,0005,,reclaimed,,2026-10-24
+us,315010,ibn,0006,,returned,,2026-10-24
+us,315010,ibn,0007,Raycom Communications Solutions Inc.,assigned,,2026-10-24
+us,315010,ibn,0008,,reclaimed,,2026-10-24
+us,315010,ibn,0009,,reclaimed,,2026-10-24
+us,315010,ibn,0010,"Boingo Wireless, Inc",assigned,,2026-10-24
+us,315010,ibn,0011,"JCI US, Inc",assigned,,2026-10-24
+us,315010,ibn,0012,"Ballast, LLC",assigned,,2026-10-24
+us,315010,ibn,0013,,reclaimed,,2026-10-24
+us,315010,ibn,0014,"Aruba, a Hewlett Packard Enterprise company",assigned,,2026-10-24
+us,315010,ibn,0015,,reclaimed,,2026-10-24
+us,315010,ibn,0016,Windstream,assigned,,2026-10-24
+us,315010,ibn,0017,Frontier Communications Corp,assigned,,2026-10-24
+us,315010,ibn,0018,"Mobilitie Management, LLC",assigned,,2026-10-24
+us,315010,ibn,0019,,returned,,2026-10-24
+us,315010,ibn,0020,Sony Corporation,assigned,,2026-10-24
+us,315010,ibn,0021,Mercury Wireles,assigned,,2026-10-24
+us,315010,ibn,0022,,reclaimed,,2026-10-24
+us,315010,ibn,0023,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0024,"AMG Technology Investment Group, LLC dba Nextlink Internet",assigned,,2026-10-24
+us,315010,ibn,0025,,returned,,2026-10-24
+us,315010,ibn,0026,"RF Connect, LLC",assigned,,2026-10-24
+us,315010,ibn,0027,HARGRAY Communication,assigned,,2026-10-24
+us,315010,ibn,0028,,returned,,2026-10-24
+us,315010,ibn,0029,"Xtreme Enterprises, LLC",assigned,,2026-10-24
+us,315010,ibn,0030,"GenXComm, Inc",assigned,,2026-10-24
+us,315010,ibn,0031,,returned,,2026-10-24
+us,315010,ibn,0032,"Federated Wireless, Inc",assigned,,2026-10-24
+us,315010,ibn,0033,,returned,,2026-10-24
+us,315010,ibn,0034,"Terranet Communications, LLC",assigned,,2026-10-24
+us,315010,ibn,0035,"InfoLink USA, Inc",assigned,,2026-10-24
+us,315010,ibn,0036,Utah Education and Telehealth Network,assigned,,2026-10-24
+us,315010,ibn,0037,Pierson Wireless Corp,assigned,,2026-10-24
+us,315010,ibn,0038,,returned,,2026-10-24
+us,315010,ibn,0039,"Nova Labs, Inc",assigned,,2026-10-24
+us,315010,ibn,0040,,returned,,2026-10-24
+us,315010,ibn,0041,System Innovation Group,assigned,,2026-10-24
+us,315010,ibn,0042,,reclaimed,,2026-10-24
+us,315010,ibn,0043,,returned,,2026-10-24
+us,315010,ibn,0044,,returned,,2026-10-24
+us,315010,ibn,0045,,reclaimed,,2026-10-24
+us,315010,ibn,0046,,reclaimed,,2026-10-24
+us,315010,ibn,0047,JMA Wireless,assigned,,2026-10-24
+us,315010,ibn,0048,,reclaimed,,2026-10-24
+us,315010,ibn,0049,,returned,,2026-10-24
+us,315010,ibn,0050,"Betacomm, Inc",assigned,,2026-10-24
+us,315010,ibn,0051,,reclaimed,,2026-10-24
+us,315010,ibn,0052,,reclaimed,,2026-10-24
+us,315010,ibn,0053,"Ednetics, Inc",assigned,,2026-10-24
+us,315010,ibn,0054,"Aruba, a Hewlett Packard Enterprise company",assigned,,2026-10-24
+us,315010,ibn,0055,,reclaimed,,2026-10-24
+us,315010,ibn,0056,Wincomm Technologies,assigned,,2026-10-24
+us,315010,ibn,0057,Cisco Systems,assigned,,2026-10-24
+us,315010,ibn,0058,,reclaimed,,2026-10-24
+us,315010,ibn,0059,,reclaimed,,2026-10-24
+us,315010,ibn,0060,Kajeet,assigned,,2026-10-24
+us,315010,ibn,0061,,reclaimed,,2026-10-24
+us,315010,ibn,0062,,reclaimed,,2026-10-24
+us,315010,ibn,0063,"Highway9 Networks, Inc",assigned,,2026-10-24
+us,315010,ibn,0064,"BearCom Operating, LLC",assigned,,2026-10-24
+us,315010,ibn,0065,"BearCom Operating, LLC",assigned,,2026-10-24
+us,315010,ibn,0067,Monogoto,assigned,,2026-10-24
+us,315010,ibn,0068,,reclaimed,,2026-10-24
+us,315010,ibn,0069,PCS Technologies,assigned,,2026-10-24
+us,315010,ibn,0070,Amazon Web Services,assigned,,2026-10-24
+us,315010,ibn,0071,Facebook,assigned,,2026-10-24
+us,315010,ibn,0072,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0073,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0074,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0075,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0076,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0077,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0078,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0079,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0080,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0081,"Celona, Inc",assigned,,2026-10-24
+us,315010,ibn,0082,Santa Maria-Bonita School District,assigned,,2026-10-24
+us,315010,ibn,0083,Utah Education and Telehealth Network,assigned,,2026-10-24
+us,315010,ibn,0084,,reclaimed,,2026-10-24
+us,315010,ibn,0085,"Ramen Networks, Inc",assigned,,2026-10-24
+us,315010,ibn,0086,"Cradlepoint, Inc",assigned,,2026-10-24
+us,315010,ibn,0087,Hawaiian Electric Company,assigned,,2026-10-24
+us,315010,ibn,0088,"Oceus Networks, LLC",assigned,,2026-10-24
+us,315010,ibn,0089,"Ballast, LLC",assigned,,2026-10-24
+us,315010,ibn,0090,Kansas Broadband Internet,assigned,,2026-10-24
+us,315010,ibn,0091,"Tecore Global Services, LLC",assigned,,2026-10-24
+us,315010,ibn,0092,Nextivity,assigned,,2026-10-24
+us,315010,ibn,0093,"WISPY, LLC",assigned,,2026-10-24
+us,315010,ibn,0094,,reclaimed,,2026-10-24
+us,315010,ibn,0095,Duke Energy,assigned,,2026-10-24
+us,315010,ibn,0096,"Dense Air Networks, LP",assigned,,2026-10-24
+us,315010,ibn,0097,,reclaimed,,2026-10-24
+us,315010,ibn,0098,"World Mobile Networks, LLC",assigned,,2026-10-24
+us,315010,ibn,0099,Trilogy NextGen,assigned,,2026-10-24
+us,315010,ibn,0100,Southern California Edison,assigned,,2026-10-24
+us,315010,ibn,0101,Black and Veatch,assigned,,2026-10-24
+us,315010,ibn,0102,Microsoft Corporation,assigned,,2026-10-24
+us,315010,ibn,0103,,reclaimed,,2026-10-24
+us,315010,ibn,0104,GE Vernova,assigned,,2026-10-24
+us,315010,ibn,0105,"Musterion Advisors, LLC",assigned,,2026-10-24
+us,315010,ibn,0106,,returned,,2026-10-24
+us,315010,ibn,0107,Hewlett Packard Enterprise (CBRS),assigned,,2026-10-24
+us,315010,ibn,0108,"Weavix, Inc",assigned,,2026-10-24
+us,315010,ibn,0109,"Alef Edge, Inc",assigned,,2026-10-24
+us,315010,ibn,0110,,returned,,2026-10-24
+us,315010,ibn,0111,REALLY COMMUNICATIONS,assigned,,2026-10-24
+us,315010,ibn,0112,Johns Hopkins University Applied Physics Lab,assigned,,2026-10-24
+us,315010,ibn,0113,"Communication Technology Services, LLC",assigned,,2026-10-24
+us,315010,ibn,0114,TruAccess Networks,assigned,,2026-10-24
+us,315010,ibn,0115,ESnet,assigned,,2026-10-24
+us,315010,ibn,0116,"Cradlepoint, Inc",assigned,,2026-10-24
+us,315010,ibn,0117,"Cradlepoint, Inc",assigned,,2026-10-24
+us,315010,ibn,0118,"Cradlepoint, Inc",assigned,,2026-10-24
+us,315010,ibn,0119,"NYBSYS, Inc",assigned,,2026-10-24
+us,315010,ibn,0120,,reclaimed,,2026-10-24
+us,315010,ibn,0121,,reclaimed,,2026-10-24
+us,315010,ibn,0122,"EUCAST Global, Inc",assigned,,2026-10-24
+us,315010,ibn,0123,Flo Networks,assigned,,2026-10-24
+us,315010,ibn,0124,"BlueArcus Technologies, Inc",assigned,,2026-10-24
+us,315010,ibn,0125,"Pente Networks, Inc",assigned,,2026-10-24
+us,315010,ibn,0126,"Baicells Technologies North America, Inc",assigned,,2026-10-24
+us,315010,ibn,0127,Crown Castle,assigned,,2026-10-24
+us,315010,ibn,0128,US Department of Veteran Affairs – VA Innovations,assigned,,2026-10-24
+us,315010,ibn,0129,"Comcast OTR1, LLC",assigned,,2026-10-24
+us,315010,ibn,0130,"Bloxtel, Inc",assigned,,2026-10-24
+us,315010,ibn,0131,Echostar,assigned,,2026-10-24
+us,315010,ibn,0132,"5G Open Innovation Lab, LLC",assigned,,2026-10-24
+us,315010,ibn,0133,"Tribal Ready, PBC",assigned,,2026-10-24
+us,315010,ibn,0134,Celestic,assigned,,2026-10-24
+us,315010,ibn,0135,Lower Colorado River Authority,assigned,,2026-10-24
+us,315010,ibn,0136,"Nokia Innovations US, LLC",assigned,,2026-10-24
+us,315010,ibn,0137,Samsung Electronics America,assigned,,2026-10-24
+us,315010,ibn,0138,"FTP Solutions, Inc",assigned,,2026-10-24
+us,315010,ibn,0139,,returned,,2026-10-24
+us,315010,ibn,0140,"Japan Radio Co., Ltd",assigned,,2026-10-24
+us,315010,ibn,0141,HALO Synergy Group LLC,assigned,,2026-10-24
+us,315010,ibn,0142,Accel Communications LLC,assigned,,2026-10-24
+us,315010,ibn,0143,"ZaiNar, Inc.",assigned,,2026-10-24
+us,315010,ibn,0144,Siemens5g,assigned,,2026-10-24
+us,315010,ibn,0145,Llama Networks,assigned,,2026-10-24
+us,315010,ibn,0146,Local Connectivity Lab,assigned,,2026-10-24
+us,315010,ibn,0147,Snowcloud Services LLC.,assigned,,2026-10-24
+us,315010,ibn,0148,,returned,,2026-10-24
+us,315010,ibn,0149,Talus Communications,assigned,,2026-10-24
+us,315010,ibn,0150,Pinal County,assigned,,2026-10-24
+us,315010,ibn,0151,"Boedeker Flying Service, Inc.",assigned,,2026-10-24
+us,315010,ibn,0152,WestNetworks,assigned,,2026-10-24

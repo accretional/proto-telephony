@@ -22,7 +22,7 @@ type Kind string
 
 const (
 	KindGeographic Kind = "geographic" // MCC assigned to a country/area
-	KindShared     Kind = "shared"     // MCC 901, international shared code
+	KindShared     Kind = "shared"     // MCC 901 (and 991 trials), international shared codes
 	KindROIO       Kind = "roio"       // MCC 902, regional/international organizations
 )
 
@@ -36,8 +36,9 @@ type Network struct {
 	// Provenance: the OB the record comes from and, if it was added or
 	// changed by an amendment, that amendment's number.
 	SourceOB         int
-	AddedAmendment   int // 0 = in the base list
-	ChangedAmendment int // last LIR (change) amendment, 0 = none
+	AddedAmendment   int    // 0 = in the base list
+	ChangedAmendment int    // last LIR (change) amendment, 0 = none
+	AddedOBDate      string // publication date of the adding bulletin
 }
 
 // PLMN is MCC+MNC as one string, e.g. "310170".
@@ -66,6 +67,7 @@ const (
 type Change struct {
 	Amendment int
 	OB        int
+	OBDate    string
 	Seq       int // order within the amendment
 	Country   string
 	Action    Action
@@ -81,7 +83,8 @@ type Change struct {
 type Amendment struct {
 	No      int
 	OB      int
-	BaseOB  int // the OB whose annex it amends (e.g. 1280)
+	OBDate  string // the bulletin's publication date, YYYY-MM-DD
+	BaseOB  int    // the OB whose annex it amends (e.g. 1280)
 	Changes []Change
 }
 
@@ -102,7 +105,7 @@ var normSpace = carriers.NormSpace
 // kindFor classifies an MCC.
 func kindFor(mcc string) Kind {
 	switch mcc {
-	case "901":
+	case "901", "991": // 991: trial of a proposed new international service
 		return KindShared
 	case "902":
 		return KindROIO
