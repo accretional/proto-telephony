@@ -1,4 +1,4 @@
-package carrier
+package itu
 
 import (
 	"context"
@@ -8,18 +8,15 @@ import (
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/accretional/proto-telephony/pkg/carriers"
 )
 
 // Reporter receives progress events from Build.
 type Reporter interface {
-	// Stage starts a numbered pipeline stage.
-	Stage(n, of int, name string)
-	// Info reports a line of detail within the current stage.
-	Info(format string, args ...any)
-	// Warn reports something wrong but not fatal.
-	Warn(format string, args ...any)
+	carriers.Reporter
 	// Bulletin reports one fetched Operational Bulletin (done of total).
-	Bulletin(done, total int, src Source, a *Amendment, err error)
+	Bulletin(done, total int, src carriers.Source, a *Amendment, err error)
 }
 
 // Options configure Build.
@@ -71,7 +68,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 	if err != nil {
 		return nil, fmt.Errorf("fetching %s: %w", edition, err)
 	}
-	rep.Info("%s  %s  %s", src.URL, FmtBytes(src.Bytes), cacheTag(src))
+	rep.Info("%s  %s  %s", src.URL, carriers.FmtBytes(src.Bytes), cacheTag(src))
 	base, err := ParseBaseList(doc)
 	if err != nil {
 		return nil, err
@@ -119,7 +116,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 	type item struct {
 		ob  int
 		a   *Amendment
-		src Source
+		src carriers.Source
 		err error
 	}
 	items := make([]item, n)
@@ -165,7 +162,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 	var amendments []*Amendment
 	for _, it := range items {
 		switch {
-		case errors.Is(it.err, ErrNotFound):
+		case errors.Is(it.err, carriers.ErrNotFound):
 			res.Missing = append(res.Missing, it.ob)
 			continue
 		case it.err != nil:
@@ -240,7 +237,7 @@ func Build(ctx context.Context, c *Client, opt Options, rep Reporter) (*Result, 
 		for _, s := range codes {
 			status[s.Status]++
 		}
-		rep.Info("%d codes %v  %s", len(codes), status, FmtBytes(src.Bytes))
+		rep.Info("%d codes %v  %s", len(codes), status, carriers.FmtBytes(src.Bytes))
 		listed := map[string]bool{}
 		for _, n := range res.Networks {
 			listed[n.PLMN()] = true
@@ -277,20 +274,9 @@ func uniq(ys ...int) []int {
 	return out
 }
 
-func cacheTag(s Source) string {
+func cacheTag(s carriers.Source) string {
 	if s.FromCache {
 		return "cache"
 	}
 	return fmt.Sprintf("downloaded in %s", s.Elapsed.Round(time.Millisecond))
-}
-
-// FmtBytes formats a byte count for display.
-func FmtBytes(n int64) string {
-	switch {
-	case n >= 1<<20:
-		return fmt.Sprintf("%.1f MB", float64(n)/(1<<20))
-	case n >= 1<<10:
-		return fmt.Sprintf("%.0f KB", float64(n)/(1<<10))
-	}
-	return fmt.Sprintf("%d B", n)
 }

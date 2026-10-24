@@ -1,4 +1,4 @@
-package carrier
+package itu
 
 import (
 	"context"
@@ -11,6 +11,9 @@ import (
 	"strings"
 	"sync"
 	"testing"
+
+	"github.com/accretional/proto-telephony/pkg/carriers"
+	"github.com/accretional/proto-telephony/pkg/carriers/store"
 )
 
 // fakeITU serves a tiny version of ITU's site: the E.212B landing page and
@@ -128,10 +131,10 @@ type nopReporter struct {
 	warns []string
 }
 
-func (*nopReporter) Stage(int, int, string)                       {}
-func (*nopReporter) Info(string, ...any)                          {}
-func (r *nopReporter) Warn(f string, a ...any)                    { r.warns = append(r.warns, fmt.Sprintf(f, a...)) }
-func (*nopReporter) Bulletin(int, int, Source, *Amendment, error) {}
+func (*nopReporter) Stage(int, int, string)                                {}
+func (*nopReporter) Info(string, ...any)                                   {}
+func (r *nopReporter) Warn(f string, a ...any)                             { r.warns = append(r.warns, fmt.Sprintf(f, a...)) }
+func (*nopReporter) Bulletin(int, int, carriers.Source, *Amendment, error) {}
 
 func TestBuildEndToEnd(t *testing.T) {
 	fake := newFakeITU(t)
@@ -162,7 +165,7 @@ func TestBuildEndToEnd(t *testing.T) {
 	// The same queries must hold for the SQLite file and for the CSV
 	// directory loaded back (which also checks NULLs survive as NULLs).
 	dbPath := filepath.Join(dir, "carriers.sqlite")
-	if err := WriteSQLite(dbPath, &res.Dataset); err != nil {
+	if err := store.WriteSQLite(dbPath, Schema, Tables(&res.Dataset)); err != nil {
 		t.Fatal(err)
 	}
 	sdb, err := sql.Open("sqlite", dbPath)
@@ -171,13 +174,13 @@ func TestBuildEndToEnd(t *testing.T) {
 	}
 	defer sdb.Close()
 	csvDir := filepath.Join(dir, "carriers")
-	if err := WriteCSV(csvDir, &res.Dataset); err != nil {
+	if err := store.WriteCSV(csvDir, Tables(&res.Dataset)); err != nil {
 		t.Fatal(err)
 	}
-	if err := WriteCSV(csvDir, &res.Dataset); err != nil { // rewriting replaces it
+	if err := store.WriteCSV(csvDir, Tables(&res.Dataset)); err != nil { // rewriting replaces it
 		t.Fatalf("rewrite: %v", err)
 	}
-	cdb, err := ReadCSV(csvDir)
+	cdb, err := store.ReadCSV(csvDir, Schema, Specs())
 	if err != nil {
 		t.Fatal(err)
 	}

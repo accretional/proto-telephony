@@ -1,4 +1,4 @@
-// Package carrier builds a database of mobile network operators from the
+// Package itu builds a database of mobile network operators from the
 // official ITU-T E.212 Mobile Network Code (MNC) list.
 //
 // ITU publishes the list as an annex to an Operational Bulletin (OB) — the
@@ -7,10 +7,12 @@
 // printed in every later OB. The list of shared-code (MCC 901) assignments
 // is also kept live in ITU's online database. This package fetches all of
 // those, parses them, and replays the amendments over the base list.
-package carrier
+package itu
 
 import (
 	"fmt"
+
+	"github.com/accretional/proto-telephony/pkg/carriers"
 	"regexp"
 	"strings"
 )
@@ -95,10 +97,7 @@ func SplitCode(s string) (mcc, mnc string, err error) {
 	return m[1], m[2], nil
 }
 
-// normSpace collapses runs of whitespace (including NBSP) to one space.
-func normSpace(s string) string {
-	return strings.Join(strings.Fields(strings.ReplaceAll(s, " ", " ")), " ")
-}
+var normSpace = carriers.NormSpace
 
 // kindFor classifies an MCC.
 func kindFor(mcc string) Kind {

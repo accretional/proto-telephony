@@ -31,11 +31,11 @@ go.work.sum
 # .idea/
 # .vscode/
 
-# Build output, download cache and the SQLite output; data/carriers/*.csv
+# Build output, download caches and SQLite output; data/carriers/<source>/*.csv
 # is committed (rebuild with ./LET_IT_RIP.sh)
 /bin/
 /data/cache/
-/data/*.sqlite
-/data/*.sqlite.tmp*
-/data/carriers.tmp/
-/data/carriers.old/
+/data/**/*.sqlite
+/data/**/*.sqlite.tmp*
+/data/carriers/*.tmp/
+/data/carriers/*.old/

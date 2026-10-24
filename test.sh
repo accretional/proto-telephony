@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # test.sh – formatting, vet and unit/integration tests. Runs build.sh first
-# (idempotent). The tests are hermetic: they build synthetic ITU documents and
-# serve them from a local fake ITU site, so no network is needed.
+# (idempotent). The tests are hermetic: they build synthetic source documents
+# and serve them from local fake sites, so no network is needed.
 #
-# If data/cache already holds ITU documents from a real run, also rebuilds the
-# database from them offline into a temp file and verifies it.
+# For each downloader whose cache (data/cache/<name>) holds a real run, also
+# rebuilds its output offline, in both formats, into a temp dir and verifies it.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -20,15 +20,17 @@ go vet ./...
 echo "==> go test"
 go test -count=1 ./...
 
-if compgen -G "data/cache/ob/*.docx" >/dev/null && compgen -G "data/cache/e212b/*.docx" >/dev/null; then
-  tmp=$(mktemp -d)
-  trap 'rm -rf "$tmp"' EXIT
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+for pair in itu-e212:itu us-hni:us; do
+  cmd=${pair%%:*} name=${pair##*:}
+  [[ -d "data/cache/$name" ]] || continue
   for format in sqlite csv; do
-    echo "==> offline rebuild from data/cache (-format $format)"
-    args=(-format "$format" -db "$tmp/carriers.sqlite" -csv-dir "$tmp/carriers")
-    ./bin/itu-e212 -offline "${args[@]}" | tail -n 9
-    ./bin/itu-e212 -verify "${args[@]}"
+    echo "==> offline rebuild: $cmd -format $format (from data/cache/$name)"
+    args=(-format "$format" -db "$tmp/$name.sqlite" -csv-dir "$tmp/$name")
+    "./bin/$cmd" -offline "${args[@]}" | sed -n '/== summary/,$p'
+    "./bin/$cmd" -verify "${args[@]}"
   done
-fi
+done
 
 echo "test: ok"

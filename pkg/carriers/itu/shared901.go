@@ -1,4 +1,4 @@
-package carrier
+package itu
 
 import (
 	"context"
@@ -10,6 +10,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/accretional/proto-telephony/pkg/carriers"
 )
 
 // SharedCode is a row of ITU's live database of shared MCC 901 codes, which
@@ -37,11 +39,11 @@ var (
 
 // FetchShared901 reads every page of the 901 database. progress, if set, is
 // called after each page.
-func (c *Client) FetchShared901(ctx context.Context, progress func(page, rows, total int)) ([]SharedCode, Source, error) {
+func (c *Client) FetchShared901(ctx context.Context, progress func(page, rows, total int)) ([]SharedCode, carriers.Source, error) {
 	start := time.Now()
-	u := c.base() + Shared901Path
-	src := Source{Kind: "shared901", Name: "e212_901", URL: u}
-	page, err := c.get(ctx, u)
+	u := c.Base + Shared901Path
+	src := carriers.Source{Kind: "shared901", Name: "e212_901", URL: u}
+	page, err := c.Get(ctx, u)
 	if err != nil {
 		return nil, src, err
 	}
@@ -77,7 +79,7 @@ func (c *Client) FetchShared901(ctx context.Context, progress func(page, rows, t
 		}
 		form.Set("__EVENTTARGET", "ctl00$ContentPlaceHolder1$GridView1")
 		form.Set("__EVENTARGUMENT", fmt.Sprintf("Page$%d", next))
-		if page, err = c.postForm(ctx, u, form); err != nil {
+		if page, err = c.PostForm(ctx, u, form); err != nil {
 			return out, src, err
 		}
 		size += len(page)

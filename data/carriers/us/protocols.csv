@@ -1,0 +1,820 @@
+kind,code,protocol
+hni,310-040,LTE/LTE Advanced
+hni,310-040,5G
+hni,310-060,LTE/LTE Advanced
+hni,310-060,5G
+hni,310-070,LTE/LTE Advanced
+hni,310-090,LTE/LTE Advanced
+hni,310-330,LTE/LTE Advanced
+hni,310-340,GPRS
+hni,310-340,EDGE
+hni,310-340,W-CDMA
+hni,310-340,HSPA
+hni,310-340,1xRTT
+hni,310-340,HRPD/EVDO
+hni,310-340,LTE/LTE Advanced
+hni,310-510,1xRTT
+hni,310-510,HRPD/EVDO
+hni,310-510,LTE/LTE Advanced
+hni,310-560,LTE/LTE Advanced
+hni,310-591,W-CDMA
+hni,310-591,1xRTT
+hni,310-591,HRPD/EVDO
+hni,310-591,LTE/LTE Advanced
+hni,310-592,W-CDMA
+hni,310-592,1xRTT
+hni,310-592,HRPD/EVDO
+hni,310-593,W-CDMA
+hni,310-593,1xRTT
+hni,310-593,HRPD/EVDO
+hni,310-593,LTE/LTE Advanced
+hni,310-594,W-CDMA
+hni,310-594,1xRTT
+hni,310-594,HRPD/EVDO
+hni,310-594,LTE/LTE Advanced
+hni,310-595,W-CDMA
+hni,310-595,1xRTT
+hni,310-595,HRPD/EVDO
+hni,310-595,LTE/LTE Advanced
+hni,310-596,W-CDMA
+hni,310-596,1xRTT
+hni,310-596,HRPD/EVDO
+hni,310-596,LTE/LTE Advanced
+hni,310-597,W-CDMA
+hni,310-597,1xRTT
+hni,310-597,HRPD/EVDO
+hni,310-597,LTE/LTE Advanced
+hni,310-598,W-CDMA
+hni,310-598,1xRTT
+hni,310-598,HRPD/EVDO
+hni,310-598,LTE/LTE Advanced
+hni,310-599,W-CDMA
+hni,310-599,1xRTT
+hni,310-599,HRPD/EVDO
+hni,310-599,LTE/LTE Advanced
+hni,310-620,1xRTT
+hni,310-620,HRPD/EVDO
+hni,310-620,LTE/LTE Advanced
+hni,310-680,LTE/LTE Advanced
+hni,310-810,LTE/LTE Advanced
+hni,310-830,LTE/LTE Advanced
+hni,310-891,W-CDMA
+hni,310-891,1xRTT
+hni,310-891,HRPD/EVDO
+hni,310-891,LTE/LTE Advanced
+hni,310-892,W-CDMA
+hni,310-892,1xRTT
+hni,310-892,HRPD/EVDO
+hni,310-892,LTE/LTE Advanced
+hni,310-893,W-CDMA
+hni,310-893,1xRTT
+hni,310-893,HRPD/EVDO
+hni,310-893,LTE/LTE Advanced
+hni,310-894,W-CDMA
+hni,310-894,1xRTT
+hni,310-894,HRPD/EVDO
+hni,310-894,LTE/LTE Advanced
+hni,310-895,W-CDMA
+hni,310-895,1xRTT
+hni,310-895,HRPD/EVDO
+hni,310-895,LTE/LTE Advanced
+hni,310-896,W-CDMA
+hni,310-896,1xRTT
+hni,310-896,HRPD/EVDO
+hni,310-896,LTE/LTE Advanced
+hni,310-897,W-CDMA
+hni,310-897,1xRTT
+hni,310-897,HRPD/EVDO
+hni,310-897,LTE/LTE Advanced
+hni,310-898,W-CDMA
+hni,310-898,1xRTT
+hni,310-898,HRPD/EVDO
+hni,310-898,LTE/LTE Advanced
+hni,310-899,W-CDMA
+hni,310-899,1xRTT
+hni,310-899,HRPD/EVDO
+hni,310-899,LTE/LTE Advanced
+hni,310-960,LTE/LTE Advanced
+hni,311-130,GPRS
+hni,311-130,EDGE
+hni,311-130,HSPA
+hni,311-130,HRPD/EVDO
+hni,311-130,LTE/LTE Advanced
+hni,311-160,GPRS
+hni,311-160,EDGE
+hni,311-160,HSPA
+hni,311-160,HRPD/EVDO
+hni,311-160,LTE/LTE Advanced
+hni,311-200,5G
+hni,311-210,LTE/LTE Advanced
+hni,311-260,LTE/LTE Advanced
+hni,311-440,EDGE
+hni,311-460,W-CDMA
+hni,311-460,HSPA
+hni,311-460,LTE/LTE Advanced
+hni,311-500,LTE/LTE Advanced
+hni,311-500,5G
+hni,311-510,GPRS
+hni,311-510,EDGE
+hni,311-510,HSPA
+hni,311-510,HRPD/EVDO
+hni,311-510,LTE/LTE Advanced
+hni,311-520,GPRS
+hni,311-520,EDGE
+hni,311-520,HSPA
+hni,311-520,HRPD/EVDO
+hni,311-520,LTE/LTE Advanced
+hni,311-540,LTE/LTE Advanced
+hni,311-600,GPRS
+hni,311-600,EDGE
+hni,311-600,W-CDMA
+hni,311-600,HSPA
+hni,311-600,LTE/LTE Advanced
+hni,311-750,LTE/LTE Advanced
+hni,311-760,GPRS
+hni,311-760,EDGE
+hni,311-760,W-CDMA
+hni,311-760,HSPA
+hni,311-760,1xRTT
+hni,311-760,HRPD/EVDO
+hni,311-770,LTE/LTE Advanced
+hni,311-780,LTE/LTE Advanced
+hni,311-790,LTE/LTE Advanced
+hni,311-810,LTE/LTE Advanced
+hni,311-820,GPRS
+hni,311-820,EDGE
+hni,311-820,W-CDMA
+hni,311-820,HSPA
+hni,311-830,W-CDMA
+hni,311-830,1xRTT
+hni,311-830,HRPD/EVDO
+hni,311-830,LTE/LTE Advanced
+hni,311-840,1xRTT
+hni,311-840,HRPD/EVDO
+hni,311-840,LTE/LTE Advanced
+hni,311-850,1xRTT
+hni,311-850,HRPD/EVDO
+hni,311-850,LTE/LTE Advanced
+hni,311-860,LTE/LTE Advanced
+hni,311-860,5G
+hni,311-870,1xRTT
+hni,311-870,HRPD/EVDO
+hni,311-870,LTE/LTE Advanced
+hni,311-880,1xRTT
+hni,311-880,HRPD/EVDO
+hni,311-880,LTE/LTE Advanced
+hni,311-882,1xRTT
+hni,311-882,HRPD/EVDO
+hni,311-882,LTE/LTE Advanced
+hni,311-890,GPRS
+hni,311-890,EDGE
+hni,311-900,GPRS
+hni,311-900,EDGE
+hni,311-900,W-CDMA
+hni,311-900,HSPA
+hni,311-900,HRPD/EVDO
+hni,311-900,LTE/LTE Advanced
+hni,311-910,W-CDMA
+hni,311-910,1xRTT
+hni,311-910,HRPD/EVDO
+hni,311-920,1xRTT
+hni,311-940,LTE/LTE Advanced
+hni,311-960,GPRS
+hni,311-960,HSPA
+hni,311-970,LTE/LTE Advanced
+hni,311-990,GPRS
+hni,311-990,EDGE
+hni,311-990,W-CDMA
+hni,311-990,HSPA
+hni,311-990,LTE/LTE Advanced
+hni,312-020,LTE/LTE Advanced
+hni,312-030,LTE/LTE Advanced
+hni,312-040,W-CDMA
+hni,312-040,1xRTT
+hni,312-040,HRPD/EVDO
+hni,312-050,LTE/LTE Advanced
+hni,312-060,EDGE
+hni,312-060,1xRTT
+hni,312-070,LTE/LTE Advanced
+hni,312-080,LTE/LTE Advanced
+hni,312-090,HSPA
+hni,312-090,LTE/LTE Advanced
+hni,312-100,LTE/LTE Advanced
+hni,312-110,LTE/LTE Advanced
+hni,312-120,LTE/LTE Advanced
+hni,312-130,LTE/LTE Advanced
+hni,312-140,1xRTT
+hni,312-140,HRPD/EVDO
+hni,312-150,LTE/LTE Advanced
+hni,312-160,LTE/LTE Advanced
+hni,312-170,LTE/LTE Advanced
+hni,312-180,GPRS
+hni,312-180,EDGE
+hni,312-180,W-CDMA
+hni,312-180,HSPA
+hni,312-180,LTE/LTE Advanced
+hni,312-190,LTE/LTE Advanced
+hni,312-200,GPRS
+hni,312-200,EDGE
+hni,312-200,LTE/LTE Advanced
+hni,312-210,GPRS
+hni,312-220,LTE/LTE Advanced
+hni,312-230,1xRTT
+hni,312-230,HRPD/EVDO
+hni,312-230,LTE/LTE Advanced
+hni,312-240,LTE/LTE Advanced
+hni,312-250,LTE/LTE Advanced
+hni,312-260,LTE/LTE Advanced
+hni,312-270,LTE/LTE Advanced
+hni,312-280,LTE/LTE Advanced
+hni,312-290,LTE/LTE Advanced
+hni,312-300,GPRS
+hni,312-300,EDGE
+hni,312-300,HSPA
+hni,312-310,LTE/LTE Advanced
+hni,312-320,LTE/LTE Advanced
+hni,312-330,LTE/LTE Advanced
+hni,312-340,LTE/LTE Advanced
+hni,312-350,LTE/LTE Advanced
+hni,312-360,LTE/LTE Advanced
+hni,312-370,GPRS
+hni,312-370,EDGE
+hni,312-370,HSPA
+hni,312-370,LTE/LTE Advanced
+hni,312-380,LTE/LTE Advanced
+hni,312-390,GPRS
+hni,312-390,EDGE
+hni,312-390,W-CDMA
+hni,312-390,HSPA
+hni,312-390,LTE/LTE Advanced
+hni,312-400,GPRS
+hni,312-400,LTE/LTE Advanced
+hni,312-410,GPRS
+hni,312-410,EDGE
+hni,312-410,HSPA
+hni,312-410,LTE/LTE Advanced
+hni,312-420,LTE/LTE Advanced
+hni,312-430,LTE/LTE Advanced
+hni,312-440,LTE/LTE Advanced
+hni,312-450,LTE/LTE Advanced
+hni,312-460,LTE/LTE Advanced
+hni,312-470,GPRS
+hni,312-470,W-CDMA
+hni,312-470,1xRTT
+hni,312-470,HRPD/EVDO
+hni,312-470,LTE/LTE Advanced
+hni,312-480,HSPA
+hni,312-480,1xRTT
+hni,312-490,GPRS
+hni,312-490,EDGE
+hni,312-500,LTE/LTE Advanced
+hni,312-510,LTE/LTE Advanced
+hni,312-520,HSPA
+hni,312-520,LTE/LTE Advanced
+hni,312-530,1xRTT
+hni,312-530,HRPD/EVDO
+hni,312-530,LTE/LTE Advanced
+hni,312-540,GPRS
+hni,312-540,EDGE
+hni,312-540,W-CDMA
+hni,312-540,HSPA
+hni,312-540,1xRTT
+hni,312-540,HRPD/EVDO
+hni,312-540,LTE/LTE Advanced
+hni,312-550,LTE/LTE Advanced
+hni,312-560,LTE/LTE Advanced
+hni,312-570,LTE/LTE Advanced
+hni,312-580,GPRS
+hni,312-580,EDGE
+hni,312-580,W-CDMA
+hni,312-580,HSPA
+hni,312-580,1xRTT
+hni,312-580,HRPD/EVDO
+hni,312-580,LTE/LTE Advanced
+hni,312-590,LTE/LTE Advanced
+hni,312-600,LTE/LTE Advanced
+hni,312-620,GPRS
+hni,312-620,EDGE
+hni,312-620,HSPA
+hni,312-620,LTE/LTE Advanced
+hni,312-630,GPRS
+hni,312-630,EDGE
+hni,312-630,W-CDMA
+hni,312-640,LTE/LTE Advanced
+hni,312-650,W-CDMA
+hni,312-660,LTE/LTE Advanced
+hni,312-670,GPRS
+hni,312-670,EDGE
+hni,312-670,HSPA
+hni,312-670,LTE/LTE Advanced
+hni,312-680,GPRS
+hni,312-680,EDGE
+hni,312-680,HSPA
+hni,312-680,LTE/LTE Advanced
+hni,312-690,GPRS
+hni,312-690,EDGE
+hni,312-690,W-CDMA
+hni,312-690,HSPA
+hni,312-690,1xRTT
+hni,312-690,HRPD/EVDO
+hni,312-690,LTE/LTE Advanced
+hni,312-700,LTE/LTE Advanced
+hni,312-710,LTE/LTE Advanced
+hni,312-720,LTE/LTE Advanced
+hni,312-730,LTE/LTE Advanced
+hni,312-740,GPRS
+hni,312-740,EDGE
+hni,312-740,W-CDMA
+hni,312-740,HSPA
+hni,312-750,LTE/LTE Advanced
+hni,312-760,LTE/LTE Advanced
+hni,312-770,W-CDMA
+hni,312-770,1xRTT
+hni,312-770,HRPD/EVDO
+hni,312-770,LTE/LTE Advanced
+hni,312-780,LTE/LTE Advanced
+hni,312-790,LTE/LTE Advanced
+hni,312-800,GPRS
+hni,312-800,EDGE
+hni,312-800,HSPA
+hni,312-800,LTE/LTE Advanced
+hni,312-810,LTE/LTE Advanced
+hni,312-820,LTE/LTE Advanced
+hni,312-830,LTE/LTE Advanced
+hni,312-840,LTE/LTE Advanced
+hni,312-850,GPRS
+hni,312-850,EDGE
+hni,312-850,W-CDMA
+hni,312-850,HSPA
+hni,312-850,1xRTT
+hni,312-850,HRPD/EVDO
+hni,312-850,LTE/LTE Advanced
+hni,312-860,1xRTT
+hni,312-860,HRPD/EVDO
+hni,312-860,LTE/LTE Advanced
+hni,312-870,LTE/LTE Advanced
+hni,312-880,LTE/LTE Advanced
+hni,312-890,LTE/LTE Advanced
+hni,312-900,1xRTT
+hni,312-900,HRPD/EVDO
+hni,312-900,LTE/LTE Advanced
+hni,312-910,LTE/LTE Advanced
+hni,312-920,HSPA
+hni,312-920,LTE/LTE Advanced
+hni,312-930,LTE/LTE Advanced
+hni,312-930,5G
+hni,312-940,LTE/LTE Advanced
+hni,312-950,LTE/LTE Advanced
+hni,312-970,W-CDMA
+hni,312-970,HSPA
+hni,312-970,LTE/LTE Advanced
+hni,312-980,LTE/LTE Advanced
+hni,312-990,LTE/LTE Advanced
+hni,313-000,LTE/LTE Advanced
+hni,313-010,LTE/LTE Advanced
+hni,313-020,1xRTT
+hni,313-020,HRPD/EVDO
+hni,313-020,LTE/LTE Advanced
+hni,313-030,LTE/LTE Advanced
+hni,313-040,1xRTT
+hni,313-050,1xRTT
+hni,313-050,HRPD/EVDO
+hni,313-050,LTE/LTE Advanced
+hni,313-060,LTE/LTE Advanced
+hni,313-061,LTE/LTE Advanced
+hni,313-070,GPRS
+hni,313-070,EDGE
+hni,313-070,W-CDMA
+hni,313-070,HSPA
+hni,313-070,1xRTT
+hni,313-070,HRPD/EVDO
+hni,313-070,LTE/LTE Advanced
+hni,313-080,LTE/LTE Advanced
+hni,313-090,LTE/LTE Advanced
+hni,313-100,LTE/LTE Advanced
+hni,313-110,GPRS
+hni,313-120,GPRS
+hni,313-130,GPRS
+hni,313-140,GPRS
+hni,313-150,GPRS
+hni,313-160,GPRS
+hni,313-170,GPRS
+hni,313-180,GPRS
+hni,313-190,GPRS
+hni,313-200,LTE/LTE Advanced
+hni,313-210,GPRS
+hni,313-210,EDGE
+hni,313-210,HSPA
+hni,313-210,LTE/LTE Advanced
+hni,313-220,LTE/LTE Advanced
+hni,313-230,LTE/LTE Advanced
+hni,313-240,LTE/LTE Advanced
+hni,313-250,LTE/LTE Advanced
+hni,313-260,GPRS
+hni,313-260,LTE/LTE Advanced
+hni,313-270,LTE/LTE Advanced
+hni,313-280,LTE/LTE Advanced
+hni,313-290,LTE/LTE Advanced
+hni,313-300,LTE/LTE Advanced
+hni,313-320,LTE/LTE Advanced
+hni,313-330,LTE/LTE Advanced
+hni,313-340,LTE/LTE Advanced
+hni,313-350,LTE/LTE Advanced
+hni,313-360,LTE/LTE Advanced
+hni,313-370,GPRS
+hni,313-370,EDGE
+hni,313-370,LTE/LTE Advanced
+hni,313-380,LTE/LTE Advanced
+hni,313-390,LTE/LTE Advanced
+hni,313-400,LTE/LTE Advanced
+hni,313-410,LTE/LTE Advanced
+hni,313-420,LTE/LTE Advanced
+hni,313-440,LTE/LTE Advanced
+hni,313-450,LTE/LTE Advanced
+hni,313-460,LTE/LTE Advanced
+hni,313-470,LTE/LTE Advanced
+hni,313-480,W-CDMA
+hni,313-480,LTE/LTE Advanced
+hni,313-490,LTE/LTE Advanced
+hni,313-500,GPRS
+hni,313-510,LTE/LTE Advanced
+hni,313-520,LTE/LTE Advanced
+hni,313-530,LTE/LTE Advanced
+hni,313-540,LTE/LTE Advanced
+hni,313-550,LTE/LTE Advanced
+hni,313-560,LTE/LTE Advanced
+hni,313-570,LTE/LTE Advanced
+hni,313-580,GPRS
+hni,313-580,EDGE
+hni,313-580,W-CDMA
+hni,313-580,HSPA
+hni,313-580,1xRTT
+hni,313-580,HRPD/EVDO
+hni,313-580,LTE/LTE Advanced
+hni,313-590,LTE/LTE Advanced
+hni,313-600,LTE/LTE Advanced
+hni,313-610,LTE/LTE Advanced
+hni,313-620,LTE/LTE Advanced
+hni,313-630,W-CDMA
+hni,313-640,LTE/LTE Advanced
+hni,313-650,LTE/LTE Advanced
+hni,313-670,W-CDMA
+hni,313-700,LTE/LTE Advanced
+hni,313-730,LTE/LTE Advanced
+hni,313-750,LTE/LTE Advanced
+hni,313-760,GPRS
+hni,313-760,EDGE
+hni,313-760,W-CDMA
+hni,313-760,HSPA
+hni,313-760,1xRTT
+hni,313-760,HRPD/EVDO
+hni,313-760,LTE/LTE Advanced
+hni,313-770,LTE/LTE Advanced
+hni,313-780,LTE/LTE Advanced
+hni,313-840,LTE/LTE Advanced
+hni,313-860,5G
+hni,313-870,5G
+hni,313-880,LTE/LTE Advanced
+hni,313-890,5G
+hni,313-900,LTE/LTE Advanced
+hni,313-940,LTE/LTE Advanced
+hni,313-960,LTE/LTE Advanced
+hni,313-990,LTE/LTE Advanced
+hni,314-010,LTE/LTE Advanced
+hni,314-020,LTE/LTE Advanced
+hni,314-030,LTE/LTE Advanced
+hni,314-090,5G
+hni,314-100,GPRS
+hni,314-110,GPRS
+hni,314-120,GPRS
+hni,314-130,GPRS
+hni,314-140,GPRS
+hni,314-150,GPRS
+hni,314-160,GPRS
+hni,314-170,GPRS
+hni,314-180,GPRS
+hni,314-190,GPRS
+hni,314-200,5G
+hni,314-210,LTE/LTE Advanced
+hni,314-210,5G
+hni,314-220,5G
+hni,314-230,W-CDMA
+hni,314-230,HRPD/EVDO
+hni,314-230,LTE/LTE Advanced
+hni,314-230,5G
+hni,314-240,5G
+hni,314-260,5G
+hni,314-270,5G
+hni,314-280,LTE/LTE Advanced
+hni,314-290,LTE/LTE Advanced
+hni,314-310,LTE/LTE Advanced
+hni,314-320,LTE/LTE Advanced
+hni,314-330,LTE/LTE Advanced
+hni,314-340,LTE/LTE Advanced
+hni,314-350,LTE/LTE Advanced
+hni,314-360,LTE/LTE Advanced
+hni,314-360,5G
+hni,314-370,1xRTT
+hni,314-370,HRPD/EVDO
+hni,314-370,LTE/LTE Advanced
+hni,314-370,5G
+hni,314-380,LTE/LTE Advanced
+hni,314-380,5G
+hni,314-390,LTE/LTE Advanced
+hni,314-390,5G
+hni,314-400,LTE/LTE Advanced
+hni,314-400,5G
+hni,314-410,W-CDMA
+hni,314-410,LTE/LTE Advanced
+hni,314-410,5G
+hni,314-430,LTE/LTE Advanced
+hni,314-430,5G
+hni,314-440,LTE/LTE Advanced
+hni,314-450,LTE/LTE Advanced
+hni,314-450,5G
+hni,314-460,LTE/LTE Advanced
+hni,314-460,5G
+hni,314-470,GPRS
+hni,314-470,LTE/LTE Advanced
+hni,314-470,5G
+hni,314-480,LTE/LTE Advanced
+hni,314-490,LTE/LTE Advanced
+hni,314-490,5G
+hni,314-500,LTE/LTE Advanced
+hni,314-500,5G
+hni,314-510,LTE/LTE Advanced
+hni,314-520,LTE/LTE Advanced
+hni,314-530,LTE/LTE Advanced
+hni,314-530,5G
+hni,314-540,LTE/LTE Advanced
+hni,314-550,LTE/LTE Advanced
+hni,314-550,5G
+hni,314-560,GPRS
+hni,314-560,EDGE
+hni,314-560,HSPA
+hni,314-560,LTE/LTE Advanced
+hni,314-560,5G
+hni,314-570,LTE/LTE Advanced
+hni,314-570,5G
+hni,314-580,LTE/LTE Advanced
+hni,314-580,5G
+hni,314-590,GPRS
+hni,314-590,LTE/LTE Advanced
+hni,314-600,LTE/LTE Advanced
+hni,314-610,GPRS
+hni,314-610,LTE/LTE Advanced
+hni,314-610,5G
+hni,314-630,LTE/LTE Advanced
+hni,314-630,5G
+hni,314-640,LTE/LTE Advanced
+hni,314-640,5G
+hni,314-650,LTE/LTE Advanced
+hni,314-650,5G
+hni,314-660,LTE/LTE Advanced
+hni,314-660,5G
+hni,314-670,HSPA
+hni,314-680,LTE/LTE Advanced
+hni,314-680,5G
+hni,314-690,LTE/LTE Advanced
+hni,314-690,5G
+hni,314-700,LTE/LTE Advanced
+hni,314-700,5G
+hni,314-710,LTE/LTE Advanced
+hni,314-710,5G
+hni,314-730,LTE/LTE Advanced
+hni,314-730,5G
+hni,314-740,LTE/LTE Advanced
+hni,314-740,5G
+hni,314-750,W-CDMA
+hni,314-750,LTE/LTE Advanced
+hni,314-750,5G
+hni,314-760,LTE/LTE Advanced
+hni,314-760,5G
+hni,314-770,EDGE
+hni,314-770,W-CDMA
+hni,314-770,LTE/LTE Advanced
+hni,314-770,5G
+hni,314-780,LTE/LTE Advanced
+hni,314-790,GPRS
+hni,314-790,EDGE
+hni,314-790,HSPA
+hni,314-790,LTE/LTE Advanced
+hni,314-790,5G
+hni,314-800,5G
+hni,314-810,5G
+hni,314-820,LTE/LTE Advanced
+hni,314-820,5G
+hni,314-830,LTE/LTE Advanced
+hni,314-830,5G
+hni,314-840,5G
+hni,314-850,LTE/LTE Advanced
+hni,314-850,5G
+hni,314-860,LTE/LTE Advanced
+hni,314-860,5G
+hni,314-870,LTE/LTE Advanced
+hni,314-870,5G
+hni,314-880,LTE/LTE Advanced
+hni,314-890,LTE/LTE Advanced
+hni,314-890,5G
+hni,314-900,LTE/LTE Advanced
+hni,314-900,5G
+hni,314-910,GPRS
+hni,314-910,EDGE
+hni,314-910,LTE/LTE Advanced
+hni,314-910,5G
+hni,314-920,5G
+hni,314-930,EDGE
+hni,314-930,LTE/LTE Advanced
+hni,314-930,5G
+hni,314-940,5G
+hni,314-950,LTE/LTE Advanced
+hni,314-950,5G
+hni,314-960,5G
+hni,314-970,LTE/LTE Advanced
+hni,314-970,5G
+hni,314-980,LTE/LTE Advanced
+hni,314-980,5G
+hni,314-990,LTE/LTE Advanced
+hni,314-990,5G
+hni,316-020,LTE/LTE Advanced
+hni,316-020,5G
+hni,316-030,LTE/LTE Advanced
+hni,316-030,5G
+hni,316-040,LTE/LTE Advanced
+hni,316-040,5G
+hni,316-050,LTE/LTE Advanced
+hni,316-050,5G
+hni,316-060,GPRS
+hni,316-060,EDGE
+hni,316-060,LTE/LTE Advanced
+hni,316-060,5G
+hni,316-070,LTE/LTE Advanced
+hni,316-070,5G
+hni,316-080,LTE/LTE Advanced
+hni,316-080,5G
+hni,316-700,LTE/LTE Advanced
+cbrs,315-010-0001,LTE/LTE Advanced
+cbrs,315-010-0002,LTE/LTE Advanced
+cbrs,315-010-0003,LTE/LTE Advanced
+cbrs,315-010-0004,LTE/LTE Advanced
+cbrs,315-010-0005,LTE/LTE Advanced
+cbrs,315-010-0006,LTE/LTE Advanced
+cbrs,315-010-0007,LTE/LTE Advanced
+cbrs,315-010-0007,5G
+cbrs,315-010-0008,LTE/LTE Advanced
+cbrs,315-010-0009,LTE/LTE Advanced
+cbrs,315-010-0010,LTE/LTE Advanced
+cbrs,315-010-0011,LTE/LTE Advanced
+cbrs,315-010-0012,LTE/LTE Advanced
+cbrs,315-010-0013,LTE/LTE Advanced
+cbrs,315-010-0014,LTE/LTE Advanced
+cbrs,315-010-0015,LTE/LTE Advanced
+cbrs,315-010-0016,LTE/LTE Advanced
+cbrs,315-010-0017,LTE/LTE Advanced
+cbrs,315-010-0018,LTE/LTE Advanced
+cbrs,315-010-0019,LTE/LTE Advanced
+cbrs,315-010-0020,LTE/LTE Advanced
+cbrs,315-010-0021,LTE/LTE Advanced
+cbrs,315-010-0022,LTE/LTE Advanced
+cbrs,315-010-0023,LTE/LTE Advanced
+cbrs,315-010-0024,LTE/LTE Advanced
+cbrs,315-010-0025,LTE/LTE Advanced
+cbrs,315-010-0026,LTE/LTE Advanced
+cbrs,315-010-0027,LTE/LTE Advanced
+cbrs,315-010-0028,LTE/LTE Advanced
+cbrs,315-010-0029,LTE/LTE Advanced
+cbrs,315-010-0030,LTE/LTE Advanced
+cbrs,315-010-0030,5G
+cbrs,315-010-0031,LTE/LTE Advanced
+cbrs,315-010-0032,5G
+cbrs,315-010-0033,5G
+cbrs,315-010-0034,LTE/LTE Advanced
+cbrs,315-010-0035,LTE/LTE Advanced
+cbrs,315-010-0036,LTE/LTE Advanced
+cbrs,315-010-0037,LTE/LTE Advanced
+cbrs,315-010-0038,LTE/LTE Advanced
+cbrs,315-010-0039,5G
+cbrs,315-010-0040,LTE/LTE Advanced
+cbrs,315-010-0041,LTE/LTE Advanced
+cbrs,315-010-0042,LTE/LTE Advanced
+cbrs,315-010-0043,5G
+cbrs,315-010-0044,5G
+cbrs,315-010-0045,LTE/LTE Advanced
+cbrs,315-010-0046,LTE/LTE Advanced
+cbrs,315-010-0047,LTE/LTE Advanced
+cbrs,315-010-0048,5G
+cbrs,315-010-0049,5G
+cbrs,315-010-0050,5G
+cbrs,315-010-0051,5G
+cbrs,315-010-0052,LTE/LTE Advanced
+cbrs,315-010-0053,LTE/LTE Advanced
+cbrs,315-010-0054,5G
+cbrs,315-010-0055,5G
+cbrs,315-010-0056,5G
+cbrs,315-010-0057,5G
+cbrs,315-010-0058,LTE/LTE Advanced
+cbrs,315-010-0059,5G
+cbrs,315-010-0060,LTE/LTE Advanced
+cbrs,315-010-0060,5G
+cbrs,315-010-0061,5G
+cbrs,315-010-0062,LTE/LTE Advanced
+cbrs,315-010-0063,5G
+cbrs,315-010-0064,LTE/LTE Advanced
+cbrs,315-010-0064,5G
+cbrs,315-010-0065,LTE/LTE Advanced
+cbrs,315-010-0065,5G
+cbrs,315-010-0067,LTE/LTE Advanced
+cbrs,315-010-0068,5G
+cbrs,315-010-0069,LTE/LTE Advanced
+cbrs,315-010-0070,LTE/LTE Advanced
+cbrs,315-010-0070,5G
+cbrs,315-010-0072,LTE/LTE Advanced
+cbrs,315-010-0073,LTE/LTE Advanced
+cbrs,315-010-0074,LTE/LTE Advanced
+cbrs,315-010-0075,LTE/LTE Advanced
+cbrs,315-010-0076,LTE/LTE Advanced
+cbrs,315-010-0077,LTE/LTE Advanced
+cbrs,315-010-0078,LTE/LTE Advanced
+cbrs,315-010-0079,LTE/LTE Advanced
+cbrs,315-010-0080,LTE/LTE Advanced
+cbrs,315-010-0081,LTE/LTE Advanced
+cbrs,315-010-0082,LTE/LTE Advanced
+cbrs,315-010-0083,LTE/LTE Advanced
+cbrs,315-010-0084,LTE/LTE Advanced
+cbrs,315-010-0085,LTE/LTE Advanced
+cbrs,315-010-0085,5G
+cbrs,315-010-0086,LTE/LTE Advanced
+cbrs,315-010-0086,5G
+cbrs,315-010-0087,LTE/LTE Advanced
+cbrs,315-010-0088,LTE/LTE Advanced
+cbrs,315-010-0089,LTE/LTE Advanced
+cbrs,315-010-0090,LTE/LTE Advanced
+cbrs,315-010-0091,LTE/LTE Advanced
+cbrs,315-010-0091,5G
+cbrs,315-010-0092,LTE/LTE Advanced
+cbrs,315-010-0092,5G
+cbrs,315-010-0093,5G
+cbrs,315-010-0094,5G
+cbrs,315-010-0095,LTE/LTE Advanced
+cbrs,315-010-0096,LTE/LTE Advanced
+cbrs,315-010-0097,LTE/LTE Advanced
+cbrs,315-010-0097,5G
+cbrs,315-010-0098,5G
+cbrs,315-010-0099,LTE/LTE Advanced
+cbrs,315-010-0099,5G
+cbrs,315-010-0100,LTE/LTE Advanced
+cbrs,315-010-0100,5G
+cbrs,315-010-0101,LTE/LTE Advanced
+cbrs,315-010-0104,5G
+cbrs,315-010-0105,LTE/LTE Advanced
+cbrs,315-010-0108,LTE/LTE Advanced
+cbrs,315-010-0108,5G
+cbrs,315-010-0109,LTE/LTE Advanced
+cbrs,315-010-0109,5G
+cbrs,315-010-0111,LTE/LTE Advanced
+cbrs,315-010-0112,5G
+cbrs,315-010-0113,LTE/LTE Advanced
+cbrs,315-010-0115,LTE/LTE Advanced
+cbrs,315-010-0115,5G
+cbrs,315-010-0116,LTE/LTE Advanced
+cbrs,315-010-0116,5G
+cbrs,315-010-0117,LTE/LTE Advanced
+cbrs,315-010-0117,5G
+cbrs,315-010-0118,LTE/LTE Advanced
+cbrs,315-010-0118,5G
+cbrs,315-010-0119,LTE/LTE Advanced
+cbrs,315-010-0119,5G
+cbrs,315-010-0120,LTE/LTE Advanced
+cbrs,315-010-0121,LTE/LTE Advanced
+cbrs,315-010-0121,5G
+cbrs,315-010-0122,LTE/LTE Advanced
+cbrs,315-010-0122,5G
+cbrs,315-010-0123,LTE/LTE Advanced
+cbrs,315-010-0123,5G
+cbrs,315-010-0124,LTE/LTE Advanced
+cbrs,315-010-0125,LTE/LTE Advanced
+cbrs,315-010-0125,5G
+cbrs,315-010-0126,LTE/LTE Advanced
+cbrs,315-010-0126,5G
+cbrs,315-010-0127,LTE/LTE Advanced
+cbrs,315-010-0127,5G
+cbrs,315-010-0128,5G
+cbrs,315-010-0129,LTE/LTE Advanced
+cbrs,315-010-0129,5G
+cbrs,315-010-0130,5G
+cbrs,315-010-0131,5G
+cbrs,315-010-0134,LTE/LTE Advanced
+cbrs,315-010-0134,5G
+cbrs,315-010-0135,LTE/LTE Advanced
+cbrs,315-010-0135,5G
+cbrs,315-010-0138,LTE/LTE Advanced
+cbrs,315-010-0139,LTE/LTE Advanced
+cbrs,315-010-0139,5G
+cbrs,315-010-0141,LTE/LTE Advanced
+cbrs,315-010-0141,5G
+cbrs,315-010-0143,5G
+cbrs,315-010-0144,5G
+cbrs,315-010-0148,LTE/LTE Advanced
+cbrs,315-010-0148,5G
+cbrs,315-010-0150,5G
+cbrs,315-010-0151,LTE/LTE Advanced
