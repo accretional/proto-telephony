@@ -33,4 +33,17 @@ for pair in itu-e212:itu us-hni:us; do
   done
 done
 
+# National registries: rebuild those with a cache, both formats.
+national=()
+for cc in ca mx jp; do
+  [[ -d "data/cache/$cc" ]] && national+=("$cc")
+done
+if ((${#national[@]})); then
+  only=$(IFS=,; echo "${national[*]}")
+  for format in sqlite csv; do
+    echo "==> offline rebuild: national-mnc -only $only -format $format"
+    ./bin/national-mnc -offline -only "$only" -format "$format" -out-dir "$tmp/national" | sed -n '/== national-mnc/,$p'
+  done
+fi
+
 echo "test: ok"

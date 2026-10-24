@@ -1,6 +1,6 @@
 # Mexico: IFT → CRT (MCC 334)
 
-**Status: surveyed, not built. Easy, but watch the regulator change.** One
+**Status: built** (`pkg/carriers/ift`, run by `cmd/national-mnc`, output `data/carriers/mx/`). Originally assessed as Easy, but watch the regulator change. One
 XLSX file with assignment letter numbers and dates, which none of the
 other sources have.
 
@@ -52,10 +52,10 @@ Parsing details:
 On 2026-10-24: 26 national, 25 in ITU's list. **334-250 (Walmart, 2026)**
 isn't in ITU yet. Nothing is ITU-only.
 
-## How to build the downloader
+## The downloader (as built)
 
-Package `pkg/carriers/ift` (name it after the source; rename if CRT takes
-over hosting), command `cmd/mx-mnc`, output `data/carriers/mx/`:
+Package `pkg/carriers/ift` (named after the source; rename if CRT takes
+over hosting), run by `cmd/national-mnc -only mx`, output `data/carriers/mx/`:
 
 1. **Discover:**
    - fetch the index page with `Client.Fresh`;
@@ -99,3 +99,10 @@ with the previous edition, since the source has no status.
 - **`assigned_date`:** the first letter's date.
 - **Status:** every listed row is `assigned`. Withdrawals can only be
   inferred from diffs between editions.
+
+**As built (2026-10-24):** the tool follows this plan. Every source also
+writes the shared `assignments` table from `research/schema.md`. It runs as
+part of `./LET_IT_RIP.sh`, and the first live run passed all `-verify`
+checks. One difference: the freshness check (as-of date age) isn't
+enforced, because it would fail offline rebuilds from an old cache. The
+as-of date is in `meta` and `assignments.as_of` instead.

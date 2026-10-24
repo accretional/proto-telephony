@@ -1,0 +1,3 @@
+kind,name,url,bytes,sha256,from_cache
+index,number_shitei,https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/number_shitei.html,51778,d0e78486de3209ec97a16e8524b1bde59e75837a6150df56c082a2e02e5ef871,0
+xlsx,001090876.xlsx,https://www.soumu.go.jp/main_content/001090876.xlsx,32769,6be98daac6a95b53f7ddab93dddd426071346a707a8d61e59dd2ca05d9717752,1

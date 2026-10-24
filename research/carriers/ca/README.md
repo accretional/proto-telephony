@@ -1,6 +1,6 @@
 # Canada: CNAC (MCC 302)
 
-**Status: surveyed, not built. Easy.** One CSV file, and the richest
+**Status: built** (`pkg/carriers/cnac`, run by `cmd/national-mnc`, output `data/carriers/ca/`). Originally assessed as Easy. One CSV file, and the richest
 lifecycle data per row of the sources surveyed.
 
 ## Authority
@@ -41,9 +41,9 @@ list. **5** are national-only, e.g. 302-310, 302-520, 302-750, 302-820 and
 302-991 (Halton Regional Police, experimental). **3** ITU-only codes
 (302-390, 302-560, 302-670) appear to be recovered nationally.
 
-## How to build the downloader
+## The downloader (as built)
 
-Package `pkg/carriers/cnac` (or `ca`), command `cmd/ca-mnc`, output
+Package `pkg/carriers/cnac`, run by `cmd/national-mnc -only ca`, output
 `data/carriers/ca/`:
 
 1. **Fetch** the CSV with `Client.Fresh`: always refetch, keep a cached copy
@@ -79,3 +79,10 @@ source itself doesn't keep beyond the remarks.
 - `Recovered/Aging` rows → `status = reclaimed`, holder NULL, with
   `recovered_from` in attributes. The source has no status date.
 - Experimental assignments → attribute `experimental = true`.
+
+**As built (2026-10-24):** the tool follows this plan. Every source also
+writes the shared `assignments` table from `research/schema.md`. It runs as
+part of `./LET_IT_RIP.sh`, and the first live run passed all `-verify`
+checks. One difference: the freshness check (as-of date age) isn't
+enforced, because it would fail offline rebuilds from an old cache. The
+as-of date is in `meta` and `assignments.as_of` instead.

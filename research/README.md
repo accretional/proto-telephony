@@ -33,9 +33,9 @@ scattered.**
 |---|---|---|---|---|---|
 | [ITU-T E.212](itu/) | Worldwide, all MCCs | `.docx` base list + `.docx` bulletin amendments + live HTML (901) | Amendment history, extraterritorial MSIN ranges, 901 status/dates | **Built**: `cmd/itu-e212` → `data/carriers/itu/` | [itu/](itu/README.md) |
 | [US](carriers/us/): IMSI Admin (ATIS) | 310–316 + CBRS 315-010 | HTML directory + 708 detail pages | Status, dates, FCC licenses, protocol, entity type | **Built**: `cmd/us-hni` → `data/carriers/us/` | [us/](carriers/us/README.md) |
-| [Canada](carriers/ca/): CNAC | 302 | **CSV** | Status (incl. recovered), date assigned, remarks | Proposed (easy) | [ca/](carriers/ca/README.md) |
-| [Mexico](carriers/mx/): IFT → CRT | 334 | **XLSX** | Assignment letter numbers + dates | Proposed (easy) | [mx/](carriers/mx/README.md) |
-| [Japan](carriers/jp/): MIC (総務省) | 440, 441 | **XLSX** (+PDF) | Full code space with in-use / unused | Proposed (medium) | [jp/](carriers/jp/README.md) |
+| [Canada](carriers/ca/): CNAC | 302 | **CSV** | Status (incl. recovered), date assigned, remarks | **Built**: `cmd/national-mnc -only ca` → `data/carriers/ca/` | [ca/](carriers/ca/README.md) |
+| [Mexico](carriers/mx/): IFT → CRT | 334 | **XLSX** | Assignment letter numbers + dates | **Built**: `cmd/national-mnc -only mx` → `data/carriers/mx/` | [mx/](carriers/mx/README.md) |
+| [Japan](carriers/jp/): MIC (総務省) | 440, 441 | **XLSX** (+PDF) | Full code space with in-use / unused | **Built**: `cmd/national-mnc -only jp` → `data/carriers/jp/` | [jp/](carriers/jp/README.md) |
 | [Germany](carriers/de/): BNetzA | 262 | **PDF** | Only an as-of date; identical to ITU | Low value | [de/](carriers/de/README.md) |
 | [India](carriers/in/): DoT | 404, 405, 406 | One PDF letter per allocation, behind a JS app | Circle (licence-area) structure | Hard; use ITU for now | [in/](carriers/in/README.md) |
 
@@ -101,9 +101,9 @@ repo [README](../README.md).
 
 ## Suggested next steps
 
-1. Add downloaders for **Canada** and **Mexico**. Both are single-file sources
-   with good extras.
-2. Then **Japan**. It needs an XLSX reader and Japanese text normalization.
+1. ~~Add downloaders for Canada, Mexico and Japan.~~ Done: `cmd/national-mnc`.
+   Each also writes the shared `assignments` table.
+2. Emit `assignments` from `itu` and `us` too.
 3. Build the **merged dataset** from [`schema.md`](schema.md): the `assignments`
    view across ITU plus national sources, with conflicts listed.
 4. Survey more countries the same way, starting with large markets and

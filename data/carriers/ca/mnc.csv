@@ -1,0 +1,86 @@
+mcc,mnc,plmn,status,status_raw,company,date_assigned,remarks,recovered_from,formerly,experimental
+302,060,302060,assigned,In Service,Karrier One Inc.,2024-12-23,,,,0
+302,100,302100,reclaimed,Recovered/Aging,,,Recovered from Data on Tap Inc.,Data on Tap Inc.,,0
+302,131,302131,assigned,In Service,Xplore Inc.,,,,,0
+302,140,302140,assigned,In Service,Fibernetics Corporation,2023-03-15,,,,0
+302,150,302150,assigned,In Service,Cogeco Connexion Inc.,2022-12-20,,,,0
+302,151,302151,reclaimed,Recovered/Aging,,,Recovered from Cogeco Connexion Inc.,Cogeco Connexion Inc.,,0
+302,152,302152,reclaimed,Recovered/Aging,,,Recovered from Cogeco Connexion Inc.,Cogeco Connexion Inc.,,0
+302,160,302160,reclaimed,Recovered/Aging,,,Recovered from Sugar Mobile Inc.,Sugar Mobile Inc.,,0
+302,220,302220,assigned,In Service,Telus Mobility,,,,,0
+302,221,302221,assigned,In Service,Telus Mobility,,,,,0
+302,222,302222,assigned,In Service,Telus Mobility,,,,,0
+302,230,302230,assigned,In Service,ISP Telecom Inc.,2022-11-02,,,,0
+302,250,302250,assigned,In Service,Bell Mobility,,,,,0
+302,270,302270,assigned,In Service,Bragg Communications Inc.,,,,,0
+302,300,302300,assigned,In Service,ECOTEL Inc.,,,,,0
+302,301,302301,assigned,In Service,ECOTEL inc.,2025-01-20,,,,0
+302,310,302310,assigned,In Service,ECOTEL Inc.,2019-01-16,,,,0
+302,320,302320,assigned,In Service,Rogers Communications Canada Inc.,,,,,0
+302,330,302330,assigned,In Service,OpenMobile Inc.,2026-07-23,NULL,,,0
+302,340,302340,assigned,In Service,Execulink Telecom Inc.,,,,,0
+302,350,302350,assigned,In Service,Naskapi Imuun Inc.,2021-09-02,,,,0
+302,351,302351,reclaimed,Recovered/Aging,,,Recovered from MPVWifi Inc.,MPVWifi Inc.,,0
+302,352,302352,reclaimed,Recovered/Aging,,,Recovered from Lytton Area Wireless Society,Lytton Area Wireless Society,,0
+302,353,302353,assigned,In Service,SpeedFi Inc.,2024-03-18,,,,0
+302,354,302354,assigned,Assigned,Every-Day Computers Inc.,2026-01-13,,,,0
+302,360,302360,assigned,In Service,Telus Mobility,,,,,0
+302,370,302370,assigned,In Service,Fido Solutions Inc.,,,,,0
+302,380,302380,assigned,In Service,Keewaytinook Okimakinak,2008-04-22,,,,0
+302,420,302420,assigned,In Service,Telus Mobility,,,,,0
+302,480,302480,assigned,In Service,SSi Micro Ltd.,,,,,0
+302,490,302490,assigned,In Service,Videotron Ltd.,,Formerly Freedom Mobile,,Freedom Mobile,0
+302,491,302491,assigned,In Service,Videotron Ltd.,,Formerly Freedom Mobile,,Freedom Mobile,0
+302,500,302500,assigned,In Service,Videotron Ltd.,,,,,0
+302,510,302510,assigned,In Service,Videotron Ltd.,,,,,0
+302,520,302520,assigned,In Service,Videotron Ltd.,,,,,0
+302,530,302530,assigned,In Service,Keewaytinook Okimakinak,2012-02-05,,,,0
+302,540,302540,reclaimed,Recovered/Aging,,,Recovered from Rovvr Communications Inc.,Rovvr Communications Inc.,,0
+302,550,302550,assigned,In Service,Star Solutions International Inc.,2019-11-18,,,,0
+302,570,302570,assigned,In Service,Ligado Networks Corp.,,,,,0
+302,590,302590,assigned,In Service,Quadro Communication,,,,,0
+302,600,302600,assigned,In Service,Iristel Inc.,,,,,0
+302,610,302610,assigned,In Service,Bell Mobility,,,,,0
+302,620,302620,assigned,In Service,Ice Wireless,,,,,0
+302,630,302630,assigned,In Service,Bell Mobility Aliant,,,,,0
+302,640,302640,assigned,In Service,Bell Mobility,,,,,0
+302,650,302650,assigned,In Service,Tbaytel Mobility,,,,,0
+302,660,302660,assigned,In Service,MTS Mobility,,,,,0
+302,670,302670,reclaimed,Recovered/Aging,,,Recovered from CityTel Mobility,CityTel Mobility,,0
+302,680,302680,assigned,In Service,SaskTel Mobility,,,,,0
+302,681,302681,assigned,In Service,SaskTel Mobility,2020-09-01,,,,0
+302,690,302690,assigned,In Service,Bell Mobility,,,,,0
+302,710,302710,assigned,In Service,Globalstar,,,,,0
+302,720,302720,assigned,In Service,Rogers Communications Canada Inc. (Wireless),,,,,0
+302,721,302721,assigned,In Service,Rogers Communications Canada Inc. (Wireless),2019-11-14,,,,0
+302,722,302722,assigned,In Service,Rogers Communications Canada Inc. (Wireless),2024-10-15,,,,0
+302,723,302723,assigned,In Service,Rogers Communications Canada Inc. (Wireless),2024-10-15,,,,0
+302,724,302724,reclaimed,Recovered/Aging,,,Recovered from Rogers Communications Canada Inc. (Wireless),Rogers Communications Canada Inc. (Wireless),,0
+302,725,302725,reclaimed,Recovered/Aging,,,Recovered from Rogers Communications Canada Inc. (Wireless),Rogers Communications Canada Inc. (Wireless),,0
+302,730,302730,assigned,In Service,Terrestar Solutions,,,,,0
+302,731,302731,assigned,In Service,Terrestar Solutions,2025-08-08,,,,0
+302,740,302740,assigned,In Service,Rogers Communications Canada Inc. (Wireless),,,,,0
+302,741,302741,assigned,In Service,Rogers Communications Canada Inc. (Wireless),2023-04-21,,,,0
+302,750,302750,assigned,In Service,SaskTel Mobility,,,,,0
+302,760,302760,assigned,In Service,Telus Mobility,,,,,0
+302,770,302770,reclaimed,Recovered/Aging,,,Recovered from TNW Wireless Inc..,TNW Wireless Inc..,,0
+302,780,302780,assigned,In Service,SaskTel Mobility,,,,,0
+302,781,302781,assigned,In Service,SaskTel Mobility,2020-09-01,,,,0
+302,790,302790,assigned,In Service,Xplore Inc.,,,,,0
+302,820,302820,assigned,In Service,Rogers Communications Canada Inc. (Wireless),,,,,0
+302,821,302821,reclaimed,Recovered/Aging,,,Recovered from Rogers Communications Canada Inc. (Wireless),Rogers Communications Canada Inc. (Wireless),,0
+302,848,302848,reclaimed,Recovered/Aging,,,"Recovered from Vocom International Telecommunications, Inc.","Vocom International Telecommunications, Inc.",,0
+302,860,302860,assigned,In Service,Telus Mobility,,,,,0
+302,880,302880,assigned,In Service,Telus/Bell shared,,,,,0
+302,910,302910,assigned,In Service,Halton Regional Police Service,2023-05-08,,,,0
+302,911,302911,assigned,In Service,Halton Regional Police Service,2024-05-02,,,,0
+302,912,302912,assigned,Assigned,Halton Regional Police Service,2026-06-17,,,,0
+302,940,302940,assigned,In Service,Wightman Telecom,,,,,0
+302,970,302970,assigned,In Service,Canadian Pacific Railway Company,2024-08-12,,,,0
+302,971,302971,assigned,In Service,Canadian National Railway,2024-09-23,,,,0
+302,972,302972,assigned,In Service,Hydro Quebec,2025-08-15,,,,0
+302,975,302975,assigned,In Service,BC Hydro,2025-05-05,,,,0
+302,990,302990,assigned,In Service,Ericsson Canada Inc.,,Experimental Purposes iaw the Guideline,,,1
+302,991,302991,assigned,In Service,Halton Regional Police Service,2019-04-16,Experimental Purposes iaw the Guideline,,,1
+302,992,302992,reclaimed,Recovered/Aging,,,Recovered from AltaLink Management Ltd,AltaLink Management Ltd,,0
+302,998,302998,assigned,In Service,Hydro Quebec,2021-08-12,Experimental Purposes iaw the Guideline,,,1

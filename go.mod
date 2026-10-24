@@ -2,7 +2,10 @@ module github.com/accretional/proto-telephony
 
 go 1.26.4
 
-require modernc.org/sqlite v1.61.0
+require (
+	golang.org/x/text v0.43.0
+	modernc.org/sqlite v1.61.0
+)
 
 require (
 	github.com/dustin/go-humanize v1.1.0 // indirect

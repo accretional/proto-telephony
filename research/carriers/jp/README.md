@@ -1,6 +1,6 @@
 # Japan: MIC / 総務省 (MCC 440, 441)
 
-**Status: surveyed, not built. Medium difficulty:** XLSX plus Japanese text
+**Status: built** (`pkg/carriers/mic`, run by `cmd/national-mnc`, output `data/carriers/jp/`). Originally assessed as Medium difficulty: XLSX plus Japanese text
 normalization. The only source that lists the **whole code space**, used
 and unused.
 
@@ -62,9 +62,9 @@ designated 2026-08-10, which the national XLSX shows as unused. It's
 probably designated but not yet in service, so check the national
 `recent designations` list before calling it a conflict.
 
-## How to build the downloader
+## The downloader (as built)
 
-Package `pkg/carriers/mic` (or `soumu`), command `cmd/jp-imsi`, output
+Package `pkg/carriers/mic`, run by `cmd/national-mnc -only jp`, output
 `data/carriers/jp/`:
 
 1. **Discover:**
@@ -109,3 +109,8 @@ designations and releases.
 - **`holder`:** NFKC-normalized Japanese name. An English name isn't
   published; ITU's English name for the same code can go in attributes
   (`name_en`).
+
+**As built (2026-10-24):** the tool follows this plan. Every source also
+writes the shared `assignments` table from `research/schema.md`. It runs as
+part of `./LET_IT_RIP.sh`, and the first live run passed all `-verify`
+checks.
