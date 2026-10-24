@@ -1,0 +1,499 @@
+amendment,ob,seq,country,action,mcc,mnc,operator,msin_range,outcome,before
+1,1282,1,Australia,ADD,505,58,Wi-Sky (NSW) Pty Ltd,,applied,
+1,1282,2,Sweden,ADD,240,50,eRate Sverige AB,,applied,
+1,1282,3,"International Mobile, shared code",SUP,901,95,HMD Global Oy,,applied,HMD Global Oy
+2,1283,1,Spain,SUP,214,25,"XFERA MÓVILES, S.A. UNIPERSONAL",,applied,"XFERA MÓVILES, S.A. UNIPERSONAL"
+2,1283,2,Spain,ADD,214,13,"FOOTBALLERISTA MOBILE SPAIN, S.A. UNIPERSONAL",,applied,
+2,1283,3,"International Mobile, shared code",ADD,901,07,NTT Ltd.,,applied,
+3,1285,1,Estonia,SUP,248,29,SkyTel OÜ,,applied,SkyTel OÜ
+3,1285,2,Estonia,ADD,248,33,Crowdfaster OÜ,,applied,
+3,1285,3,Nauru,ADD,536,03,Nauru Telikom Corporation,,applied,
+4,1286,1,Canada,ADD,302,351,MPVWIFI Inc.,,applied,
+4,1286,2,Denmark,ADD,238,19,YATECO OÜ,,applied,
+4,1286,3,New Zealand,ADD,530,12,Broadband & Internet New Zealand Limited,,applied,
+4,1286,4,United Kingdom,ADD,234,05,Spitfire Network Services Limited,,applied,
+4,1286,5,United Kingdom,ADD,234,79,UK Telecoms Lab (UKTL),,applied,
+4,1286,6,United Kingdom,ADD,234,87,LEBARA MOBILE LIMITED,,applied,
+4,1286,7,United Kingdom,LIR,234,04,WAVE MOBILE LTD,,applied,FMS Solutions Limited
+4,1286,8,United Kingdom,LIR,234,18,WIRELESS LOGIC LIMITED,,applied,Cloud9 Communications Limited
+4,1286,9,United Kingdom,LIR,234,74,CIRCLES MVNE International B.V.,,applied,Pareteum Europe B.V.
+4,1286,10,"International Mobile, shared code",ADD,901,08,SpaceX,,applied,
+4,1286,11,"International Mobile, shared code",ADD,901,09,China Telecommunications Corporation,,applied,
+5,1287,1,Canada,ADD,302,352,Lytton Area Wireless Society,,applied,
+5,1287,2,Czech Rep.,SUP,230,11,incrate s.r.o.,,applied,incrate s.r.o.
+5,1287,3,Czech Rep.,ADD,230,10,DataCell s.r.o.,,applied,
+5,1287,4,Czech Rep.,ADD,230,22,O2 Czech Republic a.s.,,applied,
+5,1287,5,Czech Rep.,ADD,230,53,Škoda Auto a.s.,,applied,
+5,1287,6,Mexico,ADD,334,200,"VIRGIN MOBILE MÉXICO, S. DE R.L. DE C.V.",,applied,
+5,1287,7,Mexico,LIR,334,040,"AT&T COMERCIALIZACIÓN MÓVIL, S. DE R.L. DE C.V.",,applied,"AT&T NORTE, S. DE R.L. DE C.V. Y AT&T DESARROLLO EN COMUNICACIONES DE MÉXICO, S. DE R.L. DE C.V."
+5,1287,8,Mexico,LIR,334,130,"ALESTRA SERVICIOS MÓVILES, S.A. DE C.V.",,applied,"AXTEL, S.A.B. DE C.V."
+5,1287,9,New Zealand,ADD,530,13,One New Zealand Group Limited,,applied,
+5,1287,10,Switzerland,SUP,228,59,"Vectone Mobile Limited, London",,applied,"Vectone Mobile Limited, London"
+5,1287,11,Switzerland,ADD,228,65,Nexphone AG,,applied,
+5,1287,12,"International Mobile, shared code",SUP,901,24,Voxbone SA,,applied,Voxbone SA
+5,1287,13,"International Mobile, shared code",SUP,901,90,Truphone Limited,,applied,Truphone Limited
+6,1288,1,Australia,ADD,505,59,Starlink Internet Services Pte Ltd,,applied,
+6,1288,2,Georgia,ADD,282,16,"""Unicell Mobile""LTD",,applied,
+6,1288,3,Sweden,ADD,240,51,YATECO OÜ,,applied,
+7,1289,1,Canada,ADD,302,160,Sugar Mobile Inc.,,applied,
+7,1289,2,Canada,ADD,302,353,SpeedFI Inc.,,applied,
+7,1289,3,Georgia,ADD,282,66,Icecell Telecom LLC,,applied,
+7,1289,4,Spain,ADD,214,15,"PROCONO, S.A.",,applied,
+7,1289,5,Spain,ADD,214,702,UNIVERSIDAD DE MÁLAGA,,applied,
+7,1289,6,Spain,ADD,214,703,"ENDESA GENERACIÓN, S.A.",,applied,
+7,1289,7,"International Mobile, shared code",ADD,901,10,Omnispace LLC,,applied,
+8,1291,1,Japan,SUP,441,01,SoftBank Corp.,,applied,SoftBank Corp.
+8,1291,2,Japan,ADD,440,91,"NTT DOCOMO, INC.",,applied,
+8,1291,3,Japan,ADD,440,92,KDDI Corporation,,applied,
+8,1291,4,Japan,ADD,440,93,SoftBank Corp.,,applied,
+8,1291,5,Japan,ADD,440,94,"Rakuten Mobile Network, Inc.",,applied,
+8,1291,6,Japan,ADD,441,214,Vroove Inc.,,applied,
+8,1291,7,Spain,SUP,214,28,"Consorcio de Telecomunicaciones Avanzadas, S.A.",,applied,"Consorcio de Telecomunicaciones Avanzadas, S.A."
+8,1291,8,Spain,ADD,214,704,"AMPER SISTEMAS, S.A.U.",,applied,
+9,1292,1,Canada,ADD,302,911,Halton Regional Police Service,,applied,
+9,1292,2,Chile,ADD,730,24,CLARO CHILE SpA,,applied,
+9,1292,3,Chile,ADD,730,29,Entel PCS Telecomunicaciones S.A.,,applied,
+9,1292,4,Georgia,ADD,282,17,"""TMTECH"" LTD",,applied,
+9,1292,5,Hungary,SUP,216,02,MVM NET Ltd.,,applied,MVM NET Ltd.
+9,1292,6,Hungary,ADD,216,02,HM EI Zrt.,,applied,
+10,1293,1,Costa Rica,SUP,712,20,Virtualis,,applied,Virtualis
+10,1293,2,Costa Rica,ADD,712,20,RADIOGRAFICA COSTARRICENSE S.A.,,applied,
+10,1293,3,Estonia,ADD,248,34,Nettora Systems OÜ,,applied,
+10,1293,4,Portugal,ADD,268,02,"Digi Portugal, Lda.",,applied,
+10,1293,5,Portugal,ADD,268,07,"Sumamovil Portugal, S.A.",,applied,
+10,1293,6,Portugal,ADD,268,08,"MEO - Serviços de Comunicações e Multimédia, S.A.",,applied,
+10,1293,7,Portugal,ADD,268,91,"Vodafone Portugal - Comunicações Pessoais, S.A.",,applied,
+10,1293,8,Portugal,ADD,268,92,"Vodafone Portugal - Comunicações Pessoais, S.A.",,applied,
+10,1293,9,Portugal,ADD,268,93,"NOS Comunicações, S.A.",,applied,
+10,1293,10,Zambia,ADD,645,04,Beeline Telecoms Limited,,applied,
+11,1294,1,Portugal,LIR,268,80,"E-Redes - Distribuição de Eletricidade, S.A.",,applied,"MEO - Serviços de Comunicações e Multimédia, S.A."
+11,1294,2,Switzerland,ADD,228,72,BSE Software GmbH,,applied,
+12,1295,1,Cayman Islands,ADD,346,007,Paradise Mobile Limited,,applied,
+12,1295,2,Singapore,ADD,525,04,Grid Communications Limited,,applied,
+12,1295,3,Singapore,ADD,525,06,StarHub Mobile Pte Ltd,,applied,
+12,1295,4,Singapore,ADD,525,07,StarHub Mobile Pte Ltd,,applied,
+12,1295,5,Singapore,ADD,525,11,M1 Limited,,applied,
+12,1295,6,Singapore,ADD,525,200,5G Test Bed,,applied,
+12,1295,7,Singapore,ADD,525,201,5G EP Twin Networks,,applied,
+12,1295,8,Singapore,ADD,525,202,5G EP Twin Networks,,applied,
+12,1295,9,Singapore,ADD,525,203,5G EP Twin Networks,,applied,
+12,1295,10,Singapore,ADD,525,204,5G EP Twin Networks,,applied,
+12,1295,11,Singapore,LIR,525,10,Simba Telecom Pte Ltd,,applied,TPG Telecom Pte Ltd
+12,1295,12,Singapore,LIR,525,12,Grid Communications Limited,,applied,Digital Trunked Radio Network
+12,1295,13,Spain,ADD,214,705,ENTIDAD PÚBLICA EMPRESARIAL ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS,,applied,
+12,1295,14,Spain,ADD,214,706,GOBIERNO VASCO,,applied,
+13,1296,1,Switzerland,ADD,228,73,iWay AG,,applied,
+13,1296,2,Luxembourg - Country A,ADD,270,07,Bouygues Telecom S.A.,270 07 00 0X XX XX XX,applied,
+13,1296,3,France - Country B,ADD,270,07,Bouygues Telecom S.A.,270 07 60 XX XX XX XX,applied,
+14,1297,1,Micronesia,ADD,550,02,Boom! Inc.,,applied,
+14,1297,2,Panama,SUP,714,04,"Digicel (Panamá), S.A.",,applied,"Digicel (Panamá), S.A."
+14,1297,3,Spain,SUP,214,02,"Alta Tecnologia en Comunicacions, S.L.",,applied,"Alta Tecnologia en Comunicacions, S.L."
+14,1297,4,Spain,SUP,214,12,"VENUS MOVIL, S.L. UNIPERSONAL",,applied,"VENUS MOVIL, S.L. UNIPERSONAL"
+14,1297,5,Spain,ADD,214,707,MINISTERIO DE DEFENSA - CENTRO DE SISTEMAS Y TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES,,applied,
+14,1297,6,Sweden,ADD,240,59,Myndigheten för samhällsskydd och beredskap (MSB) / Swedish Civil Contingencies Agency - Used for private network (PPDR network (Rakel G2)),,applied,
+15,1298,1,Canada,ADD,302,330,OpenMobile Inc.,,applied,
+16,1299,1,Australia,LIR,505,17,Optus Mobile Pty Ltd,,applied,Vivid Wireless Pty Ltd
+16,1299,2,Australia,LIR,505,90,Alphawest Pty Ltd,,applied,UE Access Pty Ltd
+16,1299,3,Canada,ADD,302,970,Canadian Pacific Railway Company,,applied,
+16,1299,4,Sweden,ADD,240,22,Mediafon Carrier Services UAB,,applied,
+17,1300,1,Kazakhstan,ADD,401,10,Freedom Telecom Operations LLP,,applied,
+17,1300,2,Spain,ADD,214,02,"OLAMO MOBILE, S.L. UNIPERSONAL",,applied,
+18,1301,1,Estonia,SUP,248,13,Telia Eesti AS,,applied,Telia Eesti AS
+18,1301,2,Estonia,ADD,248,35,Teliqon Communications OÜ,,applied,
+18,1301,3,South Africa,ADD,655,08,Cell C (Pty) Ltd,,applied,
+18,1301,4,South Africa,ADD,655,09,Cell C (Pty) Ltd,,applied,
+18,1301,5,South Africa,ADD,655,11,Mobile Telephone Networks (MTN) Pty Ltd,,applied,
+18,1301,6,South Africa,ADD,655,18,Mobile Telephone Networks (MTN) Pty Ltd,,applied,
+18,1301,7,"International Mobile, shared code",ADD,901,25,Datora Mobile Telecomunicações SA,,applied,
+18,1301,8,"International Mobile, shared code",LIR,901,49,Mobile Telecommunications Company K.S.C.P. /Zain Bahrain BSC,,applied,Mobile Telecommunications Company K.S.C.P. (Formerly Zain Kuwait)
+19,1302,1,Canada,SUP,302,130,Xplornet Communications,,applied,Xplornet Communications
+19,1302,2,Canada,ADD,302,971,Canadian National Railway,,applied,
+19,1302,3,Canada,LIR,302,131,Xplore Inc.,,applied,Xplornet Communications
+20,1303,1,Canada,ADD,302,722,Rogers Communications Canada Inc. (Wireless),,applied,
+20,1303,2,Canada,ADD,302,723,Rogers Communications Canada Inc. (Wireless),,applied,
+20,1303,3,Japan,ADD,441,215,"KYOCERA Mirai Envision Co., Ltd.",,applied,
+20,1303,4,Japan,ADD,441,216,Eureka Wireless K.K.,,applied,
+21,1304,1,Canada,ADD,302,724,Rogers Communications Canada Inc. (Wireless),,applied,
+21,1304,2,Hungary,ADD,216,25,Yettel Hungary Ltd.,,applied,
+21,1304,3,Japan,ADD,440,24,Japan Communications Inc.,,applied,
+21,1304,4,Japan,LIR,441,211,"STARCAT Co., Ltd.",,applied,"STARCAT CABLE NETWORK Co., LTD."
+21,1304,5,"International Mobile, shared code",ADD,901,30,OQ Technology,,applied,
+21,1304,6,"Trial of a proposed new international telecommunication service, shared code",ADD,991,04,E-Space Inc. (temporary assignment for trial until 17.X.2025),,applied,
+22,1305,1,Sweden,LIR,240,50,Telavox AB,,applied,eRate Sverige AB
+23,1306,1,Greece,SUP,202,04,OTE AE,,applied,OTE AE
+23,1306,2,Greece,SUP,202,11,INTERCONNECT,,applied,INTERCONNECT
+23,1306,3,Greece,SUP,202,12,YUBOTO,,applied,YUBOTO
+23,1306,4,Greece,SUP,202,13,COMPATEL LIMITED,,applied,COMPATEL LIMITED
+23,1306,5,Greece,SUP,202,15,BWS,,applied,BWS
+23,1306,6,Greece,SUP,202,16,INTER TELECOM,,applied,INTER TELECOM
+23,1306,7,Greece,ADD,202,00,INTER TELECOM,,applied,
+23,1306,8,Greece,ADD,202,04,OSE AE,,applied,
+23,1306,9,Greece,ADD,202,06,VODAFONE-PANAFON,,applied,
+23,1306,10,Greece,ADD,202,08,RC,,applied,
+23,1306,11,Greece,ADD,202,16,INTERCONNECT,,applied,
+23,1306,12,Greece,ADD,202,17,NOVA M.A.E.,,applied,
+23,1306,13,Greece,ADD,202,21,CELL MOBILE,,applied,
+23,1306,14,Greece,LIR,202,01,OTE AE,,applied,Cosmote AE
+23,1306,15,Greece,LIR,202,02,OTE AE,,applied,Cosmote AE
+23,1306,16,Greece,LIR,202,07,AMD TELECOM,,applied,AMD TELECOM AE
+23,1306,17,Greece,LIR,202,09,NOVA M.A.E.,,applied,WIND HELLAS TELECOMMUNICATIONS
+23,1306,18,Greece,LIR,202,10,NOVA M.A.E.,,applied,WIND HELLAS TELECOMMUNICATIONS
+23,1306,19,Greece,LIR,202,14,VODAFONE-PANAFON,,applied,CYTA (HELLAS)
+23,1306,20,Switzerland,ADD,228,74,Netplus.ch SA,,applied,
+23,1306,21,Ukraine,ADD,255,11,"""T.R. Communications"" Limited Liability Company",,applied,
+23,1306,22,Ukraine,ADD,255,701,"Public enterprise ""Ukrspetszvyazok""",,applied,
+23,1306,23,Ukraine,LIR,255,04,"Limited Liability Company ""International Telecommunications""",,applied,"""Intertelecom"" LLC"
+24,1307,1,Namibia,SUP,649,07,Capricorn Connect,,applied,Capricorn Connect
+25,1308,1,Mexico,SUP,334,060,"SERVICIOS DE ACCESO INALÁMBRICO, S.A DE C.V.",,applied,"SERVICIOS DE ACCESO INALÁMBRICO, S.A DE C.V."
+25,1308,2,Mexico,ADD,334,210,"YONDER MEDIA MOBILE MÉXICO, S. DE R.L. DE C.V.",,applied,
+25,1308,3,Mexico,LIR,334,010,"AT&T COMERCIALIZACIÓN MÓVIL, S. DE R.L. DE C.V.",,applied,"AT&T COMUNICACIONES DIGITALES, S. DE R.L. DE C.V."
+25,1308,4,Mexico,LIR,334,050,"AT&T COMERCIALIZACIÓN MÓVIL, S. DE R.L. DE C.V.",,applied,"GRUPO AT&T CELULLAR, S. DE R.L. DE C.V."
+25,1308,5,Mexico,LIR,334,090,"AT&T COMERCIALIZACIÓN MÓVIL, S. DE R.L. DE C.V.",,applied,"AT&T COMUNICACIONES DIGITALES, S. DE R.L. DE C.V."
+25,1308,6,Mexico,LIR,334,100,FINANCIERA PARA EL BIENESTAR,,applied,TELECOMUNICACIONES DE MÉXICO
+25,1308,7,Mexico,LIR,334,160,"TELEVISIÓN INTERNACIONAL, S.A. DE C.V.",,applied,"CABLEVISIÓN RED, S.A. DE C.V."
+26,1309,1,Canada,ADD,302,060,Karrier One Inc.,,applied,
+26,1309,2,Denmark,SUP,238,03,Syniverse Technologies,,applied,Syniverse Technologies
+26,1309,3,Denmark,ADD,238,95,DANSK BEREDSKABSKOMMUNIKATION,,applied,
+26,1309,4,"Hong Kong, China",SUP,454,29,Hong Kong Telecommunications (HKT) Limited,,applied,Hong Kong Telecommunications (HKT) Limited
+26,1309,5,"Hong Kong, China",SUP,454,32,Hong Kong Broadband Network Ltd,,applied,Hong Kong Broadband Network Ltd
+26,1309,6,"Hong Kong, China",SUP,454,36,Easco Telecommunications Limited,,applied,Easco Telecommunications Limited
+26,1309,7,"Hong Kong, China",ADD,454,290,Government use,,applied,
+26,1309,8,"Hong Kong, China",ADD,454,291,Government use,,applied,
+26,1309,9,"Hong Kong, China",ADD,454,292,Government use,,applied,
+26,1309,10,"Hong Kong, China",ADD,454,293,Government use,,applied,
+26,1309,11,"Hong Kong, China",ADD,454,294,Government use,,applied,
+26,1309,12,"Hong Kong, China",ADD,454,295,Government use,,applied,
+26,1309,13,"Hong Kong, China",ADD,454,296,Government use,,applied,
+26,1309,14,"Hong Kong, China",ADD,454,297,Government use,,applied,
+26,1309,15,"Hong Kong, China",ADD,454,298,Government use,,applied,
+26,1309,16,"Hong Kong, China",ADD,454,299,Government use,,applied,
+26,1309,17,"Hong Kong, China",ADD,454,380,Government use,,applied,
+26,1309,18,"Hong Kong, China",ADD,454,382,South China Telecommunications (H.K.) Limited,,applied,
+26,1309,19,"Hong Kong, China",ADD,454,383,China Mobile Hong Kong Company Limited,,applied,
+26,1309,20,"Hong Kong, China",ADD,454,390,Government use,,applied,
+26,1309,21,"Hong Kong, China",ADD,454,391,Government use,,applied,
+26,1309,22,"Hong Kong, China",ADD,454,392,Government use,,applied,
+26,1309,23,"Hong Kong, China",ADD,454,393,Government use,,applied,
+26,1309,24,"Hong Kong, China",ADD,454,394,Government use,,applied,
+26,1309,25,"Hong Kong, China",ADD,454,395,Government use,,applied,
+26,1309,26,"Hong Kong, China",ADD,454,396,Government use,,applied,
+26,1309,27,"Hong Kong, China",ADD,454,397,Government use,,applied,
+26,1309,28,"Hong Kong, China",ADD,454,398,Government use,,applied,
+26,1309,29,"Hong Kong, China",ADD,454,399,Government use,,applied,
+26,1309,30,"Hong Kong, China",LIR,454,08,TP Hong Kong Operations Limited,,applied,Truphone (Hong Kong) Ltd
+26,1309,31,"Hong Kong, China",LIR,454,21,VNET Group Limited,,applied,21 ViaNet Group Limited
+26,1309,32,"Hong Kong, China",LIR,454,22,HuiYinBi Telecom (Hong Kong) Limited,,applied,263 Mobile Communications (HongKong) Limited
+26,1309,33,Israel,SUP,425,04,Globalsim Ltd,,applied,Globalsim Ltd
+26,1309,34,Israel,SUP,425,07,Mirs Ltd,,applied,Mirs Ltd
+26,1309,35,Israel,SUP,425,09,Marathon 018 Xphone Ltd.,,applied,Marathon 018 Xphone Ltd.
+26,1309,36,Israel,SUP,425,11,365 Telecom (MVNO),,applied,365 Telecom (MVNO)
+26,1309,37,Israel,SUP,425,12,Free Telecom (MVNO),,applied,Free Telecom (MVNO)
+26,1309,38,Israel,SUP,425,13,Ituran Cellular Communications,,applied,Ituran Cellular Communications
+26,1309,39,Israel,SUP,425,14,Alon Cellular Ltd.,,applied,Alon Cellular Ltd.
+26,1309,40,Israel,SUP,425,15,Home Cellular (MVNO),,applied,Home Cellular (MVNO)
+26,1309,41,Israel,SUP,425,16,Rami Levi (MVNO),,applied,Rami Levi (MVNO)
+26,1309,42,Israel,SUP,425,17,Gale Phone (MVNO),,applied,Gale Phone (MVNO)
+26,1309,43,Israel,SUP,425,19,Azi Communications Ltd,,applied,Azi Communications Ltd
+26,1309,44,Israel,SUP,425,21,B.I.P Communications Ltd.,,applied,B.I.P Communications Ltd.
+26,1309,45,Israel,SUP,425,24,012 Telecom Ltd.,,applied,012 Telecom Ltd.
+26,1309,46,Israel,SUP,425,27,BITIT Ltd.,,applied,BITIT Ltd.
+26,1309,47,Israel,SUP,425,29,CG Networks,,applied,CG Networks
+26,1309,48,Israel,ADD,425,07,Hot Mobile Ltd,,applied,
+26,1309,49,Israel,ADD,425,09,Wecom Mobile Ltd.,,applied,
+26,1309,50,Israel,ADD,425,11,Merkaziya Ltd,,applied,
+26,1309,51,Israel,ADD,425,12,Widly Mobile Ltd,,applied,
+26,1309,52,Israel,ADD,425,14,Pelephone Communications Ltd,,applied,
+26,1309,53,Israel,ADD,425,15,Cellcom Israel Ltd,,applied,
+26,1309,54,Israel,ADD,425,16,Rami Levi Ltd,,applied,
+26,1309,55,Israel,ADD,425,19,Telzar 019 Ltd,,applied,
+26,1309,56,Israel,ADD,425,21,Xphone 018 Ltd.,,applied,
+26,1309,57,Israel,ADD,425,24,Partner Communications Co. Ltd.,,applied,
+26,1309,58,Israel,ADD,425,27,Paycall Ltd.,,applied,
+26,1309,59,Israel,ADD,425,29,C.M.G Networks,,applied,
+26,1309,60,Slovakia,ADD,231,51,"CETIN/CETIN Networks, s. r. o.",,applied,
+27,1310,1,Canada,ADD,302,301,ECOTEL inc.,,applied,
+27,1310,2,Mexico,ADD,334,220,"MEGA CABLE, S.A. DE C.V",,applied,
+27,1310,3,Sweden,LIR,240,50,eRate Sverige AB,,applied,Telavox AB
+27,1310,4,"International Mobile, shared code",SUP,901,15,SITA (Formerly OnAir N.V.),,applied,OnAir N.V. (Formerly SITA on behalf of Onair)
+27,1310,5,"International Mobile, shared code",SUP,901,99,Athalos Global Services BV,,applied,Athalos Global Services BV
+27,1310,6,"International Mobile, shared code",ADD,901,23,Bloxtel Inc.,,applied,
+27,1310,7,"International Mobile, shared code",LIR,901,59,Bird B.V. (formerly MessageBird B.V.),,applied,MessageBird B.V.
+28,1311,1,Colombia,SUP,732,002,Edatel S.A.,,applied,Edatel S.A.
+28,1311,2,Colombia,SUP,732,020,Emtelsa,,applied,Emtelsa
+28,1311,3,Colombia,SUP,732,102,Bellsouth Colombia S.A.,,applied,Bellsouth Colombia S.A.
+28,1311,4,Colombia,SUP,732,130,Avantel,,applied,Avantel
+28,1311,5,Colombia,ADD,732,100,COMUNICACION CELULAR S A COMCEL S A,,applied,
+28,1311,6,Colombia,ADD,732,124,COLOMBIA TELECOMUNICACIONES S.A E.S.P BIC,,applied,
+28,1311,7,Colombia,ADD,732,154,VIRGIN MOBILE COLOMBIA S.A.S.,,applied,
+28,1311,8,Colombia,ADD,732,165,COLOMBIA MOVIL S A E S P,,applied,
+28,1311,9,Colombia,ADD,732,187,EMPRESA DE TELECOMUNICACIONES DE BOGOTÁ S.A. ESP - ETB S.A. E.S.P.,,applied,
+28,1311,10,Colombia,ADD,732,199,SUMA MOVIL S.A.S.,,applied,
+28,1311,11,Colombia,ADD,732,360,PARTNERS TELECOM COLOMBIA SAS,,applied,
+28,1311,12,Colombia,LIR,732,001,COLOMBIA TELECOMUNICACIONES S.A E.S.P. BIC,,applied,Colombia Telecomunicaciones S.A. - Telecom
+28,1311,13,Colombia,LIR,732,101,COMUNICACION CELULAR S A COMCEL S A,,applied,Comcel S.A. Occel S.A./Celcaribe
+28,1311,14,Colombia,LIR,732,103,COLOMBIA MOVIL S A E S P,,applied,Colombia Móvil S.A.
+28,1311,15,Colombia,LIR,732,111,COLOMBIA MÓVIL S A E S P,,applied,Colombia Móvil S.A.
+28,1311,16,Colombia,LIR,732,123,COLOMBIA TELECOMUNICACIONES S.A E.S.P BIC,,applied,Telefónica Móviles Colombia S.A.
+28,1311,17,Spain,ADD,214,709,CENTRE DE TELECOMUNICACIONS I TECNOLOGIES DE LA INFORMACIÓ DE LA GENERALITAT DE CATALUNYA,,applied,
+29,1312,1,Namibia,SUP,649,05,Demshi Investments CC,,applied,Demshi Investments CC
+29,1312,2,Namibia,ADD,649,07,Loc Eight Mobile (Pty) Ltd,,applied,
+29,1312,3,"International Mobile, shared code",SUP,901,72,Tele2 Sverige Aktiebolag (Formerly Tele2 IoT),,applied,Tele2 Sverige Aktiebolag (Formerly Tele2 IoT)
+29,1312,4,"International Mobile, shared code",ADD,901,63,"Beamlink, Inc.",,applied,
+29,1312,5,"International Mobile, shared code",LIR,901,18,"Wireless Maritime Services, LLC (Formerly Cingular Wireless)",,applied,Cingular Wireless
+30,1313,1,Singapore,ADD,525,205,5G EP Testbed,,applied,
+30,1313,2,Spain,SUP,214,704,"AMPER SISTEMAS, S.A.U.",,applied,"AMPER SISTEMAS, S.A.U."
+31,1314,1,Estonia,SUP,248,21,Tismi B.V.,,applied,Tismi B.V.
+31,1314,2,Estonia,SUP,248,33,J-Mobile OÜ (formerly Crowdfaster OÜ),,applied,Crowdfaster OÜ
+31,1314,3,Estonia,ADD,248,36,GLOBALCELL EU,,applied,
+31,1314,4,Estonia,ADD,248,37,Revaltex Grooup OÜ,,applied,
+31,1314,5,Hungary,LIR,216,70,One Hungary Ltd.,,applied,Vodafone
+31,1314,6,Hungary,LIR,216,71,One Hungary Ltd.,,applied,Vodafone Hungary Ltd
+31,1314,7,Mexico,ADD,334,230,"VINOC, S.A.P.I. DE C.V.",,applied,
+31,1314,8,"International Mobile, shared code",LIR,901,62,KORE Wireless (Formerly Twilio Inc.),,applied,Twilio Inc.
+32,1315,1,Canada,SUP,302,996,BC Hydro (formerly Powertech Labs (experimental)),,applied,Powertech Labs (experimental)
+32,1315,2,Canada,LIR,302,420,TELUS Mobility,,applied,A.B.C. Allen Business Communications Ltd.
+32,1315,3,Georgia,ADD,282,18,"""lagi"" LTD",,applied,
+32,1315,4,Kyrgyzstan,SUP,437,11,iTel,,applied,iTel
+32,1315,5,Kyrgyzstan,ADD,437,04,Alfa Telekom CJSC,,applied,
+32,1315,6,Kyrgyzstan,LIR,437,01,Sky Mobile LTD,,applied,Sky Mobile
+32,1315,7,Kyrgyzstan,LIR,437,03,NUR Telekom LLC,,applied,7 Mobile
+32,1315,8,Kyrgyzstan,LIR,437,05,Alfa Telekom CJSC,,applied,Alfa Telecom
+32,1315,9,Kyrgyzstan,LIR,437,06,Kyrgyztelecom OJSC,,applied,Kyrgyztelecom
+32,1315,10,Kyrgyzstan,LIR,437,09,NUR Telekom LLC,,applied,Nur Telecom
+32,1315,11,Kyrgyzstan,LIR,437,10,SAIMA TELECOM JSC,,applied,Saima Telecom
+33,1316,1,Canada,ADD,302,975,BC Hydro,,applied,
+33,1316,2,Germany,SUP,262,16,E-Plus Mobilfunk GmbH & Co. KG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,3,Germany,SUP,262,17,E-Plus Mobilfunk GmbH & Co. KG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,4,Germany,SUP,262,75,Core Network Dynamics GmbH,,applied,Core Network Dynamics GmbH
+33,1316,5,Germany,SUP,262,77,E-Plus Mobilfunk GmbH & Co. KG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,6,Germany,ADD,262,13,"Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr (BAAINBw)",,applied,
+33,1316,7,Germany,ADD,262,14,Lebara Limited,,applied,
+33,1316,8,Germany,ADD,262,24,TelcoVillage GmbH,,applied,
+33,1316,9,Germany,ADD,262,25,MTEL Deutschland GmbH,,applied,
+33,1316,10,Germany,ADD,262,70,BDBOS,,applied,
+33,1316,11,Germany,ADD,262,76,BDBOS,,applied,
+33,1316,12,Germany,ADD,262,868,BDBOS,,applied,
+33,1316,13,Germany,ADD,262,869,TKÜV-Netzanbindungen,,applied,
+33,1316,14,Germany,LIR,262,03,Telefónica Germany GmbH & Co. oHG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,15,Germany,LIR,262,05,Telefónica Germany GmbH & Co. oHG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,16,Germany,LIR,262,12,Telefónica Germany GmbH & Co. oHG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,17,Germany,LIR,262,20,Telefónica Germany GmbH & Co. oHG,,applied,E-Plus Mobilfunk GmbH & Co. KG
+33,1316,18,Germany,LIR,262,23,Drillisch Netz AG,,applied,Drillisch Online AG
+33,1316,19,Germany,LIR,262,73,Nokia Solutions and Networks GmbH & Co.KG,,applied,Xantaro Deutschland GmbH
+33,1316,20,Germany,LIR,262,74,Ericsson GmbH,,applied,Qualcomm CDMA Technologies GmbH
+33,1316,21,Mexico,ADD,334,240,"PEGASO PCS, S.A. DE C.V.",,applied,
+33,1316,22,United States,SUP,310,035,"ETEX Communications, LP (d/b/a) ETEX Wireless",,applied,"ETEX Communications, LP (d/b/a) ETEX Wireless"
+33,1316,23,United States,SUP,310,290,NEP Cellcorp Inc.,,applied,NEP Cellcorp Inc.
+33,1316,24,United States,SUP,310,360,Cellular Network Partnership dba Pioneer Cellular,,applied,Cellular Network Partnership dba Pioneer Cellular
+33,1316,25,United States,SUP,311,930,Cox Communications,,applied,Cox Communications
+33,1316,26,United States,SUP,311,950,Sunman Telecommunications Corp.,,applied,Sunman Telecommunications Corp.
+33,1316,27,United States,SUP,312,270,Cellular Network Partnership dba Pioneer Cellular,,applied,Cellular Network Partnership dba Pioneer Cellular
+33,1316,28,United States,SUP,312,760,ARCTIC SLOPE TELEPHONE ASSOCIATION COOPERATIVE,,applied,ARCTIC SLOPE TELEPHONE ASSOCIATION COOPERATIVE
+33,1316,29,United States,SUP,312,810,Bristol Bay Telephone Cooperative,,applied,Bristol Bay Telephone Cooperative
+33,1316,30,United States,SUP,313,080,Speedwavz LLP,,applied,Speedwavz LLP
+33,1316,31,United States,SUP,313,570,Cellular Network Partnership,,applied,Cellular Network Partnership
+33,1316,32,United States,SUP,313,600,ST Engineering iDirect,,applied,ST Engineering iDirect
+33,1316,33,United States,ADD,310,030,mobi,,applied,
+33,1316,34,United States,ADD,310,060,Karrier One,,applied,
+33,1316,35,United States,ADD,314,550,REALLY COMMUNICATIONS,,applied,
+33,1316,36,United States,ADD,314,560,"Private Tech, Inc., dba Cape",,applied,
+33,1316,37,United States,ADD,314,570,Newmont Corporation,,applied,
+33,1316,38,United States,ADD,314,580,Lower Colorado River Authority,,applied,
+33,1316,39,United States,ADD,314,590,"Lynk Global, Inc.",,applied,
+33,1316,40,United States,ADD,314,600,XNET Inc,,applied,
+33,1316,41,United States,ADD,314,610,IMSI.AI,,applied,
+33,1316,42,United States,ADD,314,620,"Memphis Light, Gas, and Water",,applied,
+33,1316,43,United States,ADD,314,630,"Private Tech, Inc., dba Cape",,applied,
+33,1316,44,United States,ADD,314,640,"Private Tech, Inc., dba Cape",,applied,
+33,1316,45,United States,ADD,314,650,"Private Tech, Inc., dba Cape",,applied,
+33,1316,46,United States,ADD,314,660,"Private Tech, Inc., dba Cape",,applied,
+33,1316,47,United States,ADD,314,670,Wi-DAS LLC,,applied,
+33,1316,48,United States,ADD,314,680,"Comcast OTR1, LLC",,applied,
+33,1316,49,United States,ADD,314,690,"Agri-Valley Communications, Inc",,applied,
+33,1316,50,United States,ADD,314,700,Tampa Electric Company,,applied,
+33,1316,51,United States,ADD,314,710,"Tribal Ready, PBC",,applied,
+33,1316,52,United States,ADD,314,720,"OXIO, Inc.",,applied,
+33,1316,53,United States,ADD,314,730,"TextNow, Inc.",,applied,
+33,1316,54,United States,ADD,314,740,"Ringer Mobile, LLC",,applied,
+33,1316,55,United States,ADD,314,750,"SDF, Inc.",,applied,
+33,1316,56,United States,ADD,314,760,"Broadband Antenna Tracking Systems, Inc. (DBA. BATS Wireless)",,applied,
+33,1316,57,United States,ADD,314,770,Westbold LLC,,applied,
+33,1316,58,United States,ADD,314,780,Saint Regis Mohawk Tribe,,applied,
+33,1316,59,United States,ADD,314,790,Neuner Mobile Technologies LLC,,applied,
+33,1316,60,United States,ADD,314,800,Boost Network,,applied,
+33,1316,61,United States,ADD,314,810,ORCID - The Open RAN Center for Integration and Deployment,,applied,
+33,1316,62,United States,LIR,310,460,Eseye LLC,,applied,Eseye
+33,1316,63,United States,LIR,312,570,MHG Telco LLC,,applied,"Buffalo-Lake Erie Wireless Systems Co., LLC"
+33,1316,64,United States,LIR,312,620,Airlinq Inc,,applied,GlobeTouch Inc.
+33,1316,65,United States,LIR,312,690,"Tecore Global Services, LLC",,applied,"TGS, LLC"
+34,1317,1,Cook Islands,ADD,548,02,VakaNET Limited,,applied,
+34,1317,2,Switzerland,SUP,228,66,Inovia Services SA,,applied,Inovia Services SA
+35,1318,1,New Zealand,LIR,530,00,Spark NZT,,applied,Reserved for AMPS MIN based IMSI's
+35,1318,2,New Zealand,LIR,530,02,Spark NZT,,applied,Teleom New Zealand CDMA Network
+36,1319,1,Colombia,ADD,732,230,SETROC MOBILE GROUP SAS,,applied,
+36,1319,2,Switzerland,ADD,228,13,Schweizerische Bundesbahn SBB,,applied,
+37,1320,1,Japan,ADD,440,25,SoftBank Corp.,,applied,
+37,1320,2,Japan,ADD,440,26,"NTT DOCOMO, INC.",,applied,
+37,1320,3,Japan,ADD,440,55,KDDI CORPORATION,,applied,
+37,1320,4,Sweden,SUP,240,19,Vecton Mobile (Sweden) Ltd,,applied,Vecton Mobile (Sweden) Ltd
+37,1320,5,Sweden,SUP,240,39,Primlight AB,,applied,Primlight AB
+37,1320,6,Sweden,SUP,240,63,Fink Telecom Services,,applied,Fink Telecom Services
+37,1320,7,Switzerland,ADD,228,80,Phonegroup SA,,applied,
+38,1321,1,Australia,SUP,505,05,The Ozitel Network Pty. Ltd.,,applied,The Ozitel Network Pty. Ltd.
+38,1321,2,Australia,SUP,505,08,One.Tel GSM 1800 Pty. Ltd.,,applied,One.Tel GSM 1800 Pty. Ltd.
+38,1321,3,Australia,SUP,505,09,Airnet Commercial Australia Ltd.,,applied,Airnet Commercial Australia Ltd.
+38,1321,4,Australia,SUP,505,20,Ausgrid Corporation,,applied,Ausgrid Corporation
+38,1321,5,Australia,SUP,505,22,iiNet Ltd,,applied,iiNet Ltd
+38,1321,6,Australia,SUP,505,28,RCOM International Pty Ltd,,applied,RCOM International Pty Ltd
+38,1321,7,Australia,SUP,505,30,Compatel Limited,,applied,Compatel Limited
+38,1321,8,Australia,SUP,505,47,Woodside Energy Limited,,applied,Woodside Energy Limited
+38,1321,9,Australia,SUP,505,99,One.Tel GSM 1800 Pty. Ltd.,,applied,One.Tel GSM 1800 Pty. Ltd.
+38,1321,10,Australia,ADD,505,60,Starlink Internet Services Pte Ltd,,applied,
+38,1321,11,Australia,ADD,505,63,March IT Pty Ltd,,applied,
+38,1321,12,Australia,LIR,505,01,Telstra Limited,,applied,Telstra Corporation Ltd.
+38,1321,13,Australia,LIR,505,11,Telstra Limited,,applied,Telstra Corporation Ltd.
+38,1321,14,Australia,LIR,505,26,Sinch Australia Pty Ltd,,applied,Dialogue Communications Pty Ltd
+38,1321,15,Australia,LIR,505,33,Sinch Australia Pty Ltd,,applied,CLX Networks Pty Ltd
+38,1321,16,Australia,LIR,505,35,Bird.com Pty Ltd,,applied,MessageBird Pty Ltd
+38,1321,17,Australia,LIR,505,38,TP Operations Australia Pty Ltd,,applied,Truphone Pty Ltd
+38,1321,18,Australia,LIR,505,39,Telstra Limited,,applied,Telstra Corporation Ltd.
+38,1321,19,Australia,LIR,505,51,Fortescue Ltd,,applied,Fortescue Metals Group Ltd
+38,1321,20,Australia,LIR,505,71,Telstra Limited,,applied,Telstra Corporation Ltd.
+38,1321,21,Australia,LIR,505,72,Telstra Limited,,applied,Telstra Corporation Ltd.
+38,1321,22,Estonia,SUP,248,18,CLOUD COMMUNICATIONS OÜ,,applied,CLOUD COMMUNICATIONS OÜ
+38,1321,23,Spain,SUP,214,29,"XFERA MÓVILES, S.A.U.",,applied,"XFERA MÓVILES, S.A.U."
+38,1321,24,"International Mobile, shared code",LIR,901,75,Giesecke+Devrient Mobile Security TCD UK Limited (Formerly Podsystem Ltd.),,applied,Podsystem Ltd.
+39,1322,1,Israel,LIR,425,08,Cellcom ISRAEL Ltd,,applied,Golan Telecom Ltd
+39,1322,2,Namibia,ADD,649,05,Click Cloud Hosting Services CC,,applied,
+39,1322,3,Ukraine,ADD,255,702,"Limited Liability Company ""J&W""",,applied,
+39,1322,4,Ukraine,ADD,255,707,"""Kyivstar"" PrJSC",,applied,
+40,1323,1,Canada,ADD,302,725,Rogers Communications Canada Inc. (Wireless),,applied,
+40,1323,2,Canada,ADD,302,731,Terrestar Solutions Inc.,,applied,
+40,1323,3,Canada,ADD,302,821,Rogers Communications Canada Inc. (Wireless),,applied,
+40,1323,4,Canada,ADD,302,972,Hydro-Québec,,applied,
+40,1323,5,Switzerland,SUP,228,55,Komodos SA (formerly WeMobile SA),,applied,WeMobile SA
+40,1323,6,"International Mobile, shared code",SUP,901,20,Intermatica,,applied,Intermatica
+40,1323,7,"International Mobile, shared code",SUP,901,21,Wins Limited (Formerly Seanet Maritime Communications AB),,applied,Wins Limited (Formerly Seanet Maritime Communications AB)
+40,1323,8,"International Mobile, shared code",SUP,901,22,MediaLincc Ltd,,applied,MediaLincc Ltd
+40,1323,9,"International Mobile, shared code",SUP,901,35,Globecomm Network Services,,applied,Globecomm Network Services
+40,1323,10,"International Mobile, shared code",SUP,901,36,Azerfon LLC,,applied,Azerfon LLC
+40,1323,11,"International Mobile, shared code",SUP,901,38,Multiregional TransitTelecom (MTT),,applied,Multiregional TransitTelecom (MTT)
+41,1324,1,Australia,SUP,505,14,AAPT Ltd,,applied,AAPT Ltd
+41,1324,2,Australia,SUP,505,15,3GIS Pty Ltd. (Telstra & Hutchison 3G),,applied,3GIS Pty Ltd. (Telstra & Hutchison 3G)
+41,1324,3,Australia,ADD,505,99,Telstra Limited,,applied,
+41,1324,4,Australia,LIR,505,03,TPG Telecom Limited,,applied,Vodafone Network Pty. Ltd.
+41,1324,5,Australia,LIR,505,07,TPG Telecom Limited,,applied,Vodafone Network Pty. Ltd.
+41,1324,6,Australia,LIR,505,23,Vocus Pty Ltd,,applied,Challenge Networks Pty Ltd
+41,1324,7,Australia,LIR,505,27,Ergon Energy Telecommunications Pty Ltd,,applied,Nexium Telecommunications
+42,1325,1,Botswana,ADD,652,06,PARATUS TELECOMMUNICATIONS (PTY)LTD,,applied,
+42,1325,2,Estonia,ADD,248,10,Intergo Telecom OÜ,,applied,
+43,1326,1,Gibraltar,ADD,266,04,Melmasti Global (Gibraltar) Ltd (trading as “MCOM”),,applied,
+43,1326,2,Hungary,LIR,216,03,One Hungary Ltd.,,applied,DIGI Telecommunication Ltd.
+43,1326,3,Japan,SUP,440,09,Marubeni Network Solutions Inc.,,applied,Marubeni Network Solutions Inc.
+43,1326,4,Japan,ADD,440,09,Misora Connect Inc.,,applied,
+43,1326,5,Japan,LIR,441,210,"NTT EAST, Inc.",,applied,NIPPON TELEGRAPH AND TELEPHONE EAST CORPORATION
+43,1326,6,Kazakhstan,ADD,401,04,KaR-Tel LLP,,applied,
+44,1327,1,Estonia,ADD,248,21,Trinavo LLC,,applied,
+44,1327,2,Israel,ADD,425,04,VOYE GLOBAL CONNECTIVITY LTD,,applied,
+44,1327,3,Israel,ADD,425,10,VOICENTER LTD,,applied,
+44,1327,4,"International Mobile, shared code",ADD,901,88,Bondio Limited,,applied,
+44,1327,5,"Trial of a proposed new international telecommunication service, shared code",LIR,991,04,E-Space Inc. (temporary assignment for trial until 17.X.2026),,applied,E-Space Inc. (temporary assignment for trial until 17.X.2025)
+45,1328,1,Sweden,ADD,240,11,GlobalCell EU Ltd.,,applied,
+46,1329,1,Israel,LIR,425,12,FREE TELECOM LTD,,applied,Widly Mobile Ltd
+46,1329,2,New Zealand,ADD,530,14,2degrees,,applied,
+46,1329,3,New Zealand,ADD,530,15,Spark NZT,,applied,
+47,1330,1,Sweden,ADD,240,900,Västra Götalandsregionen - Used for private network,,applied,
+48,1331,1,Canada,ADD,302,992,AltaLink Management Ltd,,applied,
+48,1331,2,Estonia,ADD,248,15,BSG Estonia OÜ,,applied,
+48,1331,3,Ireland,ADD,272,26,Vodafone Ireland Limited,,applied,
+48,1331,4,Sweden,SUP,240,04,3G Infrastructure Services AB,,applied,3G Infrastructure Services AB
+48,1331,5,Sweden,ADD,240,58,Telia Sverige AB,,applied,
+49,1333,1,Canada,ADD,302,354,Every-Day Computers Inc.,,applied,
+49,1333,2,Canada,LIR,302,490,Freedom Mobile Inc.,,applied,Globalive Wireless
+49,1333,3,Canada,LIR,302,490,Videotron Ltd.,,applied,Freedom Mobile Inc.
+49,1333,4,Canada,LIR,302,491,Videotron Ltd.,,applied,Freedom Mobile Inc.
+49,1333,5,Denmark,SUP,238,14,Monty UK Global Limited,,applied,Monty UK Global Limited
+49,1333,6,Ireland,ADD,272,27,TP Ireland Operations Limited,,applied,
+49,1333,7,Sweden,SUP,240,05,Svenska UMTS-Nät AB,,applied,Svenska UMTS-Nät AB
+49,1333,8,Sweden,LIR,240,20,Sierra Wireless Sweden AB,,applied,Sierra Wireless Messaging AB
+49,1333,9,Sweden,LIR,240,59,Myndigheten för civilt försvar (MCF) – Swedish Civil Defence and Resilience Agency – Used for private network (PPDR network (Rakel G2)),,applied,Myndigheten för samhällsskydd och beredskap (MSB) / Swedish Civil Contingencies Agency - Used for private network (PPDR network (Rakel G2))
+49,1333,10,Switzerland,SUP,228,63,Fink Telecom Services,,applied,Fink Telecom Services
+49,1333,11,"International Mobile, shared code",ADD,901,47,Société française du radiotéléphone (SFR),,applied,
+50,1334,1,"International Mobile, shared code",ADD,901,57,"AST & Science, LLC (AST SpaceMobile)",,applied,
+51,1335,1,Australia,ADD,505,54,SimCorner Pty Ltd,,applied,
+51,1335,2,Costa Rica,ADD,712,07,RING CENTRALES DE COSTA RICA S.A.,,applied,
+51,1335,3,Germany,ADD,262,26,Simsalasim Germany GmbH,,applied,
+51,1335,4,Germany,LIR,262,21,spusu Deutschland GmbH,,applied,Multiconnect GmbH
+52,1336,1,Switzerland,ADD,228,76,1GLOBAL Operations (Switzerland) GmbH,,applied,
+52,1336,2,"International Mobile, shared code",SUP,901,27,Monaco Telecom,,applied,Monaco Telecom
+52,1336,3,"International Mobile, shared code",ADD,901,29,Myriota PTY,,applied,
+52,1336,4,"International Mobile, shared code",ADD,901,70,Bureau 1440 LLC,,applied,
+53,1337,1,Canada,SUP,302,352,Lytton Area Wireless Society,,applied,Lytton Area Wireless Society
+53,1337,2,Hungary,LIR,216,99,MÁV Infrastructure Co. Ltd.,,applied,MÁV Co.
+54,1338,1,South Africa,ADD,655,20,Vodacom Pty Ltd,,applied,
+55,1339,1,Canada,SUP,302,151,Cogeco Connexion Inc.,,applied,Cogeco Connexion Inc.
+55,1339,2,Canada,SUP,302,152,Cogeco Connexion Inc.,,applied,Cogeco Connexion Inc.
+55,1339,3,Canada,SUP,302,160,Sugar Mobile Inc.,,applied,Sugar Mobile Inc.
+55,1339,4,Canada,ADD,302,480,SSi Connexions Inc.,,applied,
+55,1339,5,Canada,LIR,302,480,SSi Micro Ltd.,,applied,SSi Connexions Inc.
+56,1340,1,Canada,SUP,302,724,Rogers Communications Canada Inc. (Wireless),,applied,Rogers Communications Canada Inc. (Wireless)
+56,1340,2,Canada,SUP,302,725,Rogers Communications Canada Inc. (Wireless),,applied,Rogers Communications Canada Inc. (Wireless)
+56,1340,3,Canada,SUP,302,821,Rogers Communications Canada Inc. (Wireless),,applied,Rogers Communications Canada Inc. (Wireless)
+56,1340,4,Canada,ADD,302,790,Manitoba NetSet Ltd,,applied,
+56,1340,5,Canada,LIR,302,790,Xplore Inc.,,applied,Manitoba NetSet Ltd
+56,1340,6,Chile,SUP,730,19,Sociedad Falabella Móvil SPA,,applied,Sociedad Falabella Móvil SPA
+56,1340,7,Chile,SUP,730,29,Entel PCS Telecomunicaciones S.A.,,applied,Entel PCS Telecomunicaciones S.A.
+56,1340,8,Chile,ADD,730,28,Airtime Chile S.p.A.,,applied,
+56,1340,9,Chile,ADD,730,29,Telefonica Moviles Chile,,applied,
+56,1340,10,Chile,ADD,730,30,Telefonica Moviles Chile,,applied,
+56,1340,11,Chile,ADD,730,31,Entel PCS Telecomunicaciones S.A.,,applied,
+56,1340,12,Chile,ADD,730,32,Entel PCS Telecomunicaciones S.A.,,applied,
+57,1341,1,Australia,ADD,505,64,Roam Aussie Pty Ltd,,applied,
+57,1341,2,Estonia,SUP,248,34,Nettora Systems OÜ,,applied,Nettora Systems OÜ
+57,1341,3,Spain,ADD,214,12,"CHADEVA SUR 2001, S.L. UNIPERSONAL",,applied,
+57,1341,4,"International Mobile, shared code",ADD,901,33,Onomondo ApS,,applied,
+58,1342,1,Canada,ADD,302,540,Rovvr Communications Inc.,,applied,
+58,1342,2,Canada,SUP,302,540,Rovvr Communications Inc.,,applied,Rovvr Communications Inc.
+58,1342,3,Canada,SUP,302,770,TNW Wireless Inc.,,applied,TNW Wireless Inc.
+58,1342,4,Costa Rica,ADD,712,08,COOPERATIVA DE ELECTRIFICACION RURAL DE SAN CARLOS R.L.,,applied,
+58,1342,5,Jamaica,ADD,338,111,Cable & Wireless Jamaica Ltd.,,applied,
+58,1342,6,"Macao, China",SUP,455,00,"SmarTone – Comunicações Móveis, S.A.",,applied,"SmarTone – Comunicações Móveis, S.A."
+58,1342,7,"Macao, China",SUP,455,06,"SmarTone – Comunicações Móveis, S.A.",,applied,"SmarTone – Comunicações Móveis, S.A."
+58,1342,8,"Macao, China",LIR,455,01,"Companhia de Telecomunicações de Macau, S.A.",,applied,"Companhia de Telecomunicações de Macau, S.A.R.L."
+58,1342,9,"Macao, China",LIR,455,04,"Companhia de Telecomunicações de Macau, S.A.",,applied,"Companhia de Telecomunicações de Macau, S.A.R.L."
+59,1343,1,"International Mobile, shared code",ADD,901,51,"Ligado Networks Subsidiary LLC (""Ligado Subsidiary"")",,applied,
+60,1344,1,Canada,SUP,302,992,AltaLink Management Ltd,,applied,AltaLink Management Ltd
+60,1344,2,Canada,ADD,302,912,Halton Regional Police Service,,applied,
+60,1344,3,Uganda,SUP,641,33,Smile Communications Uganda Limited,,applied,Smile Communications Uganda Limited
+60,1344,4,Uganda,ADD,641,05,Roke Telkom Limited,,applied,
+60,1344,5,Uganda,ADD,641,06,Savanna Fibre Limited,,applied,
+60,1344,6,Uganda,ADD,641,07,Blue Crane Communications (U) Limited,,applied,
+60,1344,7,Uganda,ADD,641,20,Hamilton Telecom Limited,,applied,
+61,1345,1,Canada,SUP,302,100,Data on Tap Inc.,,applied,Data on Tap Inc.
+61,1345,2,Canada,SUP,302,330,OpenMobile Inc.,,applied,OpenMobile Inc.
+61,1345,3,Canada,SUP,302,351,MPVWIFI Inc.,,applied,MPVWIFI Inc.
+61,1345,4,Canada,SUP,302,848,"Vocom International Telecommunications, Inc",,applied,"Vocom International Telecommunications, Inc"
+61,1345,5,Israel,ADD,425,30,SIMPRACY,,applied,
+61,1345,6,Japan,SUP,441,215,"KYOCERA Mirai Envision Co., Ltd.",,applied,"KYOCERA Mirai Envision Co., Ltd."
+61,1345,7,Japan,ADD,440,27,"Rakuten Mobile, Inc.",,applied,
+61,1345,8,Japan,ADD,440,28,OPTAGE Inc.,,applied,
+61,1345,9,Japan,ADD,441,217,"NTT DOCOMO, INC.",,applied,
+61,1345,10,Japan,ADD,441,218,KDDI Corporation,,applied,
+61,1345,11,Japan,ADD,441,219,"NTT DOCOMO, INC.",,applied,
+61,1345,12,Japan,LIR,440,13,"NTT DOCOMO BUSINESS, Inc.",,applied,NTT Communications Corporation
+61,1345,13,Sudan,SUP,634,05,Network of the World Ltd (NOW),,applied,Network of the World Ltd (NOW)
+62,1346,1,Canada,ADD,302,330,OpenMobile Inc.,,applied,
+62,1346,2,Costa Rica,ADD,712,09,COOPERATIVA DE ELECTRIFICACIÓN RURAL LOS SANTOS R.L.,,applied,
+63,1347,1,Chile,ADD,730,33,CLARO CHILE SpA,,applied,
+63,1347,2,Spain,ADD,214,710,AUTORIDAD PORTUARIA DE VALENCIA,,applied,
+64,1348,1,Australia,ADD,505,65,Fear Enterprises Pty Ltd,,applied,
+64,1348,2,Costa Rica,ADD,712,10,COOPERATIVA DE ELECTRIFICACIÓN RURAL DE GUANACASTE R.L.,,applied,
+64,1348,3,Germany - Country A,ADD,262,74,Ericsson GmbH,0000099000 - 0000099099,applied,
+64,1348,4,Sweden - Country B,ADD,262,74,Ericsson GmbH,0000099100 - 0000099199,applied,
+65,1349,1,Spain,ADD,214,704,"ORANGE ESPAGNE, S.A. UNIPERSONAL",,applied,
+65,1349,2,Venezuela (Bolivarian Republic of),ADD,734,05,TELEFÓNICA VENEZOLANA C.A.,,applied,
+65,1349,3,"International Mobile, shared code",SUP,901,25,Datora Mobile Telecomunicações SA,,applied,Datora Mobile Telecomunicações SA
+66,1350,1,Gabon,ADD,628,06,Airtel Gabon S.A.,,applied,
+66,1350,2,Gabon,LIR,628,03,Airtel Gabon S.A.,,applied,CELTEL
+66,1350,3,Paraguay,ADD,744,07,NUBICOM PARAGUAY S.A.,,applied,
+66,1350,4,Seychelles,ADD,633,09,Airtel (Seychelles) Ltd,,applied,

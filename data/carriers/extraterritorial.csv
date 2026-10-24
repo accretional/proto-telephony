@@ -1,0 +1,21 @@
+country,mcc,mnc,msin_range,operator,amendment
+France - Country A,208,01,0000000000-0099999999; 0200000000-9999999999,Orange,
+Monaco - Country B,208,01,0100000000-0199999999,Orange/Monaco Télécom,
+France - Country A,208,10,0000000000 - 2654099999; 2654200000 - 2654299999; 2654400000 - 2754099999; 2754200000 - 2754299999; 2754400000 - 9999999999,Société Française du Radiotéléphone,
+Monaco - Country B,208,10,2654100000 - 2654199999; 2654300000 - 2654399999; 2754100000 - 2754199999; 2754300000 - 2754399999,Société Française du Radiotéléphone,
+France - Country A,208,20,0000000000 - 0055499999; 0055600000 - 2007199999; 2007300000 - 9999999999,Bouygues Telecom,
+Monaco - Country B,208,20,0055500000 - 0055599999; 2007200000 - 2007299999,Bouygues Telecom,
+Switzerland - Country A,228,01,"20-35, 38, 40-44, 47, 52, 59, 60-62, 72, 77, 80",Swisscom Schweiz AG,
+Liechtenstein - Country B,228,01,37XXXXXXXX,Swisscom Schweiz AG,
+Luxembourg - Country A,270,77,000 x xxx xxx,Proximus Luxembourg S.A.,
+Belgium - Country B,270,77,800 x xxx xxx; 801 x xxx xxx,Proximus Luxembourg S.A.,
+Luxembourg - Country A,270,99,270 99 000 x xxx xxx,Orange Communications Luxembourg S.A.,
+Belgium - Country B,270,99,270 99 860 x xxx xxx,Orange Communications Luxembourg S.A.,
+Iceland - Country A,274,02,0-8,Og fjarskipti hf (Vodafone Iceland),
+Faroe Islands - Country B,274,02,9,"P/F Kall, reg. No 2868 (Vodafone FO)",
+Fiji - Country A,542,02,00xxxxxxxx,Digicel (Fiji) Ltd,
+Nauru - Country B,542,02,0840xxxxxx,Digicel (Fiji) Ltd,
+Luxembourg - Country A,270,07,270 07 00 0X XX XX XX,Bouygues Telecom S.A.,13
+France - Country B,270,07,270 07 60 XX XX XX XX,Bouygues Telecom S.A.,13
+Germany - Country A,262,74,0000099000 - 0000099099,Ericsson GmbH,64
+Sweden - Country B,262,74,0000099100 - 0000099199,Ericsson GmbH,64
