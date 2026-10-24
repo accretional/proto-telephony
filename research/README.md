@@ -93,6 +93,8 @@ research/
     jp/README.md     MIC (総務省)
     de/README.md     BNetzA
     in/README.md     DoT
+  third_party_indices/   non-registry lists (Wireshark, AOSP carrier ID, Wikipedia)
+                         compared with the merged data; scripts in scripts/third_party_indices/
 ```
 
 Code lives in `pkg/carriers/` (one package per source plus shared

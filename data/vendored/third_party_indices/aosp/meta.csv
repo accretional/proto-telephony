@@ -1,0 +1,16 @@
+key,value
+attribute_sets,1721
+carriers,1567
+carriers_with_parent,41
+commit,013b803626164c026025897b7dec45521c2cccab
+commit_time,Thu Apr 16 23:41:43 2026 -0700
+network_rows,2638
+nonstandard_tuples,111 112 113 114
+ref,android17-release
+tool,scripts/third_party_indices/aosp.py
+unique_mccs,225
+unique_plmns,1826
+version,134217778
+version_relative,50
+version_sdk_byte,8
+written_at,2026-10-24T15:01:05Z

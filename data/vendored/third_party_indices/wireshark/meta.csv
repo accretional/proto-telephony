@@ -1,0 +1,13 @@
+key,value
+commit,94d2ba2462dc623030a3d0fde4d5498082406779
+commit_date,2026-07-23T17:34:37.000+02:00
+commit_title,"E212: Add ""imsi"" tap and IMSI List dialog"
+duplicate_plmns,0
+mccs,243
+mccs_unassigned,557
+networks,3063
+networks_2digit,2201
+networks_3digit,862
+ref,master
+tool,scripts/third_party_indices/wireshark.py
+written_at,2026-10-24T15:01:05Z

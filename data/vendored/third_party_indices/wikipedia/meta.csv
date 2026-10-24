@@ -1,0 +1,23 @@
+key,value
+latest_revision,2026-10-17T19:13:21Z
+mccs,252
+networks,3475
+networks_nonstandard,32
+pages,7
+parse_problems,0
+plmns_in_several_territories,38
+status:allocated,2
+status:implement / design,1
+status:not operational,824
+status:ongoing,1
+status:operational,1587
+status:planned,1
+status:reserved,13
+status:temporary operational,1
+status:test network,1
+status:testing,1
+status:unknown,1042
+status:upcoming,1
+tool,scripts/third_party_indices/wikipedia.py
+unique_plmns,3427
+written_at,2026-10-24T15:01:05Z

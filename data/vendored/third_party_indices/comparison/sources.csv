@@ -1,0 +1,5 @@
+kind,name,url,bytes,sha256,from_cache
+official,data/carriers/merged/current.csv,,323869,51c85737c208bf6446e51f7c877f8709bda4c4a1a696281b222ea9afe2f24a39,0
+index,wireshark,,0,94d2ba2462dc623030a3d0fde4d5498082406779,0
+index,aosp,,0,013b803626164c026025897b7dec45521c2cccab,0
+index,wikipedia,,0,2026-10-17T19:13:21Z,0

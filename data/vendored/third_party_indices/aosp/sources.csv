@@ -1,0 +1,2 @@
+kind,name,url,bytes,sha256,from_cache
+source,carrier_list.textpb.b64,https://android.googlesource.com/platform/packages/providers/TelephonyProvider/+/013b803626164c026025897b7dec45521c2cccab/assets/latest_carrier_id/carrier_list.textpb?format=TEXT,322972,a36c77b4e619fdb2d09f22d692709903001f0b992e973c8bd876a57fa6a7bf66,1

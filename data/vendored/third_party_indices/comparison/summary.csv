@@ -1,0 +1,4 @@
+source,plmns,mccs,official_active_listed,official_active_coverage_pct,official_active_missing,listed_but_official_inactive,not_in_official,not_in_official_mnc_length_mismatch
+wireshark,3062,239,2284,90.9,230,121,657,15
+aosp,1822,221,1320,52.5,1194,38,464,23
+wikipedia,3395,238,2388,95.0,126,130,877,15

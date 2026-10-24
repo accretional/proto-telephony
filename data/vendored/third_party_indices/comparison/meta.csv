@@ -1,0 +1,10 @@
+key,value
+official_active,2514
+official_codes,2644
+plmns_in_all_three,1593
+plmns_only_in_aosp,126
+plmns_only_in_wikipedia,323
+plmns_only_in_wireshark,75
+plmns_total,3654
+tool,scripts/third_party_indices/compare.py
+written_at,2026-10-24T15:01:06Z

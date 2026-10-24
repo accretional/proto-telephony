@@ -39,3 +39,6 @@ go.work.sum
 /data/**/*.sqlite.tmp*
 /data/carriers/*.tmp/
 /data/carriers/*.old/
+
+# Python bytecode (scripts/third_party_indices)
+__pycache__/
