@@ -10,6 +10,9 @@ official sources and write them as CSV (committed here) or SQLite:
 | ITU-T E.212 MNC list (worldwide) | `bin/itu-e212` | `pkg/carriers/itu` | [`data/carriers/itu/`](data/carriers/itu) |
 | US HNI assignments, [IMSI Admin](https://imsiadmin.com) (MCCs 310–316) | `bin/us-hni` | `pkg/carriers/imsiadmin` | [`data/carriers/us/`](data/carriers/us) |
 
+For the source survey (ITU, US, Canada, Mexico, Japan, Germany, India) and
+the plan for one shared, merged dataset, see [`research/`](research/README.md).
+
 ```bash
 ./LET_IT_RIP.sh                  # setup + build + test, then rebuild data/carriers/*/ from the live sources
 ./LET_IT_RIP.sh -format sqlite   # ... or write data/carriers/{itu,us}.sqlite (gitignored)
